@@ -1,7 +1,7 @@
 ## Journal for me to write things on this everyday.
 
 ### Instrutions for adding image
-Here’s a clear step-by-step guide to link or embed an image from Google Drive using Markdown or HTML:
+Here’s a clear step-by-step guide to link or embed an image from Google Drive using Markdown or HTML: 
 
 ### **To Embed an Image Using Markdown:**
 
