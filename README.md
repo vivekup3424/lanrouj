@@ -17,7 +17,7 @@ Here’s a clear step-by-step guide to link or embed an image from Google Drive 
    ```markdown
    [![Image Preview](https://drive.google.com/uc?id=11x-0hDstht0lVcV1MpbPNq-b8gnL6l42)](https://drive.google.com/file/d/11x-0hDstht0lVcV1MpbPNq-b8gnL6l42/view?usp=sharing)
    ```
-
+ jlajkc kj
    - `https://drive.google.com/uc?id=11x-0hDstht0lVcV1MpbPNq-b8gnL6l42` is used to display the image preview.
    - `https://drive.google.com/file/d/11x-0hDstht0lVcV1MpbPNq-b8gnL6l42/view?usp=sharing` is the link to view the file.
 
