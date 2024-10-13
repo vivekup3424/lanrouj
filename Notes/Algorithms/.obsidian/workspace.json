@@ -1,22 +1,38 @@
 {
   "main": {
-    "id": "8dd07a90a871a9a5",
+    "id": "2a0528db8093c93e",
     "type": "split",
     "children": [
       {
-        "id": "fc8f6151100163e9",
+        "id": "0523c460ed7b1e28",
         "type": "tabs",
+        "dimension": 75.20107238605898,
         "children": [
           {
-            "id": "d745950368d464ce",
+            "id": "80257e83193c4c71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System.md",
+                "file": "Course Schedule.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6da89aab73697d91",
+        "type": "tabs",
+        "dimension": 24.798927613941018,
+        "children": [
+          {
+            "id": "ed62e7f4566bef7e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -25,15 +41,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b7a992680bdf431b",
+    "id": "eaabed9ee1d4e835",
     "type": "split",
     "children": [
       {
-        "id": "221492373ddde0eb",
+        "id": "b1b9ab3e033bb146",
         "type": "tabs",
         "children": [
           {
-            "id": "661f6f0d34dfb031",
+            "id": "b9c1dee48de5a2ec",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +59,7 @@
             }
           },
           {
-            "id": "4eed1f8d3a661cd7",
+            "id": "123579afa762a040",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +74,7 @@
             }
           },
           {
-            "id": "016ed3864cbdd9b1",
+            "id": "11d5d069129112a5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +85,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "d26d21b574139ac0",
+    "id": "98b30346acd202f7",
     "type": "split",
     "children": [
       {
-        "id": "566565662195b97b",
+        "id": "9f404806d59e31ff",
         "type": "tabs",
         "children": [
           {
-            "id": "86513846a8278aca",
+            "id": "66b76bcfc1001ae9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System.md",
+                "file": "Course Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +114,19 @@
             }
           },
           {
-            "id": "617861c44714680c",
+            "id": "518d642a4636a822",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System.md",
+                "file": "Course Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b7c5e635c08433d2",
+            "id": "49afaa4e11ed6f7b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +137,12 @@
             }
           },
           {
-            "id": "001880178d415dd4",
+            "id": "932282856eb0ccfd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System.md"
+                "file": "Course Schedule.md"
               }
             }
           }
@@ -143,20 +160,12 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "random-note:Open random note": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "d745950368d464ce",
+  "active": "80257e83193c4c71",
   "lastOpenFiles": [
-    "Process Scheduling & Synchronization.md",
-    "Semaphores.md",
-    "Peterson's Solution.md",
-    "Operating System.md",
-    "Recording 20241013233405.webm",
-    "2024-10-13.md",
-    "Memory Management.md",
-    "File Systems.md"
+    "courseSchedule.png",
+    "Course Schedule.md"
   ]
 }
