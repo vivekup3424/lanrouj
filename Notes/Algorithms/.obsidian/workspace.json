@@ -9,55 +9,18 @@
         "dimension": 75.20107238605898,
         "children": [
           {
-            "id": "80257e83193c4c71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course Schedule.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e1ac97fe45ec769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clone Graph.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c19f41dd7b6a7945",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Traversal Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4b8a01bb5e9ecb4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Word Break.md",
+                "file": "Word Ladder.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "6da89aab73697d91",
@@ -139,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Word Break.md",
+                "file": "Word Ladder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Word Break.md",
+                "file": "Word Ladder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Word Break.md"
+                "file": "Word Ladder.md"
               }
             }
           }
@@ -202,11 +165,13 @@
   },
   "active": "4b8a01bb5e9ecb4f",
   "lastOpenFiles": [
-    "Word Break.md~",
+    "Word Ladder.md~",
     "Word Break.md",
+    "Word Ladder.md",
     "Traversal Algorithms.md",
-    "Course Schedule.md",
     "Clone Graph.md",
+    "Word Break.md~",
+    "Course Schedule.md",
     "Pasted image 20241014020108.png",
     "courseSchedule.png"
   ]
