@@ -43,9 +43,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b8a01bb5e9ecb4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Word Break.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "6da89aab73697d91",
@@ -127,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Traversal Algorithms.md",
+                "file": "Word Break.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Traversal Algorithms.md",
+                "file": "Word Break.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Traversal Algorithms.md"
+                "file": "Word Break.md"
               }
             }
           }
@@ -188,11 +200,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c19f41dd7b6a7945",
+  "active": "4b8a01bb5e9ecb4f",
   "lastOpenFiles": [
+    "Word Break.md~",
+    "Word Break.md",
+    "Traversal Algorithms.md",
     "Course Schedule.md",
     "Clone Graph.md",
-    "Traversal Algorithms.md",
     "Pasted image 20241014020108.png",
     "courseSchedule.png"
   ]
