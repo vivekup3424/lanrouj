@@ -19,8 +19,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e1ac97fe45ec769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clone Graph.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c19f41dd7b6a7945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Traversal Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "6da89aab73697d91",
@@ -102,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "Traversal Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course Schedule.md",
+                "file": "Traversal Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course Schedule.md"
+                "file": "Traversal Algorithms.md"
               }
             }
           }
@@ -163,9 +188,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80257e83193c4c71",
+  "active": "c19f41dd7b6a7945",
   "lastOpenFiles": [
-    "courseSchedule.png",
-    "Course Schedule.md"
+    "Course Schedule.md",
+    "Clone Graph.md",
+    "Traversal Algorithms.md",
+    "Pasted image 20241014020108.png",
+    "courseSchedule.png"
   ]
 }
