@@ -1,18 +1,34 @@
 {
   "main": {
-    "id": "2a0528db8093c93e",
+    "id": "7acca3dc75c6389e",
     "type": "split",
     "children": [
       {
-        "id": "ee337f4f5c097e99",
+        "id": "e48ec003b7a5c22e",
         "type": "tabs",
         "children": [
           {
-            "id": "ff7901f6860c50ab",
+            "id": "1eec3bf945b16cd6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Why Do We Use RNNs?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bbc1729e31a2de65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How are RNN made from ANN.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "eaabed9ee1d4e835",
+    "id": "7273ca84369a4051",
     "type": "split",
     "children": [
       {
-        "id": "b1b9ab3e033bb146",
+        "id": "4a11e94cde5edb72",
         "type": "tabs",
         "children": [
           {
-            "id": "b9c1dee48de5a2ec",
+            "id": "7b29d0347c60e222",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +55,7 @@
             }
           },
           {
-            "id": "123579afa762a040",
+            "id": "46c844a795a3456f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +70,7 @@
             }
           },
           {
-            "id": "11d5d069129112a5",
+            "id": "4dc27789dddd5d7b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -65,23 +81,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "98b30346acd202f7",
+    "id": "b0d970a37fe6e1a2",
     "type": "split",
     "children": [
       {
-        "id": "9f404806d59e31ff",
+        "id": "9cf1808b6faefed7",
         "type": "tabs",
         "children": [
           {
-            "id": "66b76bcfc1001ae9",
+            "id": "872bf25b0b53e088",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Why Do We Use RNNs?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,18 +109,19 @@
             }
           },
           {
-            "id": "518d642a4636a822",
+            "id": "24c7a19085613cd6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Why Do We Use RNNs?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "49afaa4e11ed6f7b",
+            "id": "20dc4ee7f3588008",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -115,11 +132,13 @@
             }
           },
           {
-            "id": "932282856eb0ccfd",
+            "id": "24ceffc61a25dde4",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Why Do We Use RNNs?.md"
+              }
             }
           }
         ]
@@ -139,16 +158,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff7901f6860c50ab",
+  "active": "1eec3bf945b16cd6",
   "lastOpenFiles": [
-    "Traversal Algorithms.md",
-    "Word Ladder.md",
-    "Word Ladder.md~",
-    "Word Break.md",
-    "Clone Graph.md",
-    "Word Break.md~",
-    "Course Schedule.md",
-    "Pasted image 20241014020108.png",
-    "courseSchedule.png"
+    "Recurrent Neural Nets.md~",
+    "How are RNN made from ANN.md",
+    "Pasted image 20241014055221.png",
+    "Pasted image 20241014055200.png",
+    "Recurrent Neural Nets.md",
+    "Why Do We Use RNNs?.md"
   ]
 }

@@ -60,6 +60,7 @@ int main() {
 This code traverses the graph starting from node `0` and prints the nodes visited in BFS order.
 *Linked Problems*
 [[Word Break]]
+[[Word Ladder]]
 ### **DFS (Depth First Traversal)**
 
 #### **What is it?**
