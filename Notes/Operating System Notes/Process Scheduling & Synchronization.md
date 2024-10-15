@@ -6,7 +6,7 @@ Here are detailed descriptions of several common process synchronization problem
 
 #### What is it?
 The Producer-Consumer problem involves two types of processes: the producer, which generates data and adds it to a shared buffer, and the consumer, which consumes data from the buffer. The buffer has a fixed size (bounded buffer), so the producer must wait if the buffer is full, and the consumer must wait if the buffer is empty.
-Can be solve with [[Peterson's Solution]]
+Can be solved with [[Peterson's Solution]]
 
 #### Why does it exist?
 The problem arises due to the need for synchronization when multiple processes or threads share a common resource (buffer). Without synchronization, race conditions can occur, leading to inconsistent or incorrect data processing.

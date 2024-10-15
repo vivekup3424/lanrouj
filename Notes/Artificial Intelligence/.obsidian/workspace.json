@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e48ec003b7a5c22e",
+        "id": "8a998c32c420d366",
         "type": "tabs",
         "children": [
           {
-            "id": "1eec3bf945b16cd6",
+            "id": "53d5f8810235b90c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Why Do We Use RNNs?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbc1729e31a2de65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How are RNN made from ANN.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Why Do We Use RNNs?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Why Do We Use RNNs?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Why Do We Use RNNs?.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,13 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1eec3bf945b16cd6",
+  "active": "53d5f8810235b90c",
   "lastOpenFiles": [
-    "Recurrent Neural Nets.md~",
     "How are RNN made from ANN.md",
+    "Why Do We Use RNNs?.md",
+    "Recurrent Neural Nets.md~",
     "Pasted image 20241014055221.png",
     "Pasted image 20241014055200.png",
-    "Recurrent Neural Nets.md",
-    "Why Do We Use RNNs?.md"
+    "Recurrent Neural Nets.md"
   ]
 }

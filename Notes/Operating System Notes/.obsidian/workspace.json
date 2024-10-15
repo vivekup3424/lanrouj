@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating System.md",
+                "file": "Process Scheduling & Synchronization.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d26d21b574139ac0",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating System.md",
+                "file": "Process Scheduling & Synchronization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating System.md",
+                "file": "Process Scheduling & Synchronization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating System.md"
+                "file": "Process Scheduling & Synchronization.md"
               }
             }
           }
@@ -150,10 +151,10 @@
   },
   "active": "d745950368d464ce",
   "lastOpenFiles": [
-    "Process Scheduling & Synchronization.md",
-    "Semaphores.md",
     "Peterson's Solution.md",
+    "Process Scheduling & Synchronization.md",
     "Operating System.md",
+    "Semaphores.md",
     "Recording 20241013233405.webm",
     "2024-10-13.md",
     "Memory Management.md",

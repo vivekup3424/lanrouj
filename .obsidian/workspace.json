@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76870b0621bda273",
+        "id": "6529a32ed53a6cd2",
         "type": "tabs",
         "children": [
           {
-            "id": "8b81f6e3afde7056",
+            "id": "44c5b224c0dd8ad9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b81f6e3afde7056",
+  "active": "44c5b224c0dd8ad9",
   "lastOpenFiles": [
+    "dailyJournal/IOT.md",
+    "dailyJournal/IOT.md~",
+    "Notes/Artificial Intelligence/Recurrent Neural Nets.md",
+    "dailyJournal/1.md",
     "2.md",
     "1.md"
   ]
