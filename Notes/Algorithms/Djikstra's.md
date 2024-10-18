@@ -4,8 +4,8 @@ Dijkstra's Algorithm is a greedy algorithm used to find the shortest path from a
 
 #### **Why do we use it?**
 - **Optimal Shortest Path Calculation**: 
->>NOTE
->>It guarantees the shortest path from the source to all other vertices in a graph with ***non-negative edge weights.***
+>[!Note]
+>It guarantees the shortest path from the source to all other vertices in a graph with ***non-negative edge weights.***
 
 - **Efficient in Networks**: It's widely used in network routing protocols (e.g., OSPF, routing packets in the internet) to find the shortest route.
 - **Navigation Systems**: Dijkstra's algorithm is also used in GPS systems and mapping software to find the shortest route between two points.

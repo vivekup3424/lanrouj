@@ -11,8 +11,12 @@
             "id": "37e235c06796c0dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Minimum Spanning Tree.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Minimum Spanning Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Minimum Spanning Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Minimum Spanning Tree.md"
+              }
             }
           }
         ]
@@ -152,13 +160,13 @@
   },
   "active": "37e235c06796c0dc",
   "lastOpenFiles": [
+    "Djikstra's.md",
     "Minimum Spanning Tree.md",
     "Kruskal's.md",
     "Similarity between Dijkstra and Prim.md",
     "Prim's.md",
     "DSU.md",
     "Shortest Path Algorithms.md",
-    "Djikstra's.md",
     "Traversal Algorithms.md",
     "Word Ladder.md",
     "Word Ladder.md~",

@@ -4,7 +4,8 @@
 # Operating System Basics
 
 ## What is an Operating System?
-An **Operating System (OS)** is a software layer that manages hardware resources and provides services for computer programs. It acts as an **interface** between the user and the computer hardware, allowing for easier and more efficient management of resources.
+An **Operating System (OS)** is a software layer that manages hardware resources and provides services for computer programs. 
+It acts as an **interface** between the user and the computer hardware, allowing for easier and more efficient management of resources.
 
 ## Key Functions of an Operating System:
 1. **Process Management**

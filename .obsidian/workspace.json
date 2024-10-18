@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6529a32ed53a6cd2",
+        "id": "66aff7be694a7ed2",
         "type": "tabs",
         "children": [
           {
-            "id": "44c5b224c0dd8ad9",
+            "id": "95cd3d12b323e595",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "mutex.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "mutex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "mutex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "mutex.md"
+              }
             }
           }
         ]
@@ -138,8 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44c5b224c0dd8ad9",
+  "active": "95cd3d12b323e595",
   "lastOpenFiles": [
+    "Notes/Operating System Notes/Syscalls.md",
+    "mutex.md",
+    "Notes/System Design/In-memory file system.md",
+    "Pasted image 20241017071101.png",
     "dailyJournal/IOT.md",
     "dailyJournal/IOT.md~",
     "Notes/Artificial Intelligence/Recurrent Neural Nets.md",
