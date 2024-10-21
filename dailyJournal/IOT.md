@@ -58,3 +58,7 @@ phone based networks)
 It can only transmit 12bytes per message, and a device is limited to 140 messages
 per day. Making it restrictive for the applications in which it could be used.
 
+2024-10-21
+Applications of IOT
+so on and so forth, please read from the text material which
+Saumya would provide
