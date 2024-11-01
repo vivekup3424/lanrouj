@@ -17,4 +17,14 @@ Before the RFC 6455 (proposal of websockets), in RFC 6202 *long polling and stre
 	1. **What it is**: Here, the server keeps an HTTP connection open indefinitely, continuously sending data to the client as events occur.
 	2. **Why it's considered abuse**: HTTP was not designed to handle prolonged open connections like this, which can strain server resources. Streaming works but often leads to issues like connection timeouts and load balancer complications, as traditional HTTP infrastructures may struggle to manage long-lived connections.
 
-## Some points observer from Hussein Nassar's video for 
+## Some points observer from Hussein Nasser's video for websocket's socket
+1. Messenger's apps like whatsapp uses websockets
+2. Multiplayer games uses websockets connection between servers and clients
+	1. that means every client connects with a server, and server needs to maintain connection with each of these clients
+	2. this setup makes the server connection stateful
+	3. Since the connections are stateful, it would become difficult for out multiplayer architecture to scale, as any new server would need to have a connection to all the other players.
+	4. Example for our small game we are able to server upto 100+ players easily
+	5. But it now we wanted to scale it for 1000+ players we can't do it horizontally, we would need to scale it vertically that is increase the memory of the system, increasing its processing power
+3. Showing client progress when downloading or sending a file
+>[!WARNING]
+> But remember don't get attached to any technology, we can also use other things to solve the above problems
