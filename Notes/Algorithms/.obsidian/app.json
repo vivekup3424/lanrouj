@@ -2,5 +2,5 @@
   "readableLineLength": true,
   "strictLineBreaks": false,
   "spellcheck": true,
-  "vimMode": true
+  "vimMode": false
 }
