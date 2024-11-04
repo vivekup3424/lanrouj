@@ -13,5 +13,24 @@ void removeDuplicates(vector<int> &v){
 	}
 }
 ```
+```c++
+vector<int> removeDuplicates(vector<int> v){
+    //since v is in a sorted form
+    int j = 0;
+    for(int i = 0; i < v.size(); i++){
+        if(v[j]!=v[i]){
+            j++;
+            v[j] = v[i];
+        }
+    }
+    return v;
+}
+```
+
+>[!OUTPUT]
+>![[Pasted image 20241104191914.png]]
+>
+![[Pasted image 20241104192018.png]]
+
 > [!NOTE]
 >   Time Complexity = O(n) //single pass
