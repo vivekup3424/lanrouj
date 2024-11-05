@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f35948ef83da7fe",
+        "id": "967f42153be39942",
         "type": "tabs",
         "children": [
           {
-            "id": "02af1f9b9af6b115",
+            "id": "487ea54d80ad9b13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Algorithms/Array questions.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Array questions"
+              "title": "New tab"
             }
           }
         ]
@@ -162,18 +158,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "02af1f9b9af6b115",
+  "active": "487ea54d80ad9b13",
   "lastOpenFiles": [
-    "Find missing number in an array.md",
-    "Notes/Algorithms/Remove duplicates from a sorted array.md",
+    "ModellingSimulation/Probability Distributions.md~",
+    "ModellingSimulation/Probability Distributions.md",
+    "Pasted image 20241028181506.png",
+    "ModellingSimulation",
+    "Pasted image 20241017071101.png",
+    "Notes/Algorithms/Two-Sum.md",
+    "Notes/Algorithms/Hashing.md",
     "Notes/Algorithms/Array questions.md",
-    "Rotate an array by k places.md",
-    "Remove Duplicates from sorted array.md",
+    "Notes/Algorithms/Find missing number in an array.md",
+    "Notes/Algorithms/Remove duplicates from a sorted array.md",
+    "Notes/Algorithms/Rotate an array by k places.md",
+    "Notes/Algorithms/Remove Duplicates from sorted array.md",
     "Pasted image 20241104192018.png",
     "Pasted image 20241104191914.png",
     "Pasted image 20241104191911.png",
     "Pasted image 20241104191906.png",
-    "Second Largest Element in an array.md",
+    "Notes/Algorithms/Second Largest Element in an array.md",
     "Websockets.md",
     "Pasted image 20241101114954.png",
     "Pasted image 20241101114256.png",
@@ -182,8 +185,6 @@
     "Notes/System Design/Rate Limiter.md",
     "Notes/System Design/c++ specifics.md",
     "Basic Stopwatch.md",
-    "Pasted image 20241030203032.png",
-    "Pasted image 20241017071101.png",
     "Excalidraw/Drawing 2024-10-30 20.13.45.excalidraw.md",
     "Notes/System Design/c++ specifics",
     "c++",
@@ -202,10 +203,6 @@
     "Notes/Algorithms/Prim's.md",
     "Notes/Algorithms/DSU.md",
     "Notes/Algorithms/Djikstra's.md",
-    "Notes/Algorithms/Shortest Path Algorithms.md",
-    "Notes/Algorithms/Similarity between Dijkstra and Prim.md",
-    "dailyJournal/study-roadmap.md",
-    "Notes/Operating System Notes/Process Scheduling & Synchronization.md",
     "dailyJournal/IOT.md~"
   ]
 }
