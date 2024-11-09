@@ -50,3 +50,21 @@ public:
 };
 
 ```
+
+## Keynotes in the above code
+```c++
+while (count == 0) { // Use while loop to handle spurious wakeups cv.wait(lock); }
+```
+
+> [!NOTE]
+> This might look like busy waiting at first glance, but it's not. Here's why:
+
+1. When `cv.wait(lock)` is called, it:
+    - Atomically releases the mutex (mtx)
+    - Puts the thread to sleep (blocked state)
+    - When awakened, re-acquires the mutex before returning
+2. The thread is actually suspended by the operating system while waiting, not consuming CPU cycles. It only wakes up when:
+    - Another thread calls `cv.notify_one()` or `cv.notify_all()`
+    - A spurious wakeup occurs (which is why we need the while loop)
+## Questions
+g

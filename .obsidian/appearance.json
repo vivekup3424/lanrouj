@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
     "math-size"
-  ]
+  ],
+  "accentColor": "#039620"
 }

@@ -66,3 +66,7 @@ P(x) = \begin{cases}
 $$
 
 - \( $\alpha$ \): Average rate of occurrence (mean number of events in the interval)
+
+
+## 5. Gamma Distribution
+- a probability distribution
