@@ -8,8 +8,18 @@ An input string is valid if:
 3. Every close bracket has a corresponding open bracket of the same type.
 
 ### Approach
-1. Thing of the problem in terms of stack
-2. Or store the pair of opening and closing brackets
+
+- **Define** a map to match each closing bracket with its opening bracket:
+    - `')' -> '('`, `'}' -> '{'`, and `']' -> '['`.
+- **Initialize** an empty stack.
+- **For** each character `ch` in the string:
+    - **If** `ch` is a closing bracket (`)`, `}`, or `]`):
+        - **If** the stack is empty, or the top of the stack is not the matching opening bracket for `ch`:
+            - **Return** `false` (the string is unbalanced).
+        - **Else**, pop the top element from the stack (it’s a match).
+    - **Else** (it’s an opening bracket `(`, `{`, or `[`):
+        - Push `ch` onto the stack.
+    
 ```cpp
 class Solution
 {
@@ -53,3 +63,4 @@ public:
 
 ```
 
+### Other Questions similar to this

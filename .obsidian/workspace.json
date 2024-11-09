@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "ValidParentheses"
             }
+          },
+          {
+            "id": "0ceb78ec17855f37",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,13 +84,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9d236885d6848390",
@@ -163,14 +172,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7df0d83b65af355b",
+  "active": "f0d6290f8effe987",
   "lastOpenFiles": [
+    "Notes/Algorithms/MinimumAddToMakeParenthesesValid.md",
+    "Excalidraw/Drawing 2024-11-09 23.45.47.excalidraw.md",
+    "Notes/Algorithms/ValidParentheses.md",
     "Notes/Algorithms/Stack & Queue.md",
     "Notes/Algorithms/CopyListWithRandomPointer.md",
     "Notes/Algorithms/Clone Graph.md",
     "Job Applications/Google.md",
     "Notes/System Design/Encryption Service.md",
-    "Notes/Algorithms/ValidParentheses.md",
     "Notes/Algorithms/FlattenLinkedList.md",
     "Notes/System Design/LRU Cache.md",
     "dailyJournal/1.md",
@@ -198,8 +209,6 @@
     "Notes/Algorithms/Two-Sum.md",
     "Notes/Algorithms/Hashing.md",
     "Notes/Algorithms/Array questions.md",
-    "Notes/Algorithms/Find missing number in an array.md",
-    "Notes/Algorithms/Remove duplicates from a sorted array.md",
     "Pasted image 20241104192018.png",
     "Pasted image 20241104191914.png",
     "Pasted image 20241104191911.png",
