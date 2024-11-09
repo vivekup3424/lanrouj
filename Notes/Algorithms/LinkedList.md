@@ -44,4 +44,16 @@ int main(){
 A **node** refers to **the structure** that contains data and the pointer to the next node. In contrast, Node* ***(Node pointer)** specifically denotes a pointer variable that stores the **address of the Node** it is pointing to.
 ![[Pasted image 20241109163912.png]]
 
+## Memory Space used by LinkedList
+
+- Since in an array we only storing integers (which are 32 bits in c/c++) so only 4 bytes are required for this.
+- But for linked list we storing the data, which is an integer but also a next pointer which has 32-bit if we are on a 32-bit architecture, or 64-bit if we are on a modern computer which are 64-bit.
+- 
+
+|                       | 32 Bit System    | 64 Bit System<br> |
+| --------------------- | ---------------- | ----------------- |
+| Data- Integer         | 32 bit - 4 bytes | 32 bits- 4 bytes  |
+| Next- Address Pointer | 32 bit - 4 bytes | 64 bits- 8 bytes  |
+| Total                 | 8 bytes          | 12 bytes          |
+
 
