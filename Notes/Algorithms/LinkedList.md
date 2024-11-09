@@ -55,5 +55,9 @@ A **node** refers to **the structure** that contains data and the pointer to the
 | Data- Integer         | 32 bit - 4 bytes | 32 bits- 4 bytes  |
 | Next- Address Pointer | 32 bit - 4 bytes | 64 bits- 8 bytes  |
 | Total                 | 8 bytes          | 12 bytes          |
+|                       |                  |                   |
 
 
+## Problems based on linked list
+1. [[CopyListWithRandomPointer]]
+2. 

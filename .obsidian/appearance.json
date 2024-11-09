@@ -2,5 +2,8 @@
   "enabledCssSnippets": [
     "math-size"
   ],
-  "accentColor": "#039620"
+  "accentColor": "#039620",
+  "monospaceFontFamily": "Hack Nerd Font Mono",
+  "textFontFamily": "Excalifont",
+  "baseFontSizeAction": true
 }

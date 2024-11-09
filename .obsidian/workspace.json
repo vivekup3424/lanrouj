@@ -13,26 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/KadanesAlgorithm.md",
+                "file": "Notes/System Design/LRU Cache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KadanesAlgorithm"
+              "title": "LRU Cache"
             }
           },
           {
-            "id": "b2a68a3feabadcea",
+            "id": "6416be561f7bdc39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/LinkedList.md",
+                "file": "Notes/Algorithms/FlattenLinkedList.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LinkedList"
+              "title": "FlattenLinkedList"
+            }
+          },
+          {
+            "id": "38489f45fd3bd1dd",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -41,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/System Design/c++ specifics.md",
+                "file": "Notes/System Design/Encryption Service.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "c++ specifics"
+              "title": "Encryption Service"
             }
           },
           {
@@ -63,8 +73,7 @@
               "title": "Google"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,14 +214,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8458e13445d3f7a9",
+  "active": "9aea54d12254e151",
   "lastOpenFiles": [
-    "Notes/System Design/C language specifics.md",
-    "Notes/System Design/c++ specifics.md",
-    "Job Applications/Google.md",
-    "Notes/Algorithms/InsertionLinkedList.md",
+    "dailyJournal/1.md",
     "Notes/Algorithms/LinkedList.md",
+    "Notes/System Design/Encryption Service.md",
+    "Notes/System Design/In-memory file system.md",
+    "Notes/System Design/c++ specifics.md",
+    "Notes/Algorithms/FlattenLinkedList.md",
+    "Notes/System Design/LRU Cache.md",
     "Notes/Algorithms/KadanesAlgorithm.md",
+    "Notes/Algorithms/CopyListWithRandomPointer.md",
+    "Job Applications/Google.md",
+    "Notes/System Design/C language specifics.md",
+    "Notes/Algorithms/InsertionLinkedList.md",
     "Pasted image 20241109163912.png",
     "Pasted image 20241109163615.png",
     "Rahul Kala Essentials.md",
@@ -240,18 +255,12 @@
     "Pasted image 20241104191911.png",
     "Pasted image 20241104191906.png",
     "Notes/Algorithms/Second Largest Element in an array.md",
-    "Websockets.md",
     "Pasted image 20241101114954.png",
     "Pasted image 20241101114256.png",
-    "Notes/System Design/Rate Limiter.md",
-    "Basic Stopwatch.md",
-    "Excalidraw/Drawing 2024-10-30 20.13.45.excalidraw.md",
     "Notes/System Design/c++ specifics",
     "c++",
     "Excalidraw",
     "Untitled.canvas",
-    "Notes/Computer Networking/OSI Model.md",
-    "2024-10-28.md",
     "Notes/Computer Networking",
     "Notes/System Design/Private vs Protected.md~"
   ]
