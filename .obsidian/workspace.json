@@ -13,26 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/ValidParentheses.md",
+                "file": "Notes/Algorithms/MinimumAddToMakeParenthesesValid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ValidParentheses"
-            }
-          },
-          {
-            "id": "0ceb78ec17855f37",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "MinimumAddToMakeParenthesesValid"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9d236885d6848390",
@@ -172,11 +162,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d6290f8effe987",
+  "active": "7df0d83b65af355b",
   "lastOpenFiles": [
-    "Notes/Algorithms/MinimumAddToMakeParenthesesValid.md",
-    "Excalidraw/Drawing 2024-11-09 23.45.47.excalidraw.md",
+    "Pasted image 20241109235235.png",
+    "Pasted image 20241109235225.png",
     "Notes/Algorithms/ValidParentheses.md",
+    "Excalidraw/Drawing 2024-11-09 23.45.47.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-07 15.01.23.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-06 16.02.10.excalidraw.md",
+    "Excalidraw/Drawing 2024-10-30 20.13.45.excalidraw.md",
+    "Notes/Algorithms/MinimumAddToMakeParenthesesValid.md",
     "Notes/Algorithms/Stack & Queue.md",
     "Notes/Algorithms/CopyListWithRandomPointer.md",
     "Notes/Algorithms/Clone Graph.md",
@@ -195,10 +190,8 @@
     "Pasted image 20241109163615.png",
     "Rahul Kala Essentials.md",
     "Job Applications",
-    "Excalidraw/Drawing 2024-11-07 15.01.23.excalidraw.md",
     "ModellingSimulation/Probability Distributions.md~",
     "Notes/Operating System Notes/Semaphores.md",
-    "Excalidraw/Drawing 2024-11-06 16.02.10.excalidraw.md",
     "Recording 20241106162017.m4a",
     "Recording 20241106161728.m4a",
     "Thread A occurs K times, then thread B occurs.md",
@@ -207,14 +200,11 @@
     "ModellingSimulation",
     "Pasted image 20241017071101.png",
     "Notes/Algorithms/Two-Sum.md",
-    "Notes/Algorithms/Hashing.md",
-    "Notes/Algorithms/Array questions.md",
     "Pasted image 20241104192018.png",
     "Pasted image 20241104191914.png",
     "Pasted image 20241104191911.png",
     "Pasted image 20241104191906.png",
     "Pasted image 20241101114954.png",
-    "Pasted image 20241101114256.png",
     "Notes/System Design/c++ specifics",
     "c++",
     "Excalidraw",

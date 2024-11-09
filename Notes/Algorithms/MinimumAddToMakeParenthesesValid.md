@@ -13,3 +13,4 @@ Return _the minimum number of moves required to make_ `s` _valid_.
 
 
 ### My Approach
+![[Pasted image 20241109235235.png]]
