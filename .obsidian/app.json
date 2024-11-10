@@ -1,7 +1,9 @@
 {
   "spellcheck": false,
-  "vimMode": true,
+  "vimMode": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "showUnsupportedFiles": false
+  "showUnsupportedFiles": false,
+  "showLineNumber": false,
+  "readableLineLength": true
 }

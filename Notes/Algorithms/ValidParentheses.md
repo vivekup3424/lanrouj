@@ -64,3 +64,7 @@ public:
 ```
 
 ### Other Questions similar to this
+1. [[MinimumAddToMakeParenthesesValid]]
+	1. In this question the only extra step is the calculate of the extra closing parentheses after each step, and the total extra openinig parentheses.
+	2. And then output their sum
+2. 
