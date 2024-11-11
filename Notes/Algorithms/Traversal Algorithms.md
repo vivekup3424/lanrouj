@@ -127,4 +127,4 @@ This code explores all nodes starting from node `0` in DFS order, visiting each 
 
 *Linked Problems*
 1. [[Clone Graph]]
-2. [[Course Schedule]]
+3. [[Course Schedule]]

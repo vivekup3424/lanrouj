@@ -1,4 +1,4 @@
-Here's a detailed breakdown of the **Sliding Window Maximum** problem with a focus on using a monotonic deque:
+ sfHere's a detailed breakdown of the **Sliding Window Maximum** problem with a focus on using a sf monotonic deque:
 
 ---
 
