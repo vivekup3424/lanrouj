@@ -11,7 +11,7 @@ tags:
 Binary search is an efficient algorithm used to find the position of a target value within a sorted array or list. The key idea is to repeatedly divide the search interval in half. If the target value is equal to the middle element, the search ends. If the target value is less than the middle element, the search continues in the left half, otherwise in the right half.
 
 #### Why Use Binary Search?
-Binary search has a time complexity of \( O(\log n) \), making it highly efficient for searching in sorted data structures compared to linear search, which has \( O(n) \) complexity. It’s widely applicable in contexts where rapid lookups are needed, such as in databases, search engines, and data analysis.
+Binary search has a time complexity of $( O(\log n) )$, making it highly efficient for searching in sorted data structures compared to linear search, which has \( O(n) \) complexity. It’s widely applicable in contexts where rapid lookups are needed, such as in databases, search engines, and data analysis.
 
 #### How to Implement Binary Search
 1. Define a search range with two pointers, `left` and `right`, initialized to the start and end of the array, respectively.
@@ -64,7 +64,6 @@ Binary search has a time complexity of \( O(\log n) \), making it highly efficie
          return position;
      }
      ```
-
 3. **Search in Rotated Sorted Array**
    - **Problem**: Given a sorted array rotated at an unknown pivot, find a target element.
    - **Approach**: Use binary search by determining which half of the array is sorted and adjusting the search accordingly.
@@ -86,7 +85,6 @@ Binary search has a time complexity of \( O(\log n) \), making it highly efficie
          return -1;
      }
      ```
-
 4. **Find Minimum in Rotated Sorted Array**
    - **Problem**: Find the minimum element in a rotated sorted array.
    - **Approach**: Use binary search with a focus on finding the inflection point.
@@ -102,7 +100,6 @@ Binary search has a time complexity of \( O(\log n) \), making it highly efficie
          return arr[left];
      }
      ```
-
 5. **Square Root of an Integer**
    - **Problem**: Find the integer part of the square root of a number.
    - **Approach**: Use binary search within the range `[0, n/2]` to approximate the square root.
@@ -122,8 +119,45 @@ Binary search has a time complexity of \( O(\log n) \), making it highly efficie
          return result;
      }
      ```
-
 6. **Median of Two Sorted Arrays**
    - **Problem**: Find the median of two sorted arrays.
    - **Approach**: Apply binary search to partition the arrays to obtain a balanced median.
+7. **Most Beautiful Item for Each Query** 
+	- **Problem:**- Given a array contain item with their price and their beauty, and given q queries for each query find the most beautiful item whose price <= query
+	- **Approach:** Sort the array based on price, at every index save the maxBeauty encountered so far from left to right, for each query find the maxBeauty using binarySearch
+	- Code Sample:-
+	```c++
+	    vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
+        sort(items.begin(),items.end());
+        int maxBeauty = items[0][1];
+        for(int i = 0; i < items.size(); i++){
+            if(items[i][1]>maxBeauty){
+                maxBeauty = items[i][1];
+            }
+            items[i][1] = maxBeauty;
+        }
+        vector<int> ans;
+        for(int i = 0; i < queries.size(); i++){
+            auto q = queries[i];
+            //find the highest beauty with price <= q
+            int l = 0, r = items.size()-1;
+            int maxPrice = 0;
+            while(l<=r){
+                int mid = (l+r)/2;
+                if(items[mid][0]>q){
+                    //mid price > given price
+                    //go left
+                    r = mid-1;
+                }else{
+                    //find the upper bound
+                    l = mid+1;
+                    maxPrice = items[mid][1];
+                }
+            }
+            ans.push_back(maxPrice);
+        }
+        return ans;
+    }
+	
+	```
 

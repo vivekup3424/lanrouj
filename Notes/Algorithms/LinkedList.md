@@ -40,7 +40,7 @@ int main(){
 > 0x11b7f90  
 > 2
 
-### **Understanding the difference between Node and Node***
+### **Understanding the difference between Node and pointer to Node***
 A **node** refers to **the structure** that contains data and the pointer to the next node. In contrast, Node* ***(Node pointer)** specifically denotes a pointer variable that stores the **address of the Node** it is pointing to.
 ![[Pasted image 20241109163912.png]]
 
@@ -60,4 +60,5 @@ A **node** refers to **the structure** that contains data and the pointer to the
 
 ## Problems based on linked list
 1. [[CopyListWithRandomPointer]]
-2. 
+2. [[LRU Cache]]
+3. 

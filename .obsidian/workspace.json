@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d721298b3aa3fc82",
+        "id": "6dd6e60f7825ab8c",
         "type": "tabs",
         "children": [
           {
-            "id": "17b24ae8a217182e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20241101114954.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241101114954"
-            }
-          },
-          {
-            "id": "ba3d57b0ce380cdb",
+            "id": "eb02e2b979c7f3f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Top K Frequent Elements.md",
+                "file": "Notes/Algorithms/Clone Graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top K Frequent Elements"
+              "title": "Clone Graph"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9d236885d6848390",
@@ -174,8 +162,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba3d57b0ce380cdb",
+  "active": "eb02e2b979c7f3f9",
   "lastOpenFiles": [
+    "Notes/Algorithms/topological-sort.md",
+    "Notes/Algorithms/alien-dictionary.md",
+    "Notes/Algorithms/Clone Graph.md",
+    "Untitled.md",
+    "Notes/Algorithms/BinarySearch.md",
+    "ModellingSimulation/Structure of Exam.md",
+    "ModellingSimulation/Poisson Process.md",
+    "Notes/Algorithms/Stack & Queue.md",
+    "ModellingSimulation/Probability Distributions.md",
+    "Vivek Tiwari Essentials.md",
+    "Notes/Algorithms/LinkedList.md",
+    "Excalidraw/Drawing 2024-11-06 16.02.10.excalidraw.md",
+    "Websockets.md",
+    "Rahul Kala Essentials.md",
+    "Untitled.canvas",
+    "Notes/Computer Networking/OSI Model.md",
+    "Notes/Operating System Notes/Operating System.md",
+    "Notes/Operating System Notes/Memory Management.md",
+    "Notes/Operating System Notes/Syscalls.md",
+    "Notes/Algorithms/Array questions.md",
+    "Notes/System Design/Design Hit Counter.md",
+    "Excalidraw/Drawing 2024-11-12 12.12.25.excalidraw.md",
+    "Notes/Algorithms/Top K Frequent Elements.md",
+    "Notes/Algorithms/De.md",
+    "Notes/Algorithms/Untitled 1.md",
     "Pasted image 20241101114954.png",
     "Pasted image 20241104191911.png",
     "Pasted image 20241104191914.png",
@@ -186,42 +199,17 @@
     "Pasted image 20241109235235.png",
     "Pasted image 20241110001908.png",
     "Pasted image 20241110224531.png",
-    "Pasted image 20241111164041.png",
     "Notes/Algorithms/Heap.md",
     "Notes/Algorithms/Find Median from Data Stream.md",
-    "Notes/Algorithms/Top K Frequent Elements.md",
-    "Notes/Algorithms/Merge K Sorted Lists.md",
-    "Notes/Algorithms/Kth Largest Element in an Array.md",
-    "Notes/Algorithms/construct-quad-tree.md",
-    "Excalidraw/Drawing 2024-11-11 16.13.22.excalidraw.md",
-    "Notes/Algorithms/kth-smallest-element-in-a-bst.md",
-    "Notes/Algorithms/0,1],[1,0.md",
     "Notes/Algorithms/binary-search-tree.md~",
     "Notes/Algorithms/kth-smallest-element-in-a-bst.md~",
-    "Notes/Algorithms/binary-search-tree.md",
-    "Rahul Kala Essentials.md",
     "Notes/Algorithms/BinarySearch.md~",
-    "Notes/Algorithms/BinarySearch.md",
-    "Notes/Algorithms/Traversal Algorithms.md",
-    "Notes/Algorithms/Clone Graph.md",
-    "Notes/avadhKishar.md",
-    "Excalidraw/Drawing 2024-11-11 14.24.45.excalidraw.md",
-    "Notes/Algorithms/Sort 0s and 1s.md",
     "Notes/Algorithms/Sort 0s and 1s.md~",
     "dailyJournal/3.md~",
-    "Excalidraw/Drawing 2024-11-06 16.02.10.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-11 12.56.57.excalidraw.md",
-    "dailyJournal/1.md",
-    "dailyJournal/3.md",
-    "Notes/Algorithms/Sort 0s 1s 2s.md",
     "Notes/Algorithms/Sort 0s 1s 2s.md~",
-    "Notes/Algorithms/Sliding Window Maximum.md",
-    "Notes/Algorithms/Stack & Queue.md",
     "Notes/Algorithms/Stack & Queue.md~",
-    "Notes/Algorithms/Shortest Subarray With OR at Least K II.md",
     "Notes/Algorithms/Shortest Subarray With OR at Least K II.md~",
     "Job Applications",
-    "ModellingSimulation/Probability Distributions.md~",
-    "Untitled.canvas"
+    "ModellingSimulation/Probability Distributions.md~"
   ]
 }
