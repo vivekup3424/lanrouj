@@ -62,3 +62,35 @@ per day. Making it restrictive for the applications in which it could be used.
 Applications of IOT
 so on and so forth, please read from the text material which
 Saumya would provide
+
+2024-11-13
+Access Control Policies
+- based on Access Control mechanism
+- who
+- what
+- which - access control context
+
+there is a access control policy resource which has
+	1. Privileges
+	2. Self-privileges
+	
+#### Privileges
+- This resource defines the access control rules for resources other than access control policy resource.
+- If we want some resources are to be used by other application then extra rules in addition to privileges are needed.
+- contains- access control rules based upon 
+	1. who -> originator e.g AE_ID, CSE_ID
+	2. what -> operator
+- in case of any resource which is part of the ecosystem linkin coudl be done to oneM2M resources using the ACPI (Access Control Policies IDs).
+```
+<CSEBase> ---> <resource ACPI>
+		  ----> <access control policy>
+```
+#### Self privileges 
+- resource defines the access control rules for the access control policy resource itself.
+- This is normally used for protection from unauthorized modification of the access control policy.
+- modification of access control policy has been prevented here
+
+![[Pasted image 20241113103231.png]]
+- The check is applied at the receiver's end and is verified in access control originator's list in the ACP resource
+- the access control R at the ACP includes all the resources rules corresponding to which checks are applied.
+- when any of the conditions do not match then resources is not granted to the originator and an error is given to the originaot with the status code 4103. i.e. originator_has_no_previlege

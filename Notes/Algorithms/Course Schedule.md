@@ -6,6 +6,9 @@
 #### Problem Overview
 - **Goal**: Determine if you can finish all courses given `numCourses` and a list of `prerequisites`, where prerequisites are directed edges in a graph.
 - **Key Insight**: The problem can be reduced to cycle detection in a directed graph. If there is a cycle, it's impossible to finish all courses.
+> [!NOTE]
+> Similar to [[Word Ladder]] and [[Word Break]]
+> I always get confused between them
 
 #### Approach: Topological Sort (Kahn's Algorithm)
 1. **Graph Representation**:  
