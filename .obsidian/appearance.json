@@ -1,7 +1,5 @@
 {
-  "enabledCssSnippets": [
-    "math-size"
-  ],
+  "enabledCssSnippets": [],
   "accentColor": "",
   "monospaceFontFamily": "Hack Nerd Font Mono",
   "textFontFamily": "Copperplate",

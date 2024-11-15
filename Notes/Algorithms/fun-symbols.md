@@ -1,4 +1,12 @@
+---
+tags:
+  - emoji
+  - face
+  - ascii
+  - expression
+---
 Here’s a collection of ASCII art you can use in your code to add personality, humor, or even motivation! These are simple, light-hearted, and fun additions for your comments or debug messages.
+
 
 ---
 
