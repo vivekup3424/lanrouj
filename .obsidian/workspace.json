@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Websockets.md",
+                "file": "Notes/Algorithms/Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Websockets"
+              "title": "Graphs"
+            }
+          },
+          {
+            "id": "e225678d323f40d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Algorithms/DFS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DFS"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,8 +177,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c28cda4b2131340",
+  "active": "e225678d323f40d6",
   "lastOpenFiles": [
+    "Notes/Algorithms/Graphs.md",
+    "Notes/Algorithms/DFS.md",
+    "Notes/Algorithms/BFS.md",
+    "Notes/Algorithms/Prim’s algorithm.md",
+    "Notes/Algorithms/Kahn’s Algorithm.md",
+    "Notes/Algorithms/Dijkstra’s shortest path.md",
+    "Notes/Algorithms/Graphs.md~",
+    "https:/en.wikipedia.org/wiki",
+    "https:/en.wikipedia.org",
+    "https:",
+    "graph_intro.png",
+    "Screenshot from 2024-11-17 20-49-12.png",
+    "Pasted image 20241117204844.png",
+    "Notes/System Design/JS/Untitled.md",
+    "Notes/System Design/JS/Difference between .js and .mjs files.md",
+    "Websockets.md",
     "Pasted image 20241115194142.png",
     "Notes/System Design/JS/Prototype.md",
     "Notes/Algorithms/Course Schedule.md",
@@ -191,25 +222,9 @@
     "dailyJournal/IOT.md",
     "Pasted image 20241113103231.png",
     "Notes/Algorithms/Implement Stack using Linked List.md",
-    "Notes/Algorithms/Implement Stack using arrays.md",
-    "Notes/Algorithms/two-stacks-in-an-array.md",
-    "Notes/Algorithms/Sliding Window Maximum.md",
-    "Notes/Algorithms/Clone Graph.md",
-    "Notes/Algorithms/topological-sort.md",
-    "Notes/Algorithms/alien-dictionary.md",
-    "Untitled.md",
-    "Notes/Algorithms/BinarySearch.md",
     "Pasted image 20241101114954.png",
-    "Pasted image 20241104191911.png",
-    "Pasted image 20241104191914.png",
-    "Pasted image 20241104192018.png",
-    "Pasted image 20241109163615.png",
     "Notes/Algorithms/binary-search-tree.md~",
     "Notes/Algorithms/kth-smallest-element-in-a-bst.md~",
-    "Notes/Algorithms/BinarySearch.md~",
-    "Notes/Algorithms/Sort 0s and 1s.md~",
-    "dailyJournal/3.md~",
-    "Notes/Algorithms/Sort 0s 1s 2s.md~",
-    "Notes/Algorithms/Stack & Queue.md~"
+    "Notes/Algorithms/BinarySearch.md~"
   ]
 }
