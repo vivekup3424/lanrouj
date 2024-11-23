@@ -38,15 +38,13 @@ graph TB
 ### **Mathematical Representation**
 1. Let the input be $x$.
 2. The **encoder** maps $x$ to a latent space representation $z$:
-   $$
-   z = f_\text{encoder}(x)
-  $$
+   $$z = f_\text{encoder}(x)$$
    - $z$ is the compressed (latent) representation.
 
 3. The **decoder** reconstructs $x'$ (the approximation of the original input):
    $$
    x' = f_\text{decoder}(z)
-  $$
+   $$
 
    4. The objective is to minimize the reconstruction error, typically measured using Mean Squared Error (MSE) or other loss functions:
 $$

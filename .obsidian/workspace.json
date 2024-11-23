@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "847b34a08c42b4b2",
+        "id": "211458c1da526fd2",
         "type": "tabs",
         "children": [
           {
-            "id": "d7788d053a00fe03",
+            "id": "dd2f49073581ebce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Artificial Intelligence/AutoEncoder.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AutoEncoder"
             }
           }
         ]
@@ -133,9 +137,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Notes/Artificial Intelligence/AutoEncoder.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of AutoEncoder"
             }
           }
         ],
@@ -158,20 +164,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d7788d053a00fe03",
+  "active": "dd2f49073581ebce",
   "lastOpenFiles": [
-    "Excalidraw/deep_learning.md",
     "Notes/Artificial Intelligence/CNN Architectures.md",
+    "Pasted image 20241111225348.png",
+    "Pasted image 20241111164722.png",
+    "Pasted image 20241111164041.png",
+    "Pasted image 20241111163412.png",
+    "Pasted image 20241110225627.png",
+    "Pasted image 20241110224620.png",
+    "Pasted image 20241110224531.png",
+    "Pasted image 20241110001908.png",
+    "Pasted image 20241109235235.png",
+    "Pasted image 20241109235225.png",
+    "Notes/Artificial Intelligence/Pasted.md",
+    "Excalidraw/deep_learning.md",
     "Notes/Artificial Intelligence/AutoEncoder.md",
-    "Pasted image 20241123214343.png",
-    "Pasted image 20241123214322.png",
     "Notes/Artificial Intelligence/Convolution Layer Formula.md",
     "Notes/Artificial Intelligence/Bounding Box Regression.md",
-    "Pasted image 20241123195933.png",
-    "Pasted image 20241123190433.png",
     "Notes/Artificial Intelligence/YOLO.md",
     "Notes/Artificial Intelligence/Object Recognition and Object Detection.md",
-    "Pasted image 20241123183503.png",
     "Notes/Artificial Intelligence/Rahul Kala Essentials.md",
     "Notes/Artificial Intelligence/How are RNN made from ANN.md",
     "Notes/Artificial Intelligence/Transformers.md",
@@ -190,13 +202,7 @@
     "Notes/ModellingSimulation/Structure of Exam.md",
     "Notes/System Design/JS/difference-between-require&import.md",
     "Notes/System Design/JS/Prototype.md",
-    "Notes/ModellingSimulation/Random Variable.md",
     "ModellingSimulation/Probability Distributions.md~",
-    "Pasted image 20241119184923.png",
-    "Pasted image 20241119184539.png",
-    "Pasted image 20241119184513.png",
-    "Pasted image 20241119184506.png",
-    "Pasted image 20241119184311.png",
     "Notes/Algorithms/Graphs.md~",
     "https:/en.wikipedia.org/wiki",
     "https:/en.wikipedia.org",
