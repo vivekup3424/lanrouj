@@ -2,7 +2,7 @@ Let's break down how we calculate the output dimensions after applying a convolu
 
 ### **Convolutional Layer Formula**:
 
-For a given convolutional layer, the output dimensions ($ H_{out} \times W_{out} $) can be calculated using the following formulas:
+For a given convolutional layer, the output dimensions ($H_{out} \times W_{out}$) can be calculated using the following formulas:
 
 $$
 H_{out} = \left( \frac{H_{in} - K + 2P}{S} \right) + 1
@@ -20,17 +20,17 @@ Where:
 
 ### **Given Information** for AlexNet's First Convolutional Layer:
 - **Input Image Dimensions**: $ 227 \times 227 \times 3 $ (RGB image).
-    - $ H_{in} = 227 $
-    - $ W_{in} = 227 $
+    - $H_{in} = 227$
+    - $W_{in} = 227$
     - 3 color channels (RGB), but the formula for height and width doesn't depend on the number of channels.
 
-- **Kernel Size** ($ K $): 11x11 (square kernel).
-    - $ K = 11 $
+- **Kernel Size** ($K$): 11x11 (square kernel).
+    - $K = 11$
 
-- **Stride** ($ S $): 4.
-    - $ S = 4 $
+- **Stride** ($S$): 4.
+    - $S = 4$
 
-- **Padding** ($ P $): Usually, padding is chosen to ensure the output feature map has a reasonable size. For AlexNet's first convolutional layer, we typically apply **valid padding**, which means no padding. So, $ P = 0 $.
+- **Padding** ($P$): Usually, padding is chosen to ensure the output feature map has a reasonable size. For AlexNet's first convolutional layer, we typically apply **valid padding**, which means no padding. So, $ P = 0 $.
 
 - **Number of Filters**: 96 filters.
     - The number of filters doesn't affect the spatial dimensions (height and width) of the output. It only changes the depth of the output (i.e., the number of channels).
