@@ -74,13 +74,15 @@ $$
    - ![[Pasted image 20241123214343.png]]
 
 4. **Variational Autoencoder (VAE)**:
+ ![](Pasted%20image%2020241123225804.png)
+ 
    - Learns a probabilistic latent space, enabling generation of new samples similar to the training data.
    - Latent variables are sampled from a distribution (e.g., Gaussian).
 
-5. **Convolutional Autoencoder**:
+6. **Convolutional Autoencoder**:
    - Uses convolutional layers, typically for image data, to capture spatial features.
 
-6. **Undercomplete and Overcomplete Autoencoders**:
+7. **Undercomplete and Overcomplete Autoencoders**:
    - **Undercomplete**: Latent space dimension ($z$) is smaller than input dimension ($x$), enforcing a bottleneck to extract key features.
    - **Overcomplete**: Latent space dimension is larger than the input, often regularized to prevent the network from simply memorizing the input.
 
