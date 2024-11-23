@@ -142,7 +142,7 @@ The loss function depends on the segmentation task:
 
 - **Binary Segmentation**:
     - Binary Cross-Entropy (BCE) is commonly used.
-    - Can also use **Dice Loss**, which is better suited for imbalanced datasets. Dice Loss=1−2⋅(P∩T)∣P∣+∣T∣\text{Dice Loss} = 1 - \frac{2 \cdot (P \cap T)}{|P| + |T|} where PP is the predicted segmentation, and TT is the ground truth.
+    - Can also use **Dice Loss**, which is better suited for imbalanced datasets. Dice Loss=$1−2⋅(P∩T)∣P∣+∣T∣\text{Dice Loss} = 1 - \frac{2 \cdot (P \cap T)}{|P| + |T|}$ where PP is the predicted segmentation, and TT is the ground truth.
 - **Multi-Class Segmentation**:
     - Categorical Cross-Entropy Loss is typically used.
 
@@ -263,104 +263,104 @@ Let’s go step-by-step through each layer of AlexNet, breaking down the numeric
 ---
 
 ### **Input Layer**
-- **Input size**: \( 227 \times 227 \times 3 \) (RGB image with height \( 227 \), width \( 227 \), and 3 color channels).
+- **Input size**: $227 \times 227 \times 3$ (RGB image with height $227$, width $227$, and 3 color channels).
 - No processing occurs here; this is just the raw input size.
 
 ---
 
 ### **Conv1: First Convolutional Layer**
 1. **Operation**: Convolution with:
-   - **Kernel size**: \( 11 \times 11 \).
+   - **Kernel size**: $11 \times 11$.
    - **Number of filters**: 96 (each filter extracts a different feature, so the depth increases to 96).
-   - **Stride**: \( 4 \) (the filter shifts by 4 pixels at each step).
-   - **Padding**: None (valid convolution, \( P = 0 \)).
+   - **Stride**: $4$ (the filter shifts by 4 pixels at each step).
+   - **Padding**: None (valid convolution, $P = 0$).
 
 2. **Formula for Output Dimensions**:
-   \[
+	$$
    H_{out} = \left( \frac{H_{in} - K + 2P}{S} \right) + 1
-   \]
-   \[
+   $$
+   $$
    H_{out} = \left( \frac{227 - 11 + 2(0)}{4} \right) + 1 = 55
-   \]
+   $$
 
-   Similarly, \( W_{out} = 55 \).
+   Similarly, $ W_{out} = 55$.
 
 3. **Output size**:
-   - Spatial dimensions: \( 55 \times 55 \).
-   - Depth: \( 96 \) (one for each filter).
-   - **Output tensor**: \( 55 \times 55 \times 96 \).
+   - Spatial dimensions: $55 \times 55$.
+   - Depth: $96$ (one for each filter).
+   - **Output tensor**: $55 \times 55 \times 96$.
 
 4. **ReLU Activation**: Applies the ReLU activation function, introducing non-linearity.
 
 5. **Max Pooling**:
-   - **Kernel size**: \( 3 \times 3 \).
-   - **Stride**: \( 2 \).
+   - **Kernel size**: $3 \times 3$.
+   - **Stride**: $2$.
    - Pooling reduces dimensions:
-     \[
+     $$
      H_{out} = \left( \frac{H_{in} - K}{S} \right) + 1 = \left( \frac{55 - 3}{2} \right) + 1 = 27
-     \]
+     $$
 
-     Similarly, \( W_{out} = 27 \).
+     Similarly, $W_{out} = 27$.
 
 6. **Output size after Conv1 + Max Pooling**:
-   - \( 27 \times 27 \times 96 \).
+   - $27 \times 27 \times 96$.
 
 ---
 
 ### **Conv2: Second Convolutional Layer**
 1. **Operation**: Convolution with:
-   - **Kernel size**: \( 5 \times 5 \).
+   - **Kernel size**: $5 \times 5$.
    - **Number of filters**: 256.
-   - **Stride**: \( 1 \) (default stride for convolution unless specified otherwise).
-   - **Padding**: \( 2 \) (to maintain spatial size using "same" padding).
+   - **Stride**: $1$ (default stride for convolution unless specified otherwise).
+   - **Padding**: $2$ (to maintain spatial size using "same" padding).
 
 2. **Formula for Output Dimensions**:
-   \[
+   $$
    H_{out} = \left( \frac{H_{in} - K + 2P}{S} \right) + 1 = \left( \frac{27 - 5 + 2(2)}{1} \right) + 1 = 27
-   \]
+  $$
 
-   Similarly, \( W_{out} = 27 \).
+   Similarly, $W_{out} = 27$.
 
 3. **Output size**:
-   - Spatial dimensions: \( 27 \times 27 \).
-   - Depth: \( 256 \).
-   - **Output tensor**: \( 27 \times 27 \times 256 \).
+   - Spatial dimensions: $27 \times 27$.
+   - Depth: $256$.
+   - **Output tensor**: $27 \times 27 \times 256$.
 
 4. **ReLU Activation**: Applies the ReLU function.
 
 5. **Max Pooling**:
-   - **Kernel size**: \( 3 \times 3 \).
-   - **Stride**: \( 2 \).
+   - **Kernel size**: $3 \times 3$.
+   - **Stride**: $2$.
    - Pooling reduces dimensions:
-     \[
+     $$
      H_{out} = \left( \frac{H_{in} - K}{S} \right) + 1 = \left( \frac{27 - 3}{2} \right) + 1 = 13
-     \]
+     $$
 
-     Similarly, \( W_{out} = 13 \).
+     Similarly, $W_{out} = 13$.
 
 6. **Output size after Conv2 + Max Pooling**:
-   - \( 13 \times 13 \times 256 \).
+   - $13 \times 13 \times 256$.
 
 ---
 
 ### **Conv3: Third Convolutional Layer**
 1. **Operation**: Convolution with:
-   - **Kernel size**: \( 3 \times 3 \).
+   - **Kernel size**: $3 \times 3$.
    - **Number of filters**: 384.
-   - **Stride**: \( 1 \).
-   - **Padding**: \( 1 \) (to maintain spatial size).
+   - **Stride**: $1$.
+   - **Padding**: $1$ (to maintain spatial size).
 
 2. **Formula for Output Dimensions**:
-   \[
+   $$
    H_{out} = \left( \frac{H_{in} - K + 2P}{S} \right) + 1 = \left( \frac{13 - 3 + 2(1)}{1} \right) + 1 = 13
-   \]
+   $$
 
-   Similarly, \( W_{out} = 13 \).
+   Similarly, $W_{out} = 13$.
 
 3. **Output size**:
-   - Spatial dimensions: \( 13 \times 13 \).
-   - Depth: \( 384 \).
-   - **Output tensor**: \( 13 \times 13 \times 384 \).
+   - Spatial dimensions: $13 \times 13$.
+   - Depth: $384$.
+   - **Output tensor**: $13 \times 13 \times 384$.
 
 4. **ReLU Activation**: Applies the ReLU function.
 
@@ -368,15 +368,15 @@ Let’s go step-by-step through each layer of AlexNet, breaking down the numeric
 
 ### **Conv4: Fourth Convolutional Layer**
 1. **Operation**: Convolution with:
-   - **Kernel size**: \( 3 \times 3 \).
+   - **Kernel size**: $3 \times 3$.
    - **Number of filters**: 384.
-   - **Stride**: \( 1 \).
-   - **Padding**: \( 1 \) (to maintain spatial size).
+   - **Stride**: $1$.
+   - **Padding**: $1$ (to maintain spatial size).
 
 2. **Output size**:
-   - Spatial dimensions: \( 13 \times 13 \).
-   - Depth: \( 384 \).
-   - **Output tensor**: \( 13 \times 13 \times 384 \).
+   - Spatial dimensions: $13 \times 13$.
+   - Depth: $384$.
+   - **Output tensor**: $13 \times 13 \times 384$.
 
 3. **ReLU Activation**: Applies the ReLU function.
 
@@ -384,56 +384,56 @@ Let’s go step-by-step through each layer of AlexNet, breaking down the numeric
 
 ### **Conv5: Fifth Convolutional Layer**
 1. **Operation**: Convolution with:
-   - **Kernel size**: \( 3 \times 3 \).
+   - **Kernel size**: $3 \times 3$.
    - **Number of filters**: 256.
-   - **Stride**: \( 1 \).
-   - **Padding**: \( 1 \) (to maintain spatial size).
+   - **Stride**: $1$.
+   - **Padding**: $1$ (to maintain spatial size).
 
 2. **Output size**:
-   - Spatial dimensions: \( 13 \times 13 \).
-   - Depth: \( 256 \).
-   - **Output tensor**: \( 13 \times 13 \times 256 \).
+   - Spatial dimensions: $13 \times 13$.
+   - Depth: $256$.
+   - **Output tensor**: $13 \times 13 \times 256$.
 
 3. **ReLU Activation**: Applies the ReLU function.
 
 4. **Max Pooling**:
-   - **Kernel size**: \( 3 \times 3 \).
-   - **Stride**: \( 2 \).
+   - **Kernel size**: $3 \times 3$.
+   - **Stride**: $2$.
    - Pooling reduces dimensions:
-     \[
+     $$
      H_{out} = \left( \frac{13 - 3}{2} \right) + 1 = 6
-     \]
+     $$
 
-     Similarly, \( W_{out} = 6 \).
+     Similarly, $W_{out} = 6$.
 
 5. **Output size after Conv5 + Max Pooling**:
-   - \( 6 \times 6 \times 256 \).
+   - $6 \times 6 \times 256$.
 
 ---
 
 ### **Flatten Layer**
-- The 3D tensor (\( 6 \times 6 \times 256 \)) is flattened into a 1D vector.
-- Number of elements: \( 6 \times 6 \times 256 = 9216 \).
-- **Output**: A 1D vector with \( 9216 \) elements.
+- The 3D tensor ($6 \times 6 \times 256$) is flattened into a 1D vector.
+- Number of elements: $6 \times 6 \times 256 = 9216$.
+- **Output**: A 1D vector with $9216$ elements.
 
 ---
 
 ### **Fully Connected Layers**
 1. **First Fully Connected Layer**:
-   - Input: \( 9216 \).
-   - Neurons: \( 4096 \).
+   - Input: $9216$.
+   - Neurons: $4096$.
    - ReLU activation.
    - Dropout applied to reduce overfitting.
 
 2. **Second Fully Connected Layer**:
-   - Input: \( 4096 \).
-   - Neurons: \( 4096 \).
+   - Input: $4096$.
+   - Neurons: $4096$.
    - ReLU activation.
    - Dropout applied.
 
 3. **Third Fully Connected Layer**:
-   - Input: \( 4096 \).
-   - Neurons: \( 1000 \) (for the 1000 classes in ImageNet).
+   - Input: $4096$.
+   - Neurons: $1000$ (for the 1000 classes in ImageNet).
    - Softmax activation for classification.
 
 ---
