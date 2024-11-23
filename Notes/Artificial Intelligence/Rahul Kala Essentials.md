@@ -1,5 +1,6 @@
 1. Object Recognition
-2. [[Drawing 2024-11-06
+[[deep_learning]]
+
 ![[Recording 20241106161728.m4a]]
  16.02.10.excalidraw]]
 

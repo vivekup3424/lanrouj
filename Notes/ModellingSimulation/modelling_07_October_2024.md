@@ -41,3 +41,11 @@
 ### MidSquare Method
 ![[Pasted image 20241119184311.png]]
 ![[Pasted image 20241119184539.png]]
+
+#### Limitations of Mid Square Method
+![[Pasted image 20241119184923.png]]
+
+## [[Probability Distributions]]
+
+1. [[Random Variable]]
+2. 

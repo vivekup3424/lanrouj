@@ -4,24 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "78abe02102ff6833",
+        "id": "53d6261e4f09281e",
         "type": "tabs",
         "children": [
           {
-            "id": "28738850fcbb33ad",
+            "id": "9103820b9025ed14",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/deep_learning.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "deep_learning"
+            }
+          },
+          {
+            "id": "1b1c6f557424754d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyJournal/modelling_07_October_2024.md",
+                "file": "Notes/Artificial Intelligence/Bounding Box Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "modelling_07_October_2024"
+              "title": "Bounding Box Regression"
+            }
+          },
+          {
+            "id": "7452e06f0c9fb60a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Artificial Intelligence/CNN Architectures.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CNN Architectures"
+            }
+          },
+          {
+            "id": "e7f7fbaa333a4703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Artificial Intelligence/Convolution Layer Formula.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Convolution Layer Formula"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -138,10 +179,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dailyJournal/modelling_07_October_2024.md"
+                "file": "Notes/Artificial Intelligence/Convolution Layer Formula.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of modelling_07_October_2024"
+              "title": "Outline of Convolution Layer Formula"
             }
           }
         ],
@@ -164,8 +205,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28738850fcbb33ad",
+  "active": "e7f7fbaa333a4703",
   "lastOpenFiles": [
+    "Excalidraw/deep_learning.md",
+    "Notes/Artificial Intelligence/Convolution Layer Formula.md",
+    "Notes/Artificial Intelligence/CNN Architectures.md",
+    "Pasted image 20241123190433.png",
+    "Notes/Artificial Intelligence/YOLO.md",
+    "Notes/Artificial Intelligence/Bounding Box Regression.md",
+    "Notes/Artificial Intelligence/Object Recognition and Object Detection.md",
+    "Pasted image 20241123183503.png",
+    "Notes/Artificial Intelligence/Rahul Kala Essentials.md",
+    "Notes/Artificial Intelligence/How are RNN made from ANN.md",
+    "Notes/Artificial Intelligence/Transformers.md",
+    "Excalidraw/Drawing 2024-11-19 19.17.03.excalidraw.md",
+    "dailyJournal/IOT.md",
+    "dailyJournal/README.md",
+    "Notes/Artificial Intelligence/Why Do We Use RNNs?.md",
+    "Notes/System Design/JS/Nodejs-REPL.md",
+    "Notes/ModellingSimulation/modelling_07_October_2024.md",
+    "Notes/Algorithms/Strings.md",
+    "Notes/Operating System Notes/Types of Computer Architectures.md",
+    "Notes/Operating System Notes/Types of Computer Architectures.md~",
+    "Notes/System Design/JS/Tree-shaking opportunities.md",
+    "Notes/System Design/JS/Difference between .js and .mjs files.md",
+    "Notes/Algorithms/recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists.md",
+    "Notes/ModellingSimulation/Structure of Exam.md",
+    "Notes/System Design/JS/difference-between-require&import.md",
+    "Notes/System Design/JS/Prototype.md",
+    "Notes/ModellingSimulation/Random Variable.md",
+    "Notes/ModellingSimulation/Probability Distributions.md",
+    "Notes/ModellingSimulation/Poisson Process.md",
+    "ModellingSimulation/Probability Distributions.md~",
+    "Pasted image 20241119184923.png",
     "Pasted image 20241119184539.png",
     "Pasted image 20241119184513.png",
     "Pasted image 20241119184506.png",
@@ -173,45 +245,14 @@
     "Pasted image 20241119183958.png",
     "Pasted image 20241119183002.png",
     "Pasted image 20241119182659.png",
-    "Excalidraw/Drawing 2024-11-19 18.25.25.excalidraw.md",
-    "dailyJournal/modelling_07_October_2024.md",
-    "Pasted image 20241119182224.png",
-    "Pasted image 20241119181735.png",
-    "Pasted image 20241119175629.png",
-    "Pasted image 20241119175424.png",
-    "Untitled.md",
-    "Notes/Algorithms/Graphs.md",
-    "Excalidraw/deep_learning.md",
-    "Excalidraw/Drawing 2024-11-14 14.50.09.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-13 10.28.10.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-12 12.12.25.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-11 16.13.22.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-11 14.24.45.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-11 12.56.57.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-07 15.01.23.excalidraw.md",
-    "Rahul Kala Essentials.md",
-    "Notes/Algorithms/DFS.md",
-    "Notes/Algorithms/BFS.md",
-    "Notes/Algorithms/Prim’s algorithm.md",
-    "Notes/Algorithms/Kahn’s Algorithm.md",
-    "Notes/Algorithms/Dijkstra’s shortest path.md",
     "Notes/Algorithms/Graphs.md~",
     "https:/en.wikipedia.org/wiki",
     "https:/en.wikipedia.org",
     "https:",
-    "Notes/System Design/JS/Untitled.md",
-    "Notes/System Design/JS/Difference between .js and .mjs files.md",
-    "Websockets.md",
-    "Notes/System Design/JS/Prototype.md",
-    "Notes/Algorithms/Course Schedule.md",
     "Notes/System Design/JS",
     "Untitled",
-    "Notes/Algorithms/Group Anagrams.md",
-    "Notes/Algorithms/Tokenization.md",
     "Untitled.canvas",
     "Recording 20241106162017.m4a",
-    "Notes/Algorithms/binary-search-tree.md~",
-    "Notes/Algorithms/kth-smallest-element-in-a-bst.md~",
-    "Notes/Algorithms/BinarySearch.md~"
+    "Notes/Algorithms/binary-search-tree.md~"
   ]
 }

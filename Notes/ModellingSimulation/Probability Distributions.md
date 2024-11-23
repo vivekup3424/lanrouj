@@ -1,3 +1,11 @@
+---
+id: Probability Distributions
+aliases: 
+tags:
+  - distribution
+  - modelling
+---
+
 # Discrete Distributions
 
 ## 1. Bernoulli Trials

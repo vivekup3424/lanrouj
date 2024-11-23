@@ -1,92 +1,137 @@
-/* Base Typography */
-.markdown-preview-view {
-  font-family: 'Georgia', 'Times New Roman', serif;
-  line-height: 1.6;
-  font-size: 16px;
-  color: #2e2e2e;
+/* Enhanced color navigation for long text */
+
+/* Headers with distinct colors */
+.markdown-preview-view h1 {
+    color: var(--text-accent);
+    border-bottom: 2px solid var(--text-accent);
+    padding-bottom: 0.3em;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Arial', sans-serif;
-  font-weight: bold;
-  color: #1e88e5;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-  border-bottom: 2px solid #e0e0e0;
+.markdown-preview-view h2 {
+    color: #d35400;
 }
 
-/* Block Quotes */
-blockquote {
-  border-left: 4px solid #ffc107;
-  background: #f9f9f9;
-  padding: 10px 20px;
-  margin: 1em 0;
-  font-style: italic;
-  color: #555;
+.markdown-preview-view h3 {
+    color: #16a085;
 }
 
-/* Code Blocks */
-pre {
-  background: #2e2e2e;
-  color: #fff;
-  padding: 15px;
-  border-radius: 5px;
-  font-size: 14px;
-  overflow-x: auto;
+.markdown-preview-view h4 {
+    color: #8e44ad;
 }
 
-code {
-  background: #f5f5f5;
-  color: #d6336c;
-  padding: 2px 4px;
-  border-radius: 3px;
-  font-family: 'Courier New', monospace;
+/* Important paragraphs and emphasis */
+.markdown-preview-view strong {
+    color: #c0392b;
+    font-weight: 600;
 }
 
-/* Links */
-a {
-  color: #007acc;
-  text-decoration: none;
+.markdown-preview-view em {
+    color: #27ae60;
+    font-style: italic;
 }
 
-a:hover {
-  text-decoration: underline;
+/* Lists with color hierarchy */
+.markdown-preview-view ul {
+    color: var(--text-normal);
 }
 
-/* Lists */
-ul, ol {
-  margin-left: 20px;
-  line-height: 1.5;
+.markdown-preview-view ul > li::marker {
+    color: #2980b9;
 }
 
-/* Tables */
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1em 0;
+.markdown-preview-view ul > li > ul > li::marker {
+    color: #16a085;
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+.markdown-preview-view ul > li > ul > li > ul > li::marker {
+    color: #8e44ad;
 }
 
-th {
-  background-color: #f2f2f2;
-  color: #333;
+/* Blockquotes with distinctive styling */
+.markdown-preview-view blockquote {
+    border-left: 3px solid #e74c3c;
+    background-color: rgba(231, 76, 60, 0.1);
+    margin: 1em 0;
+    padding: 0.5em 1.5em;
 }
 
-/* Highlighted Text */
-.markdown-preview-view mark {
-  background: #ff0;
-  color: #000;
+/* Links with hover effect */
+.markdown-preview-view a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
-/* Customized Task Lists */
-li.task-list-item input {
-  margin-right: 10px;
-  transform: scale(1.2);
+.markdown-preview-view a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
 }
 
+/* Code blocks with distinct background */
+.markdown-preview-view code {
+    color: #16a085;
+    background-color: var(--background-primary-alt);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+/* Task lists with color indicators */
+.markdown-preview-view input[type=checkbox] {
+    border-color: #7f8c8d;
+}
+
+.markdown-preview-view input[type=checkbox]:checked {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+/* Tags with distinctive styling */
+.tag {
+    background-color: #34495e;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.9em;
+}
+
+/* Horizontal rules for section breaks */
+.markdown-preview-view hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    margin: 2em 0;
+}
+
+/* Dark theme adjustments */
+.theme-dark {
+    /* Slightly muted colors for dark theme */
+    --text-accent: #5dade2;
+}
+
+/* Light theme adjustments */
+.theme-light {
+    /* Darker, more visible colors for light theme */
+    --text-accent: #2980b9;
+}
+
+/* Tables with alternating row colors */
+.markdown-preview-view table {
+    width: 100%;
+    margin: 1em 0;
+    border-collapse: collapse;
+}
+
+.markdown-preview-view th {
+    background-color: var(--text-accent);
+    color: var(--background-primary);
+    padding: 0.5em;
+}
+
+.markdown-preview-view tr:nth-child(even) {
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+.markdown-preview-view td {
+    padding: 0.5em;
+    border: 1px solid var(--background-modifier-border);
+}
