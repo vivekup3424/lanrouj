@@ -3,8 +3,8 @@
   "vimMode": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "showLineNumber": true,
   "readableLineLength": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": false
 }

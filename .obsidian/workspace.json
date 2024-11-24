@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "211458c1da526fd2",
+        "id": "0803a4c290f79878",
         "type": "tabs",
         "children": [
           {
-            "id": "dd2f49073581ebce",
+            "id": "bcd0085b34f7c02e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Artificial Intelligence/AutoEncoder.md",
+                "file": "Notes/Artificial Intelligence/How are RNN made from ANN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AutoEncoder"
+              "title": "How are RNN made from ANN"
+            }
+          },
+          {
+            "id": "578634eed99994d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Artificial Intelligence/Long Short Term Memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Long Short Term Memory"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "U-Net",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Notes/Artificial Intelligence/Long Short Term Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Long Short Term Memory"
             }
           },
           {
@@ -112,11 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Notes/Artificial Intelligence/Long Short Term Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Long Short Term Memory"
             }
           },
           {
@@ -138,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Artificial Intelligence/AutoEncoder.md"
+                "file": "Notes/Artificial Intelligence/Long Short Term Memory.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of AutoEncoder"
+              "title": "Outline of Long Short Term Memory"
             }
           }
         ],
@@ -164,45 +182,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dd2f49073581ebce",
+  "active": "578634eed99994d3",
   "lastOpenFiles": [
+    "Pasted image 20241124213302.png",
+    "Pasted image 20241124213254.png",
+    "Pasted image 20241124213253.png",
+    "Pasted image 20241124212852.png",
+    "Pasted image 20241124212849.png",
+    "Pasted image 20241124212259.png",
+    "Pasted image 20241124212239.png",
+    "Pasted image 20241124212137.png",
+    "Notes/Artificial Intelligence/How are RNN made from ANN.md",
+    "Notes/Artificial Intelligence/Long Short Term Memory.md",
+    "Notes/Artificial Intelligence/CNN Architectures.md",
+    "Notes/Artificial Intelligence/Bounding Box Regression.md",
+    "Notes/Algorithms/KadanesAlgorithm.md",
+    "Notes/Artificial Intelligence/AutoEncoder.md",
+    "Notes/Algorithms/Two Clique Problem.md",
+    "Notes/Algorithms/alien-dictionary.md",
+    "dailyJournal/1.md",
+    "dailyJournal/README.md",
+    "Notes/Algorithms/Minimum Spanning Tree.md",
+    "Notes/Algorithms/Selection Sort.md",
+    "Notes/Operating System Notes/Types of Computer Architectures.md",
+    "Notes/Algorithms/Remove duplicates from a sorted array.md",
+    "Notes/ModellingSimulation/modelling_07_October_2024.md",
+    "Excalidraw/Drawing 2024-11-23 23.16.11.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-19 19.17.03.excalidraw.md",
+    "Pasted image 20241123230330.png",
     "Pasted image 20241123225804.png",
     "Pasted image 20241123225758.png",
-    "Notes/Artificial Intelligence/CNN Architectures.md",
-    "Pasted image 20241111225348.png",
-    "Pasted image 20241111164722.png",
-    "Pasted image 20241111164041.png",
-    "Pasted image 20241111163412.png",
-    "Pasted image 20241110225627.png",
-    "Pasted image 20241110224620.png",
-    "Pasted image 20241110224531.png",
-    "Pasted image 20241110001908.png",
-    "Pasted image 20241109235235.png",
     "Notes/Artificial Intelligence/Pasted.md",
     "Excalidraw/deep_learning.md",
-    "Notes/Artificial Intelligence/AutoEncoder.md",
     "Notes/Artificial Intelligence/Convolution Layer Formula.md",
-    "Notes/Artificial Intelligence/Bounding Box Regression.md",
     "Notes/Artificial Intelligence/YOLO.md",
     "Notes/Artificial Intelligence/Object Recognition and Object Detection.md",
     "Notes/Artificial Intelligence/Rahul Kala Essentials.md",
-    "Notes/Artificial Intelligence/How are RNN made from ANN.md",
     "Notes/Artificial Intelligence/Transformers.md",
-    "Excalidraw/Drawing 2024-11-19 19.17.03.excalidraw.md",
     "dailyJournal/IOT.md",
-    "dailyJournal/README.md",
-    "Notes/Artificial Intelligence/Why Do We Use RNNs?.md",
-    "Notes/System Design/JS/Nodejs-REPL.md",
-    "Notes/ModellingSimulation/modelling_07_October_2024.md",
-    "Notes/Algorithms/Strings.md",
-    "Notes/Operating System Notes/Types of Computer Architectures.md",
     "Notes/Operating System Notes/Types of Computer Architectures.md~",
-    "Notes/System Design/JS/Tree-shaking opportunities.md",
-    "Notes/System Design/JS/Difference between .js and .mjs files.md",
-    "Notes/Algorithms/recursively-print-all-sentences-that-can-be-formed-from-list-of-word-lists.md",
-    "Notes/ModellingSimulation/Structure of Exam.md",
-    "Notes/System Design/JS/difference-between-require&import.md",
-    "Notes/System Design/JS/Prototype.md",
     "ModellingSimulation/Probability Distributions.md~",
     "Notes/Algorithms/Graphs.md~",
     "https:/en.wikipedia.org/wiki",

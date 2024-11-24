@@ -78,6 +78,9 @@ $$
  
    - Learns a probabilistic latent space, enabling generation of new samples similar to the training data.
    - Latent variables are sampled from a distribution (e.g., Gaussian).
+### KL Divergence Calculation
+![[Pasted image 20241123230330.png]]
+
 
 6. **Convolutional Autoencoder**:
    - Uses convolutional layers, typically for image data, to capture spatial features.

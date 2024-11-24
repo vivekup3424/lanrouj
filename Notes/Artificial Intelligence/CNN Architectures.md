@@ -81,6 +81,15 @@ For each of these 225 patches, the CNN is run independently, and the outputs are
 U-Net is a convolutional neural network architecture specifically designed for **image segmentation**, where the goal is to classify each pixel of an image into a category. Developed in 2015 for *biomedical image segmentation*, it has since become one of the most popular architectures in various domains requiring ==semantic segmentation.==
 
 ---
+### **Why U-Net is Needed?**
+
+1. **Loss of Spatial Information**: Regular CNNs use pooling layers, which reduce the resolution of the image. You lose pixel-level detail, making it hard to map back to the original image.
+2. **Global Context Missing**: While CNNs extract features well, they don’t combine global (whole image) and local (pixel-level) information effectively.
+
+> [!NOTE]
+> U-Net solves these issues by:
+> Preserving spatial details using **skip connections**.
+>  Combining local and global context for precise segmentation 
 
 ### **Key Features of U-Net**
 
@@ -133,18 +142,6 @@ U-Net is a convolutional neural network architecture specifically designed for *
     - The decoder reconstructs the segmentation map, combining low-resolution semantic features with high-resolution spatial details using skip connections.
 3. Output:
     - A segmented image where each pixel is labeled with a specific class.
-
----
-
-### **Loss Function**
-
-The loss function depends on the segmentation task:
-
-- **Binary Segmentation**:
-    - Binary Cross-Entropy (BCE) is commonly used.
-    - Can also use **Dice Loss**, which is better suited for imbalanced datasets. Dice Loss=$1−2⋅(P∩T)∣P∣+∣T∣\text{Dice Loss} = 1 - \frac{2 \cdot (P \cap T)}{|P| + |T|}$ where PP is the predicted segmentation, and TT is the ground truth.
-- **Multi-Class Segmentation**:
-    - Categorical Cross-Entropy Loss is typically used.
 
 ---
 
