@@ -1,4 +1,5 @@
-
+#kernel 
+#shell 
 # 🌐 Difference between Shell and Kernel  
 **Last Updated**: 02 Sep, 2024  
 

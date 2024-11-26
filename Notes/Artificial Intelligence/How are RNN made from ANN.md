@@ -30,7 +30,7 @@ In RNNs, for each time step tt, the following equations are used:
     - b : Bias (shared across all time steps).
     - f : Activation function.
 2. **Output**:  
-    $$y_t=g(W_yh_{t}+c)y_t = g(W_y h_t + c)$$
+    $$y_t=g(W_yh_{t}+c)$$
     where $W_y$ and c are also shared.
 
 ---

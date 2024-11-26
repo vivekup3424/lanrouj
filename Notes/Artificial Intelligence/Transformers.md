@@ -7,3 +7,5 @@ Transformers were developed specifically for seq2seq tasks like
 
 
 # Attention Mechanism
+## Masked Self Attention
+

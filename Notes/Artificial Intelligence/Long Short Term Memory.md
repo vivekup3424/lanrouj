@@ -14,23 +14,30 @@ An LSTM cell consists of the following key components:
 1. **Cell State ($C_t$)**:
     - The **long memory** of the cell that carries information across time steps.
     - Callled as cell state
+    
+> [!NOTE]
+> On the basis of $x_{t}$ you decide what to remove from cell state or add to cell state.
+> All the values are vectors here.
+
+
 
 2. **Hidden State ($h_t$)**:
     - Also called as short-term memory
     - Represents the **current output of the cell** and is passed to the next time step.
 
 3. **Input Gate ($i_t$)**:
-    - Controls how much of the new input should be written to the cell state.
+    - Controls *how much of the new input should be written to the cell state.*
 
 4. **Forget Gate ($f_t$)**:
-    - Decides what information to forget from the cell state.
+    - Decides *what information to forget from the cell state.*
 
 5. **Output Gate ($o_t$)**:
     - Determines the output based on the cell state.
 
 6. **Candidate State ($\tilde{C}_t$)**:
     - A potential update to the cell state based on the input and hidden state.
-
+    
+![[Pasted image 20241124214212.png]]
 ---
 
 ### LSTM Equations
@@ -38,12 +45,20 @@ An LSTM cell consists of the following key components:
 At each time step $t$, the LSTM performs the following computations:
 
 1. **Forget Gate**:  
+![[Pasted image 20241124230003.png|300]]
    Determines which parts of the previous cell state to forget:  
    $$f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)$$
 
 2. **Input Gate**:  
    Decides what new information to store in the cell state:  
-   $$i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)$$  
+   
+   ![[Pasted image 20241124230231.png|300]]
+   
+   
+   
+   
+   $$i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i)$$
+     
    Compute the candidate state:  
    $$\tilde{C}_t = \tanh(W_C \cdot [h_{t-1}, x_t] + b_C)$$
 
@@ -53,19 +68,16 @@ At each time step $t$, the LSTM performs the following computations:
 
 4. **Output Gate**:  
    Compute the output and update the hidden state:  
+   
+   ![[Pasted image 20241124230730.png|300]]
+   
+   
    $$o_t = \sigma(W_o \cdot [h_{t-1}, x_t] + b_o)$$  
    $$h_t = o_t \odot \tanh(C_t)$$
 
 Where:
 - $\sigma$ is the sigmoid activation function.
 - $\odot$ is element-wise multiplication.
-
----
-
-### LSTM Cell Diagram
-![[Pasted image 20241124212259.png]]
-
-
 
 ---
 

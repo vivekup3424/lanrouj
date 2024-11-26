@@ -10,6 +10,8 @@ Dijkstra's Algorithm is a greedy algorithm used to find the shortest path from a
 - **Efficient in Networks**: It's widely used in network routing protocols (e.g., OSPF, routing packets in the internet) to find the shortest route.
 - **Navigation Systems**: Dijkstra's algorithm is also used in GPS systems and mapping software to find the shortest route between two points.
 
+---
+
 #### **Where did it come from / Real-Life Encounters:**
 - **Developed by Edsger W. Dijkstra** in 1956, it is one of the foundational algorithms in graph theory.
 - **Applications**:
@@ -17,6 +19,7 @@ Dijkstra's Algorithm is a greedy algorithm used to find the shortest path from a
   - **Transportation**: Used in maps and navigation systems to compute the shortest driving or walking routes.
   - **Telecommunications**: In telecommunication networks to find optimal data paths.
   - **AI and Robotics**: In pathfinding algorithms for AI navigation.
+---
 
 #### **How do we use it?**
 
@@ -30,6 +33,7 @@ Dijkstra's Algorithm is a greedy algorithm used to find the shortest path from a
    - Use a priority queue to repeatedly extract the vertex with the smallest known distance.
    - For each neighboring vertex, update its distance if a shorter path is found via the current vertex.
    - Repeat the process until all vertices are processed.
+---
 
 #### **Code Example (C++ Using Priority Queue)**:
 ```cpp
@@ -83,6 +87,7 @@ int main() {
     return 0;
 }
 ```
+---
 
 ### **Key Points**:
 - **Input**: A graph (adjacency list), number of vertices, and a source node.
