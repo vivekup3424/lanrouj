@@ -5,9 +5,6 @@ tags:
   - distribution
   - modelling
 ---
-
-# Discrete Distributions
-
 ## 1. Bernoulli Trials
 
 A **Bernoulli trial** is a random experiment with exactly two possible outcomes: success and failure. 
@@ -41,7 +38,6 @@ $$
 ## 3. Geometric Distribution
 
 The **Geometric Distribution** models the number of Bernoulli trials needed to get the first success.
-
 ### Probability Mass Function (PMF)
 
 $$
@@ -73,7 +69,7 @@ P(x) = \begin{cases}
 \end{cases}
 $$
 
-- \( $\alpha$ \): Average rate of occurrence (mean number of events in the interval)
+- \( $\alpha$ \): Average rate of occurrence (mean number of events in the interval = variance as well)
 
 
 ## 5. Gamma Distribution
@@ -262,13 +258,18 @@ $$
 - $E[X] = \frac{k}{\lambda}$
 - $V[X] = \frac{k}{\lambda^2}$
 
-## **Erlang Distribution**
+## ==**Erlang Distribution**==
 
 The **Erlang distribution** is a special case of the Gamma distribution where the shape parameter $k$ is a positive integer. It models the sum of $k$ independent, exponentially distributed random variables, each with the same rate parameter $\lambda$. z
 
 ---
 
 ### **Key Properties of the Erlang Distribution**
+### CDF
+
+![[Pasted image 20241127114244.png]]
+
+
 
 1. **PDF** (Probability Density Function):
    $$

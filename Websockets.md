@@ -1,10 +1,16 @@
+---
+id: Websockets
+aliases: []
+tags: []
+---
+
 ### Pre-WebSocket Communication: HTTP Abuses and Alternatives  
 
 Before the advent of WebSockets as defined in **RFC 6455**, bidirectional communication over HTTP relied on techniques like **long polling** and **streaming**, introduced in **RFC 6202**. These methods often "abused" HTTP, which wasn't designed for persistent server-to-client communication.
 
 ---
 
-### HsTTP Abuses for Bidirectional Communication  
+### HTTP Abuses for Bidirectional Communication  
 #### 1. **HTTP Polling**  
    - **Usage**: The client sends requests at regular intervals to check for updates (server push).  
    - **Drawbacks**:  
