@@ -11,10 +11,14 @@
             "id": "79d2ee9655469dba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Data Analytics/Data Imputation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Data Imputation"
             }
           }
         ]
@@ -135,9 +139,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Notes/Data Analytics/Data Imputation.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Data Imputation"
             }
           }
         ],
@@ -163,6 +169,8 @@
   },
   "active": "79d2ee9655469dba",
   "lastOpenFiles": [
+    "Notes/Data Analytics/Data Imputation.md",
+    "Notes/Data Analytics",
     "Notes/Algorithms/Sort 0s and 1s.md",
     "Notes/Algorithms/count-set-bits.md",
     "Notes/Algorithms/count-set-bits.md~",
@@ -202,13 +210,11 @@
     "Notes/Algorithms/alien-dictionary.md",
     "Notes/Algorithms/32 bit multiplication for 16 bit architecture.md",
     "dailyJournal/study-roadmap.md",
-    "dailyJournal/README.md",
     "Notes/Operating System Notes/Types of Computer Architectures.md~",
     "ModellingSimulation/Probability Distributions.md~",
     "Notes/Algorithms/Graphs.md~",
     "https:/en.wikipedia.org/wiki",
     "https:/en.wikipedia.org",
-    "https:",
     "Untitled.canvas"
   ]
 }
