@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6cd97a4b80123720",
+        "id": "82d9bdeef591b622",
         "type": "tabs",
         "children": [
           {
-            "id": "79d2ee9655469dba",
+            "id": "a08236b8d464e2c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Data Analytics/Data Imputation.md",
+                "file": "Notes/Data Analytics/R-Squared and Adjusted R-Squared.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Imputation"
+              "title": "R-Squared and Adjusted R-Squared"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Data Analytics/Data Imputation.md"
+                "file": "Notes/Data Analytics/R-Squared and Adjusted R-Squared.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Imputation"
+              "title": "Outline of R-Squared and Adjusted R-Squared"
             }
           }
         ],
@@ -167,8 +167,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "79d2ee9655469dba",
+  "active": "a08236b8d464e2c7",
   "lastOpenFiles": [
+    "Notes/Data Analytics/Missing Data.md",
+    "Notes/Data Analytics/R-Squared and Adjusted R-Squared.md",
+    "Notes/Data Analytics/Gradient Descent Ascent and Related Concepts- A Deep Dive.md",
     "Notes/Data Analytics/Data Imputation.md",
     "Notes/Data Analytics",
     "Notes/Algorithms/Sort 0s and 1s.md",
@@ -207,9 +210,6 @@
     "Pasted image 20241127013400.png",
     "Notes/ModellingSimulation/Compartmental Models.md",
     "Notes/Algorithms/Djikstra's.md",
-    "Notes/Algorithms/alien-dictionary.md",
-    "Notes/Algorithms/32 bit multiplication for 16 bit architecture.md",
-    "dailyJournal/study-roadmap.md",
     "Notes/Operating System Notes/Types of Computer Architectures.md~",
     "ModellingSimulation/Probability Distributions.md~",
     "Notes/Algorithms/Graphs.md~",
