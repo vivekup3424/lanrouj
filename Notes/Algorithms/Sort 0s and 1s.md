@@ -46,3 +46,21 @@ void rearrange(vector<int> &v){
 ```
 ----------
 
+## Sort evens and odds, preserving the order of evens and odds
+It can be done using the above approach
+but what I wanted to do here specifically if introduce a new approach
+this new approach would be similar to the approach of sort 0s 1s and 2s.
+i.e. similar to Dutch Flag Problem
+
+```python
+def even_odd(arr):
+    even = 0
+    odd = len(arr) - 1
+    while even < odd:
+        if arr[even] % 2 == 0:
+            even += 1
+        else:
+            arr[even], arr[odd] = arr[odd], arr[even]
+            odd -= 1
+
+```
