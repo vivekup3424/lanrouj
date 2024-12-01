@@ -1,3 +1,9 @@
+---
+id: Assumptions of Linear Regression
+aliases: []
+tags: []
+---
+
 Linear regression is a widely used statistical method for modeling the relationship between a dependent variable and one or more independent variables. However, for the model to be valid and produce reliable results, several key assumptions must be satisfied. If these assumptions are violated, the model may give biased, inefficient, or misleading estimates. Let's go through each of these assumptions in depth.
 
 ---
@@ -45,7 +51,7 @@ Linear regression is a widely used statistical method for modeling the relations
 
    - **How to Check**:
      - **Correlation matrix**: Check the correlation between independent variables. If correlations are high (e.g., above 0.8 or 0.9), multicollinearity may be present.
-     - **Variance Inflation Factor (VIF)**: VIF quantifies how much the variance of the estimated regression coefficient is inflated due to collinearity with other predictors. A VIF above 10 is typically considered problematic.
+     - **Variance Inflation Factor (VIF)**: [[VIF]] quantifies how much the variance of the estimated regression coefficient is inflated due to collinearity with other predictors. A VIF above 10 is typically considered problematic.
 
 ---
 
