@@ -142,5 +142,3 @@ In this case, the **median** would be the best measure of central tendency as it
 - **Mode**: Best for categorical data or when identifying the most frequent value.
 
 Understanding these measures is key to analyzing data effectively and choosing the best representation of central tendency based on the nature of your dataset.
-
-Let me know if you'd like further examples or code implementations!

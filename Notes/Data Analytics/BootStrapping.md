@@ -28,7 +28,7 @@ In simpler terms, bootstrapping allows us to simulate the process of collecting 
    - Suppose you have a dataset of size `n`, e.g., `[3, 7, 9, 2, 5]`. This dataset is the population or sample from which we will resample.
    
 2. **Step 2: Resample with replacement**:
-   - From the original dataset, randomly select `n` values with replacement. For example, after one resample, you might get `[5, 9, 5, 2, 7]`. Note that some numbers might appear more than once, while others might not appear at all.
+   - From the original dataset, randomly select `n` values with replacement. For example, after one resample, you might get `[5, 9, 5, 2, 7]`. *Note that some numbers might appear more than once, while others might not appear at all.*
    
 3. **Step 3: Calculate a statistic**:
    - Calculate the statistic of interest (e.g., mean, median, standard deviation) for this new resampled dataset. Suppose the mean of this resample is `5.6`.

@@ -8,7 +8,7 @@ Here’s a breakdown of data imputation methods, explained from first principles
 Before imputing data, you need to understand the patterns of missingness:
 - **MCAR (Missing Completely at Random)**: The missingness has no relationship with any variable in the dataset.
 - **MAR (Missing at Random)**: The missingness is related to other observed variables but not the missing ones.
-- **MNAR (Missing Not at Random)**: The missingness depends on the unobserved data itself.
+- **MNAR (Missing Not at Random)**: The missingness depends on the missing data itself.
 
 The imputation method you choose depends on the type of missingness.
 
