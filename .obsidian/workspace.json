@@ -11,10 +11,14 @@
             "id": "b0152b7365a0ddde",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Blockchain/Hyperledger.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Hyperledger"
             }
           }
         ]
@@ -134,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Notes/Blockchain/Hyperledger.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Hyperledger"
             }
           }
         ],
@@ -160,8 +166,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f0d6290f8effe987",
+  "active": "b0152b7365a0ddde",
   "lastOpenFiles": [
+    "Notes/Blockchain/Hyperledger.md",
     "Notes/Blockchain",
     "Notes/Data Analytics/Types of Data Analytics.md",
     "Notes/Data Analytics/Data Imputation.md",
@@ -207,7 +214,6 @@
     "Notes/Operating System Notes/Types of Computer Architectures.md~",
     "ModellingSimulation/Probability Distributions.md~",
     "Notes/Algorithms/Graphs.md~",
-    "https:/en.wikipedia.org/wiki",
     "Untitled.canvas"
   ]
 }
