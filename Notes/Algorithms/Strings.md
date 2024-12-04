@@ -1,3 +1,9 @@
+---
+id: Strings
+aliases: []
+tags: []
+---
+
 In c++ string is implemented the same like vector, is mutable
 but in many languages like java and golang it is immutable.
 
