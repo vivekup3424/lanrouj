@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "70be02b8551f25fc",
+        "id": "82543c939342f640",
         "type": "tabs",
         "children": [
           {
-            "id": "033385eedbebdc46",
+            "id": "9811f155db94e65d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/System Design/Single Responsibility Principle.md",
+                "file": "Notes/System Design/Creational Patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Single Responsibility Principle"
-            }
-          },
-          {
-            "id": "e8424fd21a72b7c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/System Design/Liskov Substitution Principle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Liskov Substitution Principle"
-            }
-          },
-          {
-            "id": "49e81344add3e253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/System Design/Interface Segregation Principle.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Interface Segregation Principle"
-            }
-          },
-          {
-            "id": "d9b472a43b524d4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/System Design/difference-between-cohesion-coupling.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "difference-between-cohesion-coupling"
+              "title": "Creational Patterns"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9d236885d6848390",
@@ -182,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/System Design/difference-between-cohesion-coupling.md"
+                "file": "Notes/System Design/Creational Patterns.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of difference-between-cohesion-coupling"
+              "title": "Outline of Creational Patterns"
             }
           }
         ],
@@ -209,15 +167,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b472a43b524d4b",
+  "active": "9811f155db94e65d",
   "lastOpenFiles": [
-    "Notes/System Design/Single Responsibility Principle.md",
+    "Notes/System Design/Behavioral Patterns.md",
+    "Notes/System Design/Structural Pattern.md",
+    "Notes/System Design/Creational Patterns.md",
+    "Notes/System Design/Types of design patterns.md",
+    "Notes/System Design/Hexagonal Architecture.md",
+    "Notes/System Design/Interface Segregation Principle.md",
     "Notes/System Design/difference-between-cohesion-coupling.md",
+    "Notes/System Design/Single Responsibility Principle.md",
     "Notes/ModellingSimulation/modelling_07_October_2024.md",
     "Notes/System Design/Dependecy Inversion Principle.md",
     "Notes/System Design/Liskov Substitution Principle.md",
     "Notes/System Design/Similarity between ISP and SRP.md",
-    "Notes/System Design/Interface Segregation Principle.md",
     "Notes/System Design/Open or Closed Principle.md",
     "Notes/System Design/c++ specifics.md",
     "Notes/System Design/CAP Theorem.md",
@@ -236,11 +199,6 @@
     "Notes/Data Analytics/Data Imputation.md",
     "Notes/Data Analytics/BootStrapping.md",
     "Excalidraw/Drawing 2024-12-02 13.51.13.excalidraw.md",
-    "Notes/Data Analytics/Missing Data.md",
-    "Notes/Data Analytics/Gradient Descent Ascent and Related Concepts- A Deep Dive.md",
-    "Notes/Data Analytics/Types of Optimizers.md",
-    "Notes/Data Analytics/Measures of dispersion.md",
-    "Notes/Data Analytics/Measures of centeral tendency.md",
     "Pasted image 20241201235723.png",
     "Notes/Data Analytics/Assumptions of Linear Regression.md~",
     "Pasted image 20241201222749.png",
