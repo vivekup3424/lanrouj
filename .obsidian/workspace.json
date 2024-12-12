@@ -11,14 +11,10 @@
             "id": "7501593bb3366ea5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/KEUS/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "New tab"
             }
           }
         ]
@@ -138,11 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/KEUS/Untitled.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           }
         ],
@@ -169,6 +163,7 @@
   "active": "7501593bb3366ea5",
   "lastOpenFiles": [
     "Notes/KEUS/Untitled.md",
+    "Notes/KEUS/1.md",
     "Untitled 1.md",
     "Notes/KEUS",
     "Notes/System Design/Tasks.md",
@@ -197,7 +192,6 @@
     "Notes/Algorithms/Knight Tour.md~",
     "Notes/Algorithms/String Integer Conversion.md",
     "Notes/Algorithms/Strings.md",
-    "Notes/Blockchain/Hyperledger.md",
     "Notes/Blockchain",
     "Pasted image 20241201235723.png",
     "Notes/Data Analytics/Assumptions of Linear Regression.md~",
