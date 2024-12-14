@@ -6,7 +6,7 @@ Behavioral patterns focus on communication and responsibility between objects.
     
     - Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
     - **Use Case:** Sorting algorithms, payment strategies (credit card, PayPal).
-2. **Observer**
+2. **[[Observer Pattern]]**
     
     - Defines a one-to-many dependency so that when one object changes state, its dependents are notified.
     - **Use Case:** Event listeners, UI updates.

@@ -1,9 +1,9 @@
 {
   "collapse-filter": false,
-  "search": "path:Notes/Algorithms queue ",
-  "showTags": true,
-  "showAttachments": true,
-  "hideUnresolved": false,
+  "search": "path:\"Notes/System Design\"  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [],
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.5468878768372187,
+  "scale": 1.3338114143927813,
   "close": true
 }

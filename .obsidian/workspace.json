@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6ad90e54bff8071b",
+        "id": "23618804b1e99385",
         "type": "tabs",
         "children": [
           {
-            "id": "5bae7028a2c39ae2",
+            "id": "3c18e28000b09a9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Algorithms/Continuous Subarrays.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Continuous Subarrays"
+              "title": "New tab"
             }
           }
         ]
@@ -140,11 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/Algorithms/Continuous Subarrays.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Continuous Subarrays"
+              "title": "Outline"
             }
           }
         ],
@@ -168,10 +162,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5bae7028a2c39ae2",
+  "active": "3c18e28000b09a9d",
   "lastOpenFiles": [
-    "Notes/Algorithms/Heap.md",
+    "Notes/System Design/Observer Pattern.md",
+    "Pasted image 20241214134757.png",
+    "Notes/System Design/Behavioral Patterns.md",
     "Notes/Algorithms/Continuous Subarrays.md",
+    "Notes/Algorithms/Heap.md",
     "Notes/KEUS/1.md",
     "Notes/Algorithms/Prim's.md",
     "Notes/System Design/difference-between-cohesion-coupling.md",
@@ -186,7 +183,6 @@
     "Notes/System Design/Tasks.md",
     "Notes/System Design/Factory Method.md",
     "Notes/System Design/Creational Patterns.md",
-    "Notes/System Design/Behavioral Patterns.md",
     "Notes/System Design/Structural Pattern.md",
     "Notes/System Design/Types of design patterns.md",
     "Notes/System Design/Hexagonal Architecture.md",
@@ -197,8 +193,6 @@
     "Notes/System Design/Liskov Substitution Principle.md",
     "Notes/System Design/Similarity between ISP and SRP.md",
     "Notes/System Design/Open or Closed Principle.md",
-    "Notes/System Design/c++ specifics.md",
-    "Notes/System Design/CAP Theorem.md",
     "Notes/Algorithms/Rat in a Maze.md~",
     "Notes/Algorithms/Backtracking.md~",
     "Notes/Algorithms/Knight Tour.md~",
@@ -214,7 +208,6 @@
     "Notes/Algorithms/count-set-bits.md~",
     "Pasted image 20241128192246.png",
     "Pasted image 20241128184650.png",
-    "Pasted image 20241127234550.png",
     "Notes/Untitled 1",
     "Untitled.canvas"
   ]
