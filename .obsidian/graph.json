@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"Notes/System Design\"  ",
+  "search": "path:Notes/Algorithms queue ",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.27395722017732377,
-  "close": false
+  "scale": 1.5468878768372187,
+  "close": true
 }
