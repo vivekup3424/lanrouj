@@ -2,7 +2,7 @@ Structural patterns focus on organizing classes and objects into larger structur
 
 #### **Key Patterns:**
 
-1. **Adapter (Wrapper)**
+1. [[Adapter Patterm]]
     
     - Converts an interface of a class into another interface the client expects.
     - **Use Case:** Making incompatible classes work together.
