@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "17f651a0eb2fd98c",
+        "id": "8dc5e829a26c2cc9",
         "type": "tabs",
         "children": [
           {
-            "id": "3a6731865dd7101e",
+            "id": "83fba6b18008fa90",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/System Design/Single Chain of Responsibility.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Single Chain of Responsibility"
+              "title": "New tab"
             }
           }
         ]
@@ -140,11 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/System Design/Single Chain of Responsibility.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Single Chain of Responsibility"
+              "title": "Outline"
             }
           }
         ],
@@ -168,10 +162,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3a6731865dd7101e",
+  "active": "83fba6b18008fa90",
   "lastOpenFiles": [
-    "Notes/System Design/Similarity between ISP and SRP.md",
+    "Notes/Algorithms/Climbing-Stairs.md",
+    "Notes/Algorithms/alien-dictionary.md",
     "Notes/System Design/Single Chain of Responsibility.md",
+    "Notes/System Design/Similarity between ISP and SRP.md",
     "Untitled 2.md",
     "Notes/System Design/Bridge Pattern.md",
     "Notes/System Design/Visitor Pattern.md",
@@ -200,8 +196,6 @@
     "Untitled 1.md",
     "Notes/KEUS",
     "Notes/System Design/Tasks.md",
-    "Notes/System Design/Factory Method.md",
-    "Notes/System Design/Creational Patterns.md",
     "Notes/Algorithms/Rat in a Maze.md~",
     "Notes/Algorithms/Backtracking.md~",
     "Notes/Algorithms/Knight Tour.md~",
