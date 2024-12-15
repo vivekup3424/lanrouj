@@ -11,13 +11,46 @@
             "id": "83fba6b18008fa90",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/System Design/LRU Cache.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "LRU Cache"
+            }
+          },
+          {
+            "id": "871702649977e2e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/System Design/URL Shortening Service.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "URL Shortening Service"
+            }
+          },
+          {
+            "id": "d050539f322af40b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,9 +169,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Notes/KEUS/1.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 1"
             }
           }
         ],
@@ -162,8 +197,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "83fba6b18008fa90",
+  "active": "d050539f322af40b",
   "lastOpenFiles": [
+    "Notes/System Design/URL Shortening Service.md",
+    "Pasted image 20241215224357.png",
+    "Notes/System Design/LRU Cache.md",
+    "Notes/System Design/Observer Pattern.md",
     "Notes/Algorithms/Climbing-Stairs.md",
     "Notes/Algorithms/alien-dictionary.md",
     "Notes/System Design/Single Chain of Responsibility.md",
@@ -179,7 +218,6 @@
     "Pasted image 20241214192350.png",
     "Notes/System Design/Structural Pattern.md",
     "Untitled.md",
-    "Notes/System Design/Observer Pattern.md",
     "Pasted image 20241214134757.png",
     "Notes/System Design/Behavioral Patterns.md",
     "Notes/Algorithms/Continuous Subarrays.md",
@@ -192,10 +230,7 @@
     "Notes/Algorithms/Stack & Queue.md",
     "Notes/System Design/Active-Active Architecture.md",
     "ran",
-    "Notes/KEUS/Untitled.md",
-    "Untitled 1.md",
     "Notes/KEUS",
-    "Notes/System Design/Tasks.md",
     "Notes/Algorithms/Rat in a Maze.md~",
     "Notes/Algorithms/Backtracking.md~",
     "Notes/Algorithms/Knight Tour.md~",
@@ -206,7 +241,6 @@
     "Pasted image 20241201222626.png",
     "Pasted image 20241201222617.png",
     "Pasted image 20241201222528.png",
-    "Pasted image 20241201222025.png",
     "Notes/Data Analytics",
     "Notes/Algorithms/count-set-bits.md~",
     "Notes/Untitled 1",
