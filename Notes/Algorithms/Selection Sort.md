@@ -1,3 +1,9 @@
+---
+tags:
+  - sorting
+  - algorithms
+---
+
 Selection sort is a comparison based sorting algorithm. 
 It works by first selecting a smallest element from an unsorted portion and replacing it with the first unsorted element.
 
@@ -19,3 +25,5 @@ void selectionSort(vector<int> &v){
 > [!NOTE]
 > Time Complexity = Θ(n<sup>2</sup>)
 > Space Complexity = constant extra space
+
+![[Pasted image 20241215155401.png]]
