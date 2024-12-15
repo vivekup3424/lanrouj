@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "7bc6b1f1ddfa3638",
+        "id": "96728243c507ed1b",
         "type": "tabs",
         "children": [
           {
-            "id": "450ce19534c93093",
+            "id": "c57338da6b6ae8b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/System Design/Design Hit Counter.md",
+                "file": "Notes/Algorithms/Prim’s algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design Hit Counter"
+              "title": "Prim’s algorithm"
             }
           },
           {
-            "id": "06a88ef4d8ecb815",
+            "id": "4ce52e0778f2410c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/System Design/Popular Sytem Design Questions.md",
+                "file": "Notes/Algorithms/Climbing Stairs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Popular Sytem Design Questions"
+              "title": "Climbing Stairs"
             }
           }
         ],
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/System Design/Popular Sytem Design Questions.md"
+                "file": "Notes/Algorithms/Climbing Stairs.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Popular Sytem Design Questions"
+              "title": "Outline of Climbing Stairs"
             }
           }
         ],
@@ -183,12 +183,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "06a88ef4d8ecb815",
+  "active": "4ce52e0778f2410c",
   "lastOpenFiles": [
+    "Notes/Algorithms/Prim’s algorithm.md",
+    "Notes/Algorithms/Climbing Stairs.md",
     "Notes/System Design/Design Hit Counter.md",
+    "Notes/Algorithms/Union of Two Sorted Array.md",
+    "fast/main.go~",
+    "fast/stirngu/hello.go~",
+    "fast/stirngu/hello.go",
+    "fast/main.go",
+    "fast/stirngu/go.mod",
+    "fast/stirngu",
+    "fast/go.mod",
+    "fast",
+    "Notes/Algorithms/Merge Two Sorted Arrays.md",
     "Notes/System Design/Popular Sytem Design Questions.md",
     "Notes/Algorithms/Selection Sort.md",
-    "Notes/Algorithms/Merge Operation or Union of Two Sorted Array.md",
     "Pasted image 20241215155401.png",
     "Notes/Algorithms/Recursion.md",
     "Notes/Algorithms/Print 1 to n using recursion.md",
@@ -212,25 +223,14 @@
     "Untitled.md",
     "Notes/System Design/Observer Pattern.md",
     "Pasted image 20241214134757.png",
-    "Notes/System Design/Behavioral Patterns.md",
-    "Notes/Algorithms/Continuous Subarrays.md",
-    "Notes/Algorithms/Heap.md",
     "Pasted image 20241111225348.png",
     "ran",
     "Notes/KEUS",
-    "Notes/Algorithms/Rat in a Maze.md~",
-    "Notes/Algorithms/Backtracking.md~",
-    "Notes/Algorithms/Knight Tour.md~",
-    "Notes/Blockchain",
     "Pasted image 20241201235723.png",
-    "Notes/Data Analytics/Assumptions of Linear Regression.md~",
     "Pasted image 20241201222749.png",
     "Pasted image 20241201222626.png",
     "Pasted image 20241201222617.png",
     "Pasted image 20241201222528.png",
-    "Notes/Data Analytics",
-    "Notes/Algorithms/count-set-bits.md~",
-    "Notes/Untitled 1",
     "Untitled.canvas"
   ]
 }
