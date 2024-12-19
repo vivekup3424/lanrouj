@@ -75,7 +75,7 @@ def merge_in_place(A, m, B, n):
 - B=[2,4,6]B = [2, 4, 6], n=3n = 3.
 
 #### Output:
-
+ 
 - A=[1,2,3,4,5,6]A = [1, 2, 3, 4, 5, 6].
 
 #### Walkthrough:
