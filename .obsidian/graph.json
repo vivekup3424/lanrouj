@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"Notes/System Design\"  ",
+  "search": "path:\"Notes/System Design\" ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -17,6 +17,10 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
+<<<<<<< HEAD
   "scale": 0.22554216458152307,
+=======
+  "scale": 0.8807935230820545,
+>>>>>>> 881cdec83e33ffd3aaccf363ea6da115f3d85afb
   "close": true
 }
