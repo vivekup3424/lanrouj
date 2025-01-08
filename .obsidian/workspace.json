@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "66e00940d21f2f4f",
+        "id": "590dddfdf13f9fb9",
         "type": "tabs",
         "children": [
           {
-            "id": "34a3d782bdd07262",
+            "id": "cf2fd37ba4affae7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Number of Ways to Form a Target String Given a Dictionary.md",
+                "file": "Notes/KEUS/1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Number of Ways to Form a Target String Given a Dictionary"
-            }
-          },
-          {
-            "id": "056894f44f6633e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Algorithms/Intersection of Two arrays with Duplicate Elements.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Intersection of Two arrays with Duplicate Elements"
-            }
-          },
-          {
-            "id": "f3389a562bd4f9ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dailyJournal/4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4"
+              "title": "1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,12 +167,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "056894f44f6633e5",
+  "active": "cf2fd37ba4affae7",
   "lastOpenFiles": [
+    "Notes/System Design/Tasks.md",
     "dailyJournal/4.md",
-    "Notes/Algorithms/Max Possible Bitwise AND.md",
-    "Notes/Algorithms/Intersection of Two arrays with Duplicate Elements.md",
     "Notes/Algorithms/Number of Ways to Form a Target String Given a Dictionary.md",
+    "Notes/Algorithms/Intersection of Two arrays with Duplicate Elements.md",
+    "Notes/Algorithms/Max Possible Bitwise AND.md",
     "Notes/Algorithms/Maximize The Cut Segments.md",
     "Notes/Algorithms/Min Cost Climbing Stairs.md",
     "Notes/Algorithms/Trapping Rainwater.md",
