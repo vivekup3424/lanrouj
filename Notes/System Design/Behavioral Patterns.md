@@ -2,7 +2,7 @@ Behavioral patterns focus on communication and responsibility between objects.
 
 #### **Key Patterns:**
 
-1. **Strategy**
+1. **[[Strategy Pattern]]**
     
     - Defines a family of algorithms, encapsulates each one, and makes them interchangeable.
     - **Use Case:** Sorting algorithms, payment strategies (credit card, PayPal).
