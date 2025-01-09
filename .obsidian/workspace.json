@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "590dddfdf13f9fb9",
+        "id": "5bc3889b5eb623f7",
         "type": "tabs",
         "children": [
           {
-            "id": "cf2fd37ba4affae7",
+            "id": "4218e3181be57ac5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,8 +167,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cf2fd37ba4affae7",
+  "active": "4218e3181be57ac5",
   "lastOpenFiles": [
+    "Notes/Algorithms/Count Prefix and Suffix Pairs I.md",
+    "Notes/Algorithms/Djikstra's.md",
+    "Notes/KEUS/1.md",
     "Notes/System Design/Tasks.md",
     "dailyJournal/4.md",
     "Notes/Algorithms/Number of Ways to Form a Target String Given a Dictionary.md",
