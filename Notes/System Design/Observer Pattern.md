@@ -7,7 +7,7 @@ tags: []
 ## Overview
 
 - **Purpose**: Establish a one-to-many dependency between objects so that when one object (subject) changes state, all its dependents (observers) are notified and updated automatically.
-- **Type**: Behavioral Design Pattern.
+- **Type**: [[Behavioral Patterns]].
 
 ---
 
@@ -46,15 +46,28 @@ tags: []
 
 ## UML Diagram (Optional)
 
-```plaintext
-+-------------+      +------------------+      +------------------+
-|   Subject   |<---->| Observer (Iface) |<---->| Concrete Observer|
-+-------------+      +------------------+      +------------------+
-| attach()    |      | update()         |      | update()         |
-| detach()    |                                       :
-| notify()    |<-----------------------+ notify()
-+-------------+
+```mermaid
+classDiagram
+    class Subject {
+        +attach()
+        +detach()
+        +notify()
+    }
+
+    class Observer {
+        <<interface>>
+        +update()
+    }
+
+    class ConcreteObserver {
+        +update()
+    }
+
+    Subject --> Observer : notifies
+    Observer <|-- ConcreteObserver : implements
+
 ```
+
 
 ---
 
