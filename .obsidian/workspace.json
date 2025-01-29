@@ -6,7 +6,6 @@
       {
         "id": "d2843de53543ba16",
         "type": "tabs",
-        "dimension": 80.89812332439679,
         "children": [
           {
             "id": "1a33a17b96145fb4",
@@ -21,16 +20,9 @@
               "icon": "lucide-file",
               "title": "Docker"
             }
-          }
-        ]
-      },
-      {
-        "id": "3a330f8301d5491a",
-        "type": "tabs",
-        "dimension": 19.101876675603215,
-        "children": [
+          },
           {
-            "id": "32572bfb3db44b74",
+            "id": "a1f0ded538931a4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -116,8 +108,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/find-building-where-alice-and-bob-can-meet.excalidraw.md",
-                "collapseAll": false,
+                "file": "Notes/System Design/Docker/Docker.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -126,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for find-building-where-alice-and-bob-can-meet.excalidraw"
+              "title": "Backlinks for Docker"
             }
           },
           {
@@ -162,18 +154,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/find-building-where-alice-and-bob-can-meet.excalidraw.md"
+                "file": "Notes/System Design/Docker/Docker.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of find-building-where-alice-and-bob-can-meet.excalidraw"
+              "title": "Outline of Docker"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,7 +181,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1a33a17b96145fb4",
+  "active": "71631f6ec94dd3c4",
   "lastOpenFiles": [
     "Notes/KEUS/Daily Progress.md",
     "Notes/System Design/Docker/Docker.md",
