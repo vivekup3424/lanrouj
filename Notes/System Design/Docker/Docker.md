@@ -1,7 +1,7 @@
 This is the place where I will store everything there is to know about Docker.
 
 
-# Port Forwarding in Docker**
+# Port Forwarding in Docker
 
 Port forwarding in Docker refers to exposing ports from a container to the host machine, allowing external systems to communicate with services running inside the container.
 
@@ -111,3 +111,5 @@ docker-compose up -d
 ```
 
 ---
+
+# Networking in Docker

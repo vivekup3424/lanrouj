@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/System Design/Docker/Docker.md",
+                "file": "Notes/Algorithms/DSU.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "DSU"
             }
           },
           {
-            "id": "a1f0ded538931a4a",
+            "id": "25af244ea11d5de6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/KEUS/Daily Progress.md",
+                "file": "Notes/Algorithms/Cycle Detection in Graphs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Progress"
+              "title": "Cycle Detection in Graphs"
             }
           }
         ]
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/System Design/Docker/Docker.md",
+                "file": "Notes/Algorithms/DSU.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Docker"
+              "title": "Backlinks for DSU"
             }
           },
           {
@@ -154,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/System Design/Docker/Docker.md"
+                "file": "Notes/Algorithms/DSU.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Docker"
+              "title": "Outline of DSU"
             }
           }
         ],
@@ -177,14 +176,25 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "71631f6ec94dd3c4",
+  "active": "1a33a17b96145fb4",
   "lastOpenFiles": [
+    "Pasted image 20241109163912.png",
+    "Notes/Algorithms/Cycle Detection in Graphs.md",
+    "Notes/Algorithms/DSU.md",
+    "Notes/Algorithms/Kruskal's.md",
+    "Notes/System Design/Clean Code Architecture.md",
+    "Pasted image 20250129171026.png",
     "Notes/KEUS/Daily Progress.md",
     "Notes/System Design/Docker/Docker.md",
+    "Notes/System Design/Hexagonal Architecture.md",
+    "Notes/KEUS/Clean Code Architecture.md",
+    "Notes/Linux/String matching and Text Processing.md",
+    "Notes/Computer Networking/Networking Devices.md",
+    "Notes/Linux",
+    "Notes/Computer Networking/OSI Model.md",
     "Notes/System Design/Docker",
     "Notes/KEUS/1.md",
     "Notes/System Design/NATS/What NATS Offers.md",
@@ -203,16 +213,6 @@
     "Pasted image 20241101113244.png",
     "Notes/ModellingSimulation/Random Variable.md",
     "Notes/ModellingSimulation/Compartmental Models.md",
-    "Notes/ModellingSimulation/EigenValues and EigenVectors.md",
-    "Excalidraw/Drawing 2025-01-09 15.49.48.excalidraw.md",
-    "Notes/ModellingSimulation/Probability Distributions.md",
-    "Notes/ModellingSimulation/Poisson Process.md",
-    "Notes/Algorithms/Count Prefix and Suffix Pairs I.md",
-    "Notes/Algorithms/Djikstra's.md",
-    "Notes/System Design/Tasks.md",
-    "dailyJournal/4.md",
-    "Notes/Algorithms/Number of Ways to Form a Target String Given a Dictionary.md",
-    "Notes/Algorithms/Intersection of Two arrays with Duplicate Elements.md",
     "Pasted Image 20241222220133_923.png",
     "Pasted image 20241222215614.png"
   ]

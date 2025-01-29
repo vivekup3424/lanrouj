@@ -1,4 +1,3 @@
-### **DSU (Disjoint Set Union)** 
 
 #### **1. What is DSU?**
 DSU, also known as Union-Find, is a data structure that efficiently manages and tracks a collection of disjoint (non-overlapping) sets. It supports two primary operations:
@@ -12,9 +11,9 @@ DSU is commonly used to address connectivity problems in graphs, such as determi
 #### **2. Why do we use DSU?**
 - **Efficiency**: DSU allows union and find operations to be performed in nearly constant time, thanks to optimizations like **path compression** and **union by size/rank**.
 - **Graph algorithms**: It is frequently used in graph-based algorithms, especially for:
-  - **Kruskal's Minimum Spanning Tree Algorithm**.
+  - **[[Kruskal's]] Minimum Spanning Tree Algorithm**.
   - **Connected components** in a graph.
-  - **Cycle detection** in undirected graphs.
+  - *[[Cycle Detection in Graphs#Cycle Dectection with DSU]]* in undirected graphs.
 
 ---
 
