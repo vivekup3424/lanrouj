@@ -4,39 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "c3602b11bcfe1fe1",
+        "id": "d2843de53543ba16",
         "type": "tabs",
+        "dimension": 80.89812332439679,
         "children": [
           {
-            "id": "d91020374d68eda8",
+            "id": "1a33a17b96145fb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Prim’s algorithm.md",
+                "file": "Notes/System Design/Docker/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prim’s algorithm"
-            }
-          },
-          {
-            "id": "b23b39420b2b91fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Algorithms/Jump Game VIII.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Jump Game VIII"
+              "title": "Docker"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "3a330f8301d5491a",
+        "type": "tabs",
+        "dimension": 19.101876675603215,
+        "children": [
+          {
+            "id": "32572bfb3db44b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily Progress"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,15 +189,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b23b39420b2b91fd",
+  "active": "1a33a17b96145fb4",
   "lastOpenFiles": [
-    "Notes/Algorithms/Prim’s algorithm.md",
+    "Notes/KEUS/Daily Progress.md",
+    "Notes/System Design/Docker/Docker.md",
+    "Notes/System Design/Docker",
+    "Notes/KEUS/1.md",
+    "Notes/System Design/NATS/What NATS Offers.md",
+    "Untitled 3.md",
     "Notes/Algorithms/Jump Game VIII.md",
+    "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/Algorithms/Course Schedule IV.md",
     "Notes/Algorithms/Is Subsequence.md",
     "Notes/KEUS/Course Schedule IV.md",
     "Notes/KEUS/is-subsequence.md",
-    "Notes/KEUS/1.md",
     "Notes/System Design/Strategy Pattern.md",
     "Notes/System Design/Dead Letter Queue.md",
     "Notes/Algorithms/Valid Parenthesis String.md",
@@ -209,10 +221,6 @@
     "dailyJournal/4.md",
     "Notes/Algorithms/Number of Ways to Form a Target String Given a Dictionary.md",
     "Notes/Algorithms/Intersection of Two arrays with Duplicate Elements.md",
-    "Notes/Algorithms/Max Possible Bitwise AND.md",
-    "Notes/Algorithms/Maximize The Cut Segments.md",
-    "Notes/Algorithms/Min Cost Climbing Stairs.md",
-    "Notes/Algorithms/Trapping Rainwater.md",
     "Pasted Image 20241222220133_923.png",
     "Pasted image 20241222215614.png"
   ]
