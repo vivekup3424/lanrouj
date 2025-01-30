@@ -74,10 +74,9 @@ deployments/
 ```
 
 
+## Coding Guidelines
 
-1. Is the code change small enough to grok without needing docs? If not, what docs strings are supplied?
-
-3. Can the code be made simpler? Will another developer be able to easily understand and use this code when they come across it in the future? Add comment if necessary.
+1. Can the code be made simpler? Will another developer be able to easily understand and use this code when they come across it in the future? Add comment if necessary.
     
 2. Check the code for good engineering practices such as [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), [SOLID](https://en.wikipedia.org/wiki/SOLID), what are the [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming)#:~:text=Coupling%20and%20cohesion%20are%20terms,within%20a%20single%20module%20are.) and [cohesion](https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/) like.
     
@@ -87,8 +86,13 @@ deployments/
     
 5. What dependencies is the code taking on other systems/code? Are these dependencies required? Reasons for using a dependency ?
     
-6. Security and data privacy. Is the code adhering to good practices in secure/defensive coding? Is the code potentially leaving you liable to a privacy headache if happens to be deployed to other countries? Are these secrets in the code? What about the [OWASP top 10](https://owasp.org/www-project-top-ten/)?
+6.  Is the code adhering to good practices in secure/defensive coding? Are these secrets in the code?
     
 7. Does the code actually do what it says it does? If necessary you can add some comment to exaplain in simple manner what does that code do? What testing has been carried out?
-    
-8. How will the code be delivered? Is it making it hard to deploy ok or does it adhere to the companies standards?
+
+## Naming Conventions
+1. Use camelCase for variable and function names
+2. Use PascalCase for class and interface names
+3. Use descriptive names for variables, functions, and classes
+4. Avoid abbreviations unless widely recognized
+5. Make use of Enums wherever necessary
