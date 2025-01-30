@@ -4,38 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "d2843de53543ba16",
+        "id": "b5a4f13a9e300ef0",
         "type": "tabs",
         "children": [
           {
-            "id": "1a33a17b96145fb4",
+            "id": "36d8a47c4540a1a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/DSU.md",
+                "file": "Notes/KEUS/1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSU"
+              "title": "1"
             }
           },
           {
-            "id": "25af244ea11d5de6",
+            "id": "858c51a3870951c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Cycle Detection in Graphs.md",
+                "file": "Notes/KEUS/Code Review Guidelines.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cycle Detection in Graphs"
+              "title": "Code Review Guidelines"
+            }
+          },
+          {
+            "id": "0f8ba3dccda9efa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/System Design/Clean Code Architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clean Code Architecture"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -153,10 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Algorithms/DSU.md"
+                "file": "Notes/KEUS/Code Review Guidelines.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DSU"
+              "title": "Outline of Code Review Guidelines"
             }
           }
         ],
@@ -176,16 +192,19 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1a33a17b96145fb4",
+  "active": "858c51a3870951c7",
   "lastOpenFiles": [
-    "Pasted image 20241109163912.png",
+    "Notes/System Design/Clean Code Architecture.md",
+    "Notes/KEUS/Code Review Guidelines.md",
+    "Notes/KEUS/1.md",
     "Notes/Algorithms/Cycle Detection in Graphs.md",
     "Notes/Algorithms/DSU.md",
+    "Pasted image 20241109163912.png",
     "Notes/Algorithms/Kruskal's.md",
-    "Notes/System Design/Clean Code Architecture.md",
     "Pasted image 20250129171026.png",
     "Notes/KEUS/Daily Progress.md",
     "Notes/System Design/Docker/Docker.md",
@@ -196,7 +215,6 @@
     "Notes/Linux",
     "Notes/Computer Networking/OSI Model.md",
     "Notes/System Design/Docker",
-    "Notes/KEUS/1.md",
     "Notes/System Design/NATS/What NATS Offers.md",
     "Untitled 3.md",
     "Notes/Algorithms/Jump Game VIII.md",
