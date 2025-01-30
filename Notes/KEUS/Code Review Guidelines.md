@@ -96,3 +96,5 @@ deployments/
 3. Use descriptive names for variables, functions, and classes
 4. Avoid abbreviations unless widely recognized
 5. Make use of Enums wherever necessary
+
+### Enforcing standards in github pull request

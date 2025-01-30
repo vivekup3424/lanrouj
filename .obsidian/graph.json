@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "computer network",
+  "search": "system design",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.1408529223203578,
-  "close": true
+  "scale": 1.7881233372819996,
+  "close": false
 }

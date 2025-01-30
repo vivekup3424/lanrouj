@@ -4,49 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b5a4f13a9e300ef0",
+        "id": "6918b88fce1f5161",
         "type": "tabs",
         "children": [
           {
-            "id": "36d8a47c4540a1a6",
+            "id": "94e62e59d0a55654",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/KEUS/1.md",
+                "file": "Notes/System Design/URL Shortening Service.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "URL Shortening Service"
             }
           },
           {
-            "id": "858c51a3870951c7",
+            "id": "10f843d8432adc0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/KEUS/Code Review Guidelines.md",
+                "file": "Notes/System Design/How does Discord work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Code Review Guidelines"
-            }
-          },
-          {
-            "id": "0f8ba3dccda9efa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/System Design/Clean Code Architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Clean Code Architecture"
+              "title": "How does Discord work"
             }
           }
         ],
@@ -169,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/KEUS/Code Review Guidelines.md"
+                "file": "Notes/System Design/How does Discord work.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Code Review Guidelines"
+              "title": "Outline of How does Discord work"
             }
           }
         ],
@@ -196,10 +182,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "858c51a3870951c7",
+  "active": "10f843d8432adc0b",
   "lastOpenFiles": [
-    "Notes/System Design/Clean Code Architecture.md",
+    "Notes/System Design/URL Shortening Service.md",
+    "Notes/System Design/How does Discord work.md",
     "Notes/KEUS/Code Review Guidelines.md",
+    "Notes/System Design/Clean Code Architecture.md",
     "Notes/KEUS/1.md",
     "Notes/Algorithms/Cycle Detection in Graphs.md",
     "Notes/Algorithms/DSU.md",
@@ -229,8 +217,6 @@
     "Pasted image 20241109235225.png",
     "Pasted image 20241101114954.png",
     "Pasted image 20241101113244.png",
-    "Notes/ModellingSimulation/Random Variable.md",
-    "Notes/ModellingSimulation/Compartmental Models.md",
     "Pasted Image 20241222220133_923.png",
     "Pasted image 20241222215614.png"
   ]
