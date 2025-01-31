@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/System Design/How does Discord work.md",
+                "file": "Notes/System Design/Clean Code Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How does Discord work"
+              "title": "Clean Code Architecture"
+            }
+          },
+          {
+            "id": "8d49965f6dee47db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/Code Review Guidelines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Code Review Guidelines"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -155,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/System Design/How does Discord work.md"
+                "file": "Notes/KEUS/Code Review Guidelines.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of How does Discord work"
+              "title": "Outline of Code Review Guidelines"
             }
           }
         ],
@@ -182,12 +195,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "10f843d8432adc0b",
+  "active": "8d49965f6dee47db",
   "lastOpenFiles": [
-    "Notes/System Design/URL Shortening Service.md",
-    "Notes/System Design/How does Discord work.md",
-    "Notes/KEUS/Code Review Guidelines.md",
     "Notes/System Design/Clean Code Architecture.md",
+    "Notes/KEUS/Code Review Guidelines.md",
+    "Notes/System Design/Untitled 1.md",
+    "Notes/System Design/How does Discord work.md",
+    "Notes/System Design/URL Shortening Service.md",
     "Notes/KEUS/1.md",
     "Notes/Algorithms/Cycle Detection in Graphs.md",
     "Notes/Algorithms/DSU.md",
@@ -213,7 +227,6 @@
     "Notes/KEUS/is-subsequence.md",
     "Notes/System Design/Strategy Pattern.md",
     "Notes/System Design/Dead Letter Queue.md",
-    "Notes/Algorithms/Valid Parenthesis String.md",
     "Pasted image 20241109235225.png",
     "Pasted image 20241101114954.png",
     "Pasted image 20241101113244.png",
