@@ -1,4 +1,5 @@
 My Simple Approach 
+![[Pasted image 20250204014427.png|400]]
 ```c++
 #include <bits/stdc++.h>
 using namespace std;
