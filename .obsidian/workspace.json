@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Trapping Rainwater"
             }
+          },
+          {
+            "id": "38bd80b5d5ce2bd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Java/Variable Length Row in matrix in java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variable Length Row in matrix in java"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -139,10 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Algorithms/Trapping Rainwater.md"
+                "file": "Notes/Java/Variable Length Row in matrix in java.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Trapping Rainwater"
+              "title": "Outline of Variable Length Row in matrix in java"
             }
           }
         ],
@@ -166,8 +186,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "94343f038c50410e",
+  "active": "38bd80b5d5ce2bd4",
   "lastOpenFiles": [
+    "Notes/Java/Variable Length Row in matrix in java.md",
+    "Notes/Java",
     "Pasted image 20250204014427.png",
     "Notes/Algorithms/3Sum.md",
     "Notes/Algorithms/Two Sum(Input Array Sorted).md",
@@ -184,15 +206,15 @@
     "Notes/Algorithms/Kruskal's.md",
     "Pasted image 20250129171026.png",
     "Notes/KEUS/Daily Progress.md",
-    "Notes/System Design/Docker/Docker.md",
+    "Notes/Docker/Docker.md",
     "Notes/System Design/Hexagonal Architecture.md",
     "Notes/KEUS/Clean Code Architecture.md",
     "Notes/Linux/String matching and Text Processing.md",
     "Notes/Computer Networking/Networking Devices.md",
     "Notes/Linux",
     "Notes/Computer Networking/OSI Model.md",
-    "Notes/System Design/Docker",
-    "Notes/System Design/NATS/What NATS Offers.md",
+    "Notes/Docker",
+    "Notes/NATS/What NATS Offers.md",
     "Untitled 3.md",
     "Notes/Algorithms/Jump Game VIII.md",
     "Notes/Algorithms/Prim’s algorithm.md",
