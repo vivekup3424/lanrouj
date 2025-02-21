@@ -160,3 +160,6 @@ Bitwise operators operate on binary representations of integers. They perform bi
 ## Problems
 1. [[Shortest Subarray With OR at Least K II]]
 2. [[count-set-bits]]
+
+## [[Bit Set]]
+Important data structure for bit manipulation

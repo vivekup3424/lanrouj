@@ -1,3 +1,8 @@
+---
+tags:
+  - bit-manipulation
+---
+
 - **Why focus on XOR?**  
     XOR is crucial because of its unique properties:
     

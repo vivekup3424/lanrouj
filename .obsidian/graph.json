@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
-  "search": "system design",
-  "showTags": false,
+  "search": "bit",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.7881233372819996,
-  "close": false
+  "scale": 0.6577169471499502,
+  "close": true
 }
