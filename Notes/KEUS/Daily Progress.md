@@ -30,3 +30,11 @@ Today I am gonna present the demo for the rules-engine, along with three working
 
 The demo was good, now I need to sit with Akhil and Rohit and decide upon milestones about how to make this plugin go faster in production.
 I atleast want this plugin to go in production before my internship is over.
+
+
+## 2025-02-25
+- Designed and coded to implmentation to avoid execution of circular loops in rules-engine
+
+## 2025-02-27
+- Today's I am only gonna work on handling success and failures in moleculer channels, 
+- and how to custom options in each moleculer channels

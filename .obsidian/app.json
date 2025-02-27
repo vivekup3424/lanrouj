@@ -5,7 +5,7 @@
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "showLineNumber": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "useMarkdownLinks": false,
   "pdfExportSettings": {
     "pageSize": "Letter",

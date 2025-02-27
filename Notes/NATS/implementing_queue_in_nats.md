@@ -1,0 +1,1 @@
+1. Since NATS has a 1:N fan-out pattern

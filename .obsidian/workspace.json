@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algorithms/DSU.md",
+                "file": "dailyJournal/4.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DSU"
+              "title": "Backlinks for 4"
             }
           },
           {
@@ -148,27 +149,16 @@
               "icon": "lucide-list",
               "title": "Outline of 4"
             }
-          },
-          {
-            "id": "e01ae9ba156a6f7a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -177,13 +167,19 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "b55f54ae4572fc9d",
   "lastOpenFiles": [
-    "dailyJournal/README.md",
+    "dailyJournal/Untitled.md",
+    "dailyJournal/4.md",
     "Notes/KEUS/Daily Progress.md",
+    "Notes/System Design/OOP.md",
+    "Pasted image 20250227130545.png",
+    "Notes/NATS/implementing_queue_in_nats.md",
+    "dailyJournal/README.md",
     "Notes/ModellingSimulation/Random Variable.md",
     "Notes/Algorithms/Bit Set.md",
     "Notes/Algorithms/Bit Manipulation.md",
@@ -207,11 +203,7 @@
     "Notes/Algorithms/Cycle Detection in Graphs.md",
     "Notes/Algorithms/DSU.md",
     "Pasted image 20241109163912.png",
-    "Notes/Algorithms/Kruskal's.md",
     "Pasted image 20250129171026.png",
-    "Notes/Docker/Docker.md",
-    "Notes/System Design/Hexagonal Architecture.md",
-    "Notes/KEUS/Clean Code Architecture.md",
     "Notes/Linux",
     "Notes/Docker",
     "Pasted image 20241109235225.png",
