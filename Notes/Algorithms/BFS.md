@@ -52,33 +52,7 @@ void bfs(vector<vector<int>>& adj, int s) {
         }
     }
 }
-
-void addEdge(vector<vector<int>>& adj, int u, int v) {
-    adj[u].push_back(v);
-    adj[v].push_back(u); // Undirected Graph
-}
-
-int main() {
-    int V = 5;
-    vector<vector<int>> adj(V);
-    addEdge(adj, 0, 1);
-    addEdge(adj, 0, 2);
-    addEdge(adj, 1, 3);
-    addEdge(adj, 1, 4);
-    addEdge(adj, 2, 4);
-
-    cout << "BFS starting from 0:\n";
-    bfs(adj, 0);
-
-    return 0;
-}
 ```
-
-  
-**Output**
-
-BFS starting from 0 : 
-0 1 2 3 4 
 
 ****Time Complexity:**** O(V+E), where V is the number of nodes and E is the number of edges.  
 ****Auxiliary Space:**** O(V)
@@ -104,3 +78,5 @@ BFS has various applications in graph theory and computer science, including:
 - ****Network Routing:**** BFS can be used to find the shortest path between two nodes in a network, making it useful for routing data packets in network protocols.
 
 ## Problems on Breadth First Search or BFS for a Graph:
+1. [[Minimum Genetic Mutation]]
+2. 
