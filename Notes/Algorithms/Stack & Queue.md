@@ -30,7 +30,7 @@ Questions based on stack and queues
 4. [[Sliding Window Maximum]]
 5. [[min-stack]]
 6. implement [[two-stacks-in-an-array]]
-7. 
+7. [[Dota 2 Senate]]
 
 
 Questions based on stack and strings
