@@ -97,3 +97,6 @@ Graph Data Structure has numerous real-life applications across various fields. 
 - ****Robot planning:**** Vertices represent states the robot can be in and the edges the possible transitions between the states. Such graph plans are used, for example, in planning paths for autonomous vehicles.
 - Dependencies in a software project (or any other type of project) can be seen as graph and generating a sequence to solve all tasks before dependents is a standard graph topological sorting algorithm.
 - For optimizing the cost of connecting all locations of a network. For example, minimizing wire length in a wired network to make sure all devices are connected is a standard Graph problem called Minimum Spanning Tree.
+
+## Cycles and circuits in the graph
+1. [[Hamiltonian Path]]

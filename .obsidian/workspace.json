@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "700fe02a646d38a1",
+            "id": "0b74714f582961e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Algorithms/NP and NP-Complete.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "NP and NP-Complete"
             }
           }
         ]
@@ -167,8 +171,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "700fe02a646d38a1",
+  "active": "0b74714f582961e7",
   "lastOpenFiles": [
+    "Notes/Algorithms/Derandomization.md",
+    "Notes/Algorithms/NP and NP-Complete.md",
+    "Notes/Algorithms/Graphs.md",
+    "Notes/Algorithms/Hamiltonian Path.md",
+    "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/KEUS/Daily Progress.md",
     "Notes/Algorithms/Sliding Window.md",
     "Notes/Algorithms/Dota 2 Senate.md",
@@ -176,7 +185,6 @@
     "Notes/Algorithms/Stack & Queue.md",
     "Notes/Algorithms/Longest Nice Subarray.md",
     "Notes/Algorithms/DFS.md",
-    "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/Algorithms/Minimum Genetic Mutation.md",
     "Notes/Algorithms/BFS.md",
     "dailyJournal/Job Applications.md",
@@ -193,9 +201,6 @@
     "Notes/Algorithms/Bit Set.md",
     "Notes/Algorithms/Bit Manipulation.md",
     "Notes/Algorithms/Importance of Bitwise XOR.md",
-    "Notes/Algorithms/Quick Sort.md",
-    "Notes/System Design/Software Release Process.md",
-    "Notes/Linux/String matching and Text Processing.md",
     "Notes/Java",
     "Pasted image 20250204014427.png",
     "Pasted image 20241109163912.png",

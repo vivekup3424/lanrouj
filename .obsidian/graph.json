@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "system design",
+  "search": "graph algorithm",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2142166461625109,
+  "scale": 1.288418751629504,
   "close": false
 }
