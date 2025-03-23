@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "46d3d633e144878f",
+        "id": "bc862674e3d3ddce",
         "type": "tabs",
         "children": [
           {
-            "id": "0b74714f582961e7",
+            "id": "d68ed18c5050bd78",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Algorithms/NP and NP-Complete.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "NP and NP-Complete"
+              "title": "New tab"
             }
           }
         ]
@@ -171,10 +167,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0b74714f582961e7",
+  "active": "d68ed18c5050bd78",
   "lastOpenFiles": [
-    "Notes/Algorithms/Derandomization.md",
     "Notes/Algorithms/NP and NP-Complete.md",
+    "Notes/Algorithms/Derandomization.md",
     "Notes/Algorithms/Graphs.md",
     "Notes/Algorithms/Hamiltonian Path.md",
     "Notes/Algorithms/Prim’s algorithm.md",
