@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fe5b3b14c5f8634f",
+        "id": "46d3d633e144878f",
         "type": "tabs",
         "children": [
           {
-            "id": "e31c0aeb4c64f79c",
+            "id": "700fe02a646d38a1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,8 +167,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e31c0aeb4c64f79c",
+  "active": "700fe02a646d38a1",
   "lastOpenFiles": [
+    "Notes/KEUS/Daily Progress.md",
     "Notes/Algorithms/Sliding Window.md",
     "Notes/Algorithms/Dota 2 Senate.md",
     "Pasted image 20250318224747.png",
@@ -178,7 +179,6 @@
     "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/Algorithms/Minimum Genetic Mutation.md",
     "Notes/Algorithms/BFS.md",
-    "Notes/KEUS/Daily Progress.md",
     "dailyJournal/Job Applications.md",
     "dailyJournal/IOT.md",
     "Notes/System Design/NoSQL.md",
