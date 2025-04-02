@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Maximum Number of Points from Grid Queries.md",
+                "file": "dailyJournal/5 - trying to be more consistent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maximum Number of Points from Grid Queries"
+              "title": "5 - trying to be more consistent"
             }
           }
         ],
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -196,13 +195,18 @@
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "426e14205043e891",
   "lastOpenFiles": [
-    "Notes/Algorithms/Prim’s algorithm.md",
+    "dailyJournal/4.md",
+    "dailyJournal/5 - trying to be more consistent.md",
+    "dailyJournal/2.md",
+    "dailyJournal/3.md",
     "Notes/Algorithms/Maximum Number of Points from Grid Queries.md",
+    "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/System Design/Strategy Pattern.md",
     "Notes/Difference between unkown and any.md",
     "Notes/typescript.md",
@@ -223,12 +227,8 @@
     "dailyJournal/IOT.md",
     "Notes/System Design/NoSQL.md",
     "Notes/System Design/Microservices Design Patterns.md",
-    "dailyJournal/4.md",
-    "dailyJournal/Untitled.md",
     "Notes/System Design/OOP.md",
     "Pasted image 20250227130545.png",
-    "Notes/NATS/implementing_queue_in_nats.md",
-    "dailyJournal/README.md",
     "Notes/Java",
     "Pasted image 20250204014427.png",
     "Pasted image 20241109163912.png",
