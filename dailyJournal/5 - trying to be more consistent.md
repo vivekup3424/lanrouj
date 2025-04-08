@@ -3,9 +3,7 @@ it wouldn't be a surprise if my journal would contain stuff which I have learn i
 programming or some details of my work-life
 Let me say this I have stopped caring about the work-life balance now
 And my journal would be convoluted with diverse stuffs from this point on.
-
-## Week 1
-### 2025-03-31
+## 2025-03-31
 #### Living the life in duality
 I am going to live my life in duality and confusion, whatever things or thoughprocess I have
 can be changed anytime
@@ -22,4 +20,16 @@ I tried unsuccessfully making the platform-dev container work, but it still is b
 - Will apply to 2 companies everyday
 - The first topic which I am weak at and should focus on is recursion
 - So I am going to solve CodeWithMik recursion (popular interview problems) playlist
-- 
+
+## 2025-04-06
+### Some understanding of the keus platform I've gained by deeper reading of the platform code
+- that postman-remote-server.sh script starts after the we are able to successfully call the get the GetNodeConfig handler using moleculer gaterway
+```js
+checkNodeConfig() {
+    NODE_CONFIG=$(curl --silent http://localhost:3000/keus/v1/node_configuration/GetNodeConfig)
+    NODE_ID=$(jq -r '.nodeConfig.nodeId' <<< "$NODE_CONFIG")
+    SITE_ID=$(jq -r '.nodeConfig.siteInfo.siteId' <<< "$NODE_CONFIG")
+
+    echo $SITE_ID $NODE_ID $NODE_CONFIG
+}
+```
