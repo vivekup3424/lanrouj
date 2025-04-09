@@ -11,6 +11,7 @@ But I will always be a man of action, whatever happens I won't hestitate in taki
 I won't think about whether that action could a optimal action, good action or a action which will
 harm me in future.
 
+
 #### Studying of dev-container cli
 I am going to do some practice with this tool for now
 I tried unsuccessfully making the platform-dev container work, but it still is being a pain in the ass.
@@ -33,3 +34,4 @@ checkNodeConfig() {
     echo $SITE_ID $NODE_ID $NODE_CONFIG
 }
 ```
+ This is the end

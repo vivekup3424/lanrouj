@@ -1,4 +1,4 @@
-## 2025-01-29
+G## 2025-01-29
 Today I am learning about Docker Networking and alongside I am also going to prepare notes on Docker in my Obsidian system.
 After reading some parts about Docker Network, I installed Neo4j on my ubuntu wsl and I am planning on learning more about them later on.
 
@@ -42,3 +42,10 @@ I atleast want this plugin to go in production before my internship is over.
 ## 2025-03-21
 - I am back at this thing, after such a long time
 - Tired of typing
+
+## 2025-04-09
+- I have written the code to move mongodb outside of dev-container
+- Need to work on that PR for fact_task_in_manifest, need to create a validator for the manifest
+	- For now waiting for Sai to finalise the manifest
+	- After that change the naming of some function and add extensive verbose error handling-
+- For now let's work on the adding the functionality of stop-node in the dev-container itself, so that when the dev-container, stop-node also get's triggered
