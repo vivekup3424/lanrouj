@@ -49,3 +49,9 @@ I atleast want this plugin to go in production before my internship is over.
 	- For now waiting for Sai to finalise the manifest
 	- After that change the naming of some function and add extensive verbose error handling-
 - For now let's work on the adding the functionality of stop-node in the dev-container itself, so that when the dev-container, stop-node also get's triggered
+
+## 2025-04-10
+- test the run plugin of hydra cli
+
+## 2025-04-17
+- 
