@@ -1,9 +1,9 @@
 {
   "collapse-filter": false,
-  "search": "system design",
+  "search": "mongo",
   "showTags": true,
-  "showAttachments": false,
-  "hideUnresolved": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [],
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7427906186618374,
+  "scale": 0.6780252644037356,
   "close": false
 }

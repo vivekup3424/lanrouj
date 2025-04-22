@@ -1,3 +1,9 @@
+---
+tags:
+  - tree
+  - binary-tree
+---
+
 Given the `root` of a **perfect** binary tree, reverse the node values at each **odd** level of the tree.
 
 - For example, suppose the node values at level 3 are `[2,1,3,4,7,11,29,18]`, then it should become `[18,29,11,7,4,3,1,2]`.

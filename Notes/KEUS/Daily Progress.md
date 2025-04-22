@@ -53,5 +53,13 @@ I atleast want this plugin to go in production before my internship is over.
 ## 2025-04-10
 - test the run plugin of hydra cli
 
-## 2025-04-17
-- 
+## 2025-04-22
+
+> [!TODO]
+> - [ ] Setup the keus-iot-gateway repo
+> - [ ] Code review for dev-gateway-restructure
+> - [ ] Understand how the notifications work currently on the gateway side
+> - [ ] Understand how code and how to work in branch `feat/device-and-appliance-flows`
+
+> [!Done]
+> - Nothing
