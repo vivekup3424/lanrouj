@@ -56,10 +56,21 @@ I atleast want this plugin to go in production before my internship is over.
 ## 2025-04-22
 
 > [!TODO]
-> - [ ] Setup the keus-iot-gateway repo
+> - [x] Setup the keus-iot-gateway repo
 > - [ ] Code review for dev-gateway-restructure
 > - [ ] Understand how the notifications work currently on the gateway side
 > - [ ] Understand how code and how to work in branch `feat/device-and-appliance-flows`
 
 > [!Done]
-> - Nothing
+> - Saw the video of Balaji explaining the code and workflow
+
+2025-05-06
+- the older approach of installing plugin in dev was checking for both backend and service like this 
+```ts
+                let location = `${pluginInfo.installLocation}/${['service', 'backend'].find(
+                    f => fs.existsSync(`${pluginInfo.installLocation}/${f}`)
+                )}/`;
+                let pluginImports = await import(`${location}`);
+```
+
+I think I can make use of something like this in manifest_refactoring branch
