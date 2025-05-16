@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tcp",
+  "search": "docker",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
