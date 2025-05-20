@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "a2db88e9c53a43fa",
+        "id": "f19ed3d60f448b6e",
         "type": "tabs",
         "children": [
           {
-            "id": "00426d972b87591b",
+            "id": "69064191a8e6eb1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/KEUS/Taskflow Example (Group Config).md",
+                "file": "Notes/Algorithms/Selection Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Taskflow Example (Group Config)"
+              "title": "Selection Sort"
+            }
+          },
+          {
+            "id": "4b428e5b52f4998c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Algorithms/Bubble Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bubble Sort"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#matrix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -170,11 +186,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00426d972b87591b",
+  "active": "4b428e5b52f4998c",
   "lastOpenFiles": [
+    "Notes/Algorithms/Selection Sort.md",
+    "Notes/Algorithms/Bubble Sort.md",
+    "Notes/Algorithms/Matrix Chain Multiplication.md",
+    "Notes/KEUS/Taskflow Example (Group Config).md",
+    "Notes/Algorithms/Set Matrix Zero.md",
+    "WhatsApp Image 2025-05-19 at 16.51.31_341b841b 1.jpg",
+    "WhatsApp Image 2025-05-19 at 16.51.31_341b841b.jpg",
+    "Notes/Algorithms/Array questions.md",
     "Notes/KEUS/output.docx",
     "Notes/Docker/Learning Docker Swarm.md",
-    "Notes/KEUS/Taskflow Example (Group Config).md",
     "Pasted image 20250515150329.png",
     "Notes/Docker/Docker.md",
     "Notes/Computer Networking/TCP.md",
@@ -200,18 +223,12 @@
     "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/typescript.md",
     "dailyJournal/5 - trying to be more consistent.md",
-    "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
-    "Notes/KEUS/Untitled 1.md",
-    "Notes/KEUS/Working with plugins.md",
-    "dailyJournal/4.md",
     "Pasted image 20250318224747.png",
     "Pasted image 20250227130545.png",
     "Notes/Java",
     "Pasted image 20250204014427.png",
     "Pasted image 20241109163912.png",
-    "Pasted image 20250129171026.png",
     "Notes/Linux",
-    "Notes/Docker",
-    "Pasted image 20241109235225.png"
+    "Notes/Docker"
   ]
 }

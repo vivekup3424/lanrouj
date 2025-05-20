@@ -1,3 +1,8 @@
+---
+tags:
+  - taskflow
+---
+
 There is a service for configuring of a group containing 10 devices
 So we need to send one message to each device, 
 Now each of this channel we start
@@ -187,3 +192,173 @@ taskflow.retryTaskflow("your-taskflow-id", [
 ])
 ```
 
+## Storing metadata in nats-header
+We are storing
+```json
+{
+  "taskflowExecutionContext": {
+    "taskflow": {
+      "id": "c3dec307-99f2-437e-9942-8f7128210ddc",
+      "stageId": "6be74e3e-2861-44e3-b61f-39ca1aae6e5b",
+      "createdAt": 1747656460737,
+      "taskId": "7038abdc-4cc6-4026-8abf-316531b7e6c1",
+      "taskInfo": {
+        "id": "7038abdc-4cc6-4026-8abf-316531b7e6c1",
+        "attempt": 0,
+        "meta": {},
+        "params": {
+          "x": 2,
+          "y": 3
+        },
+        "options": {
+          "maxRetries": 3,
+          "maxAge": 60000,
+          "timeout": 60000,
+          "retryDelay": 5000,
+          "exactlyOnceTaskExecution": false,
+          "continueOnTaskFailure": true
+        },
+        "status": "WAITING",
+        "nestedActiveRunningTaskFlowIds": [],
+        "nestedTaskflows": [],
+        "name": "task1",
+        "type": "ACTION",
+        "taskDetails": {
+          "serviceId": "planning-service",
+          "actionName": "createBlueprint"
+        }
+      }
+    }
+  }
+}
+```
+
+we are storing every information about taskflow's task in meta => storing it in nats header
+
+### we are also storing previous stage response 
+```json
+{
+  "taskflowExecutionContext": {
+    "previousStageRes": [
+      {
+        "taskName": "task1",
+        "response": null
+      },
+      {
+        "taskName": "task2",
+        "response": {
+          "success": true,
+          "data": "NOTIFIED USER"
+        }
+      }
+    ],
+    "taskflow": {
+      "id": "c3dec307-99f2-437e-9942-8f7128210ddc",
+      "stageId": "80360bd5-9e24-4275-bca9-72bd4209af98",
+      "createdAt": 1747656460737,
+      "taskId": "7d16d80f-9ca9-43ce-aa0e-4f81258191ca",
+      "taskInfo": {
+        "id": "7d16d80f-9ca9-43ce-aa0e-4f81258191ca",
+        "attempt": 0,
+        "meta": {},
+        "params": {},
+        "options": {
+          "maxRetries": 3,
+          "maxAge": 60000,
+          "timeout": 60000,
+          "retryDelay": 5000,
+          "exactlyOnceTaskExecution": false,
+          "continueOnTaskFailure": true
+        },
+        "status": "WAITING",
+        "nestedActiveRunningTaskFlowIds": [],
+        "nestedTaskflows": [],
+        "name": "task3",
+        "type": "ACTION",
+        "taskDetails": {
+          "actionName": "prepareFoundation",
+          "serviceId": "construction-service"
+        }
+      }
+    }
+  }
+}
+```
+
+### we are also storing the parent taskflow execution context in meta
+```json
+{
+  "taskflowExecutionContext": {
+    "taskflow": {
+      "id": "451f3438-7552-4f1b-8068-efbda1eeb401",
+      "stageId": "04995efd-5e6a-426c-8455-344216c53db4",
+      "createdAt": 1747656479205,
+      "taskId": "ff56cf65-676d-4f95-9bc4-82c8335c2e7e",
+      "taskInfo": {
+        "id": "ff56cf65-676d-4f95-9bc4-82c8335c2e7e",
+        "attempt": 0,
+        "meta": {
+          "taskflowExecutionContext": {
+            "previousStageRes": [
+              {
+                "taskName": "task1",
+                "response": null
+              },
+              {
+                "taskName": "task2",
+                "response": {
+                  "success": true,
+                  "data": "NOTIFIED USER"
+                }
+              }
+            ],
+            "taskflow": {
+              "id": "c3dec307-99f2-437e-9942-8f7128210ddc",
+              "stageId": "80360bd5-9e24-4275-bca9-72bd4209af98",
+              "createdAt": 1747656460737,
+              "taskId": "82ace2f0-5d21-4691-8bba-9b63692a1f51",
+              "taskInfo": {
+                "id": "82ace2f0-5d21-4691-8bba-9b63692a1f51",
+                "attempt": 0,
+                "meta": {},
+                "params": {},
+                "options": {
+                  "maxRetries": 3,
+                  "maxAge": 60000,
+                  "timeout": 60000,
+                  "retryDelay": 5000,
+                  "exactlyOnceTaskExecution": false,
+                  "continueOnTaskFailure": true
+                },
+                "status": "WAITING",
+                "nestedActiveRunningTaskFlowIds": [],
+                "nestedTaskflows": [],
+                "name": "task7",
+                "type": "ACTION",
+                "taskDetails": {
+                  "actionName": "finishInteriors",
+                  "serviceId": "construction-service"
+                }
+              }
+            }
+          }
+        },
+        "params": {
+          "a": 5,
+          "b": 6
+        },
+        "options": {},
+        "status": "WAITING",
+        "nestedActiveRunningTaskFlowIds": [],
+        "nestedTaskflows": [],
+        "name": "task2",
+        "type": "ACTION",
+        "taskDetails": {
+          "actionName": "installBeds",
+          "serviceId": "vendor-service"
+        }
+      }
+    }
+  }
+}
+```
