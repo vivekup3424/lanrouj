@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "nats",
+  "search": "git",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.4355380424275792,
-  "close": false
+  "scale": 1.3372072903189203,
+  "close": true
 }

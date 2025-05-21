@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/NATS/What NATS Offers.md",
+                "file": "Notes/Linux/Packfiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What NATS Offers"
+              "title": "Packfiles"
+            }
+          },
+          {
+            "id": "ca629a728b6f7e04",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -53,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#matrix",
+                "query": "tag:git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,6 +184,9 @@
   },
   "active": "55d51e717537fc12",
   "lastOpenFiles": [
+    "Notes/Linux/Git.md",
+    "Notes/Linux/Packfiles.md",
+    "Notes/NATS/What NATS Offers.md",
     "Notes/Algorithms/Bubble Sort.md",
     "Notes/Algorithms/Insertion Sort.md",
     "Notes/Algorithms/Selection Sort.md",
@@ -204,10 +218,7 @@
     "Notes/System Design/Wide-Column Database.md",
     "Notes/System Design/Adapter Patterm.md",
     "Notes/System Design/Software Development Lifecycle Models in Software Eng..md",
-    "Notes/System Design/Design Parking Lot.md",
     "waterfall.jpg",
-    "Notes/Algorithms/Prim’s algorithm.md",
-    "Notes/typescript.md",
     "Pasted image 20250318224747.png",
     "Pasted image 20250227130545.png",
     "Notes/Java",
