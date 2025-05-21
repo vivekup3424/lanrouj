@@ -63,3 +63,8 @@
 - **Secure by Default**: NATS makes communication secure without relying on extra network protections.
 
 NATS simplifies how systems connect and communicate, especially in complex, distributed setups.
+
+
+#### Try reading these articles again
+1. https://nats.io/blog/new-per-subject-discard-policy/
+2. 
