@@ -183,10 +183,3 @@ git cat-file -p abc123...     # => hello world
     
 - `man git-cat-file`
     
-
-```
-
----
-
-Let me know if you'd like this as a downloadable `.md` file or want a hands-on tutorial based on this.
-```
