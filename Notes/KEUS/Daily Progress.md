@@ -74,3 +74,31 @@ I atleast want this plugin to go in production before my internship is over.
 ```
 
 I think I can make use of something like this in manifest_refactoring branch
+
+
+## 2025-05-22
+1. Need to take KT for cameras-plugin
+2. Optimise the camera's motion detection and recording to reduce 5%
+3. write a function to have the recording do object recognition
+4. test the system on "ssh keus@10.1.4.148  "
+	1. with password - keus123
+5. clean up the logs (no error logs, no log from ffmpeg ,opencv.... )
+	1. no logs on terminal from other sources except the print statements which I write
+6. reduce the cpu, as much as possible keeping accuracy of recordings and motion detection high enough
+7. reduce the length of video recording at the end to 2 seconds when no motion detected
+8. divide the recoding video into chunks of 1 minutes
+9. store the recordings such that if motion is detected from time t to s,
+	1. then recording file should contain video from t-5 to s+5 seconds
+10. keep the accuracy high, but cpu consumption extremly low
+11. as plugin
+	1. addCamera //add the data of camera  and start monitoring with my plugin
+	2. deleteCamera //remove the recordings for that ca+
+	3. getDetectio(cameraId[ ])
+	4. store the data for camera in mongodb
+	5. data of camera contains :-
+		1. CameraId,
+		2. rtsp URI
+	6. Requirements :-
+
+## 2025-05-26
+1. Today I am going to finish coding the motion-detection plugin
