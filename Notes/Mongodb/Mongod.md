@@ -1,6 +1,7 @@
 ---
 tags:
   - mongodb
+  - database
 ---
 
 ## 🧠 **What is `mongod`?**

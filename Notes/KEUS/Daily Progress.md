@@ -101,4 +101,22 @@ I think I can make use of something like this in manifest_refactoring branch
 	6. Requirements :-
 
 ## 2025-05-26
-1. Today I am going to finish coding the motion-detection plugin
+1. Today I am going to finish coding the motion-detection service, everything is work fine here with max use of 4% cpu
+2. Next tommorow I design the api server, and then I will write the plugin tommorrow itself.
+## 2025-05-27
+1. make the code modular
+2. make other variables like min_area, threshold, skip_frames as constant, but take the fps from camera source
+3. expose the functionality as an api with 
+   localhost, port - 8083
+	1. addCamera(camera-id, rtsp-url) - starts monitoring and saves the recording
+	2. deleteCamera(camera-id) - stops the monitoring
+4. make the python program multithreaded with different thread responsible for monitoring of different cameras
+5. make a thread responsible for cleanup jobs to remove recording directories older than three days
+6. save the recording in different directory for each camera, each recording saved into a respective directory name after the date on which the recording takes place
+7. the motion detection is working fine, but the recordings are breaking when I play them, so my requirements are
+8. use the prebuffer from opencv to add the footage of 5 seconds before the ffmpeg recording starts
+9. save the recording with ffmpeg cli command with suitable codec to preserve video and audio
+10. after motion stops and no motion is detected again for 5 seconds stop the recording
+11. store the recordings in form of chunks of 60 seconds each
+12. since opencv prebuffer frames don't have any audio, then you think about it how to concat
+   opencv prebuffer video + ffmpeg recording containing audio
