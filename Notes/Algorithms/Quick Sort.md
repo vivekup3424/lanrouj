@@ -1,148 +1,141 @@
-Great! Let's learn **Quick Sort** using a **first principles approach** — starting from the core problem it solves, why it works, and how.
+# QuickSort with Hoare's Partition Scheme
 
 ---
 
-## 🧩 What Problem Does Quick Sort Solve?
+## 🧠 Core Idea
 
-Quick Sort is a **comparison-based, divide-and-conquer sorting algorithm**.  
-Given an unsorted list or array of `n` elements, it returns a sorted list in ascending (or descending) order.
+QuickSort is a **divide-and-conquer** sorting algorithm. It works by:
 
----
-
-## 🧠 First Principles: How Does It Work?
-
-Quick Sort relies on two key ideas:
-
-### 1. **Divide and Conquer Strategy**
-
-- Like Merge Sort, Quick Sort breaks the array into smaller parts, sorts them, and combines the result.
+1. Choosing a pivot.
     
-- But unlike Merge Sort, Quick Sort does **not require merging**.
+2. Partitioning the array around the pivot so that:
     
-
-### 2. **Partitioning the Array**
-
-- Choose a **pivot** element from the array.
-    
-- Rearrange the array so that:
-    
-    - All elements **less than the pivot** go to the left,
+    - Left part contains elements <= pivot.
         
-    - All elements **greater than or equal to the pivot** go to the right.
+    - Right part contains elements >= pivot.
         
-- Then **recursively sort** the left and right subarrays.
+3. Recursively applying the same procedure on left and right partitions.
+    
+
+> In **Hoare's partition scheme**, the pivot is _not_ placed at its final sorted position immediately. Instead, the partitioning guarantees elements are correctly split into two halves.
+
+---
+
+## 📊 Time and Space Complexity
+
+|Case|Time Complexity|
+|---|---|
+|Best Case|O(n log n)|
+|Average|O(n log n)|
+|Worst Case|O(n^2)|
+
+- Worst case happens when partitioning is extremely unbalanced (e.g., sorted array with bad pivot selection).
+    
+
+### Space Complexity
+
+- **O(log n)** (due to recursion stack in balanced case).
+    
+- **O(n)** worst case (if recursion is deeply unbalanced).
     
 
 ---
 
-## 🔢 Example
-
-Let's say you want to sort this array:
+## 🧾 Pseudocode (Hoare Partition)
 
 ```
-[8, 3, 1, 7, 0, 10, 2]
+function quicksort(arr, low, high):
+    if low < high:
+        p = hoare_partition(arr, low, high)
+        quicksort(arr, low, p)
+        quicksort(arr, p + 1, high)
+
+function hoare_partition(arr, low, high):
+    pivot = arr[(low + high) // 2]
+    i = low - 1
+    j = high + 1
+    while true:
+        repeat:
+            i = i + 1
+        until arr[i] >= pivot
+
+        repeat:
+            j = j - 1
+        until arr[j] <= pivot
+
+        if i >= j:
+            return j
+        swap(arr[i], arr[j])
 ```
 
-1. Pick a pivot: say `2`
-    
-2. Partition:
-    
-    - Left side: `[1, 0]` (elements < 2)
-        
-    - Pivot: `2`
-        
-    - Right side: `[8, 3, 7, 10]` (elements ≥ 2)
-        
-3. Recursively sort the left and right:
-    
-    - Sort `[1, 0]` → `[0, 1]`
-        
-    - Sort `[8, 3, 7, 10]` → `[3, 7, 8, 10]`
-        
-4. Combine: `[0, 1] + [2] + [3, 7, 8, 10]` → `[0, 1, 2, 3, 7, 8, 10]`
-    
-
 ---
 
-## 📚 Core Components
+## 💻 Actual Code (Python)
 
-### 1. **Choosing a Pivot**
+```python
+def hoare_partition(arr, low, high):
+    pivot = arr[(low + high) // 2]
+    i = low - 1
+    j = high + 1
 
-Common strategies:
+    while True:
+        i += 1
+        while arr[i] < pivot:
+            i += 1
+        j -= 1
+        while arr[j] > pivot:
+            j -= 1
 
-- First element
-    
-- Last element
-    
-- Random element
-    
-- Median-of-three
-    
+        if i >= j:
+            return j
 
-Each has trade-offs. Picking a **bad pivot repeatedly** (e.g., always the smallest or largest) leads to poor performance.
+        arr[i], arr[j] = arr[j], arr[i]
 
-### 2. **Partition Function**
 
-Moves elements around so that:
-
-- Items less than pivot come before it
-    
-- Items greater go after it
-    
-
-### 3. **Recursive Sort Calls**
-
-Sort the left and right partitions **independently**, because the pivot is already in its final position.
-
----
-
-## ⏱️ Time and Space Complexity
-
-|Case|Time Complexity|Why?|
-|---|---|---|
-|Best / Average|`O(n log n)`|Log(n) recursive splits, each does `n` work|
-|Worst|`O(n^2)`|Happens when pivot is worst (e.g., min or max every time)|
-|Space (in-place)|`O(log n)` call stack|In-place partitioning and tail recursion|
-
----
-
-## ⚖️ Quick Sort vs Merge Sort
-
-| Feature         | Quick Sort   | Merge Sort       |
-| --------------- | ------------ | ---------------- |
-| Worst-case time | `O(n^2)`     | `O(n log n)`     |
-| Average time    | `O(n log n)` | `O(n log n)`     |
-| Space usage     | `O(log n)`   | `O(n)`           |
-| Stability       | ❌ Not stable | ✅ Stable         |
-| In-place        | ✅ Yes        | ❌ No (typically) |
-
----
-
-## 🔧 Pseudocode
-
-```text
-function quickSort(arr):
-    if len(arr) <= 1:
-        return arr
-    pivot = arr[last or random]
-    left = all items < pivot
-    right = all items >= pivot
-    return quickSort(left) + [pivot] + quickSort(right)
+def quicksort(arr, low, high):
+    if low < high:
+        p = hoare_partition(arr, low, high)
+        quicksort(arr, low, p)
+        quicksort(arr, p + 1, high)
 ```
 
-_Note_: In-place versions do the partitioning without extra arrays and use index ranges.
+---
+
+## 🖼 Visual Example
+
+### Input: `[8, 3, 7, 4, 9, 1, 2, 6, 5]`
+
+- Pivot = 4 (middle element)
+    
+
+Partition Step:
+
+```
+Initial:     [8, 3, 7, 4, 9, 1, 2, 6, 5]
+→ Swap(8, 2): [2, 3, 7, 4, 9, 1, 8, 6, 5]
+→ Swap(7, 1): [2, 3, 1, 4, 9, 7, 8, 6, 5]
+→ i >= j, return j=2
+```
+
+Now `quicksort(arr, 0, 2)` and `quicksort(arr, 3, 8)` are called recursively.
+
+Eventually:
+
+```
+Sorted: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
 
 ---
 
-## 💡 Summary
+## ✅ Why It Works (Even If Pivot Isn’t Finalized)
 
-- **Quick Sort is efficient and in-place** for large datasets.
+- The partition function creates _valid subarrays_ that are correctly ordered relative to the pivot.
     
-- It’s **not stable** by default, so it doesn't preserve the original order of equal elements.
+- Recursively applying this process ensures every element eventually lands at its correct position.
     
-- It shines in **practical performance** due to better memory locality and lower overhead than merge sort.
-    
+
+> The final sorting emerges from recursive structure, not from individual pivot placements.
 
 ---
 
-Would you like a starter task to implement Quick Sort in a specific language, or would you like to see how the in-place partitioning works under the hood?
+Let me know if you want this in multiple programming languages or converted to HTML/Markdown with tabbed code blocks.
