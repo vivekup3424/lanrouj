@@ -120,3 +120,25 @@ I think I can make use of something like this in manifest_refactoring branch
 11. store the recordings in form of chunks of 60 seconds each
 12. since opencv prebuffer frames don't have any audio, then you think about it how to concat
    opencv prebuffer video + ffmpeg recording containing audio
+
+## 2025-05-30
+### 1. Why the heck are we doing gateway rework?
+- performance (everything was going into one system) - (every service was running on same system)
+- developer ease (adding new devices into the gateway code was hacky) (we are building the solution from bottom-up by creating an sdk)
+- missing featues in gateway code
+- so there was an urgent requirements of finishing up the placeholder functionality in taskflow, I am making ai code for now,
+	- this is a very bad habit I've developed
+
+## 2025-06-02
+- the taskflow placeholder design has changed now
+- we are using {{stageName}}, {{stageName.taskName}}, {{stageName.taskName.property}}, {{stageName.taskName.property.subproperty.subsubproper...}} for using placeholders
+- stageName, taskName, propertyNames can only be containing a to z, A to Z, 0-9, _
+
+
+## 2025-06-04
+- Wrote the clean code architecture for the motion-detection plugin, have not tested it, will do it soon
+- Now I am quite dissatisfied with code wriiten by vscode-agent (sonnect 4.0) for the rasa chatbot for smart home automation
+	- hence I will try to read the documentation of rasa myself, and code it out myself
+	- my most important problem that arose from using vscode agent
+	- was that generated rasa bot was not functioning well, and it was also not doing any conversations
+	- so I will try to start writing the code again step-by-step (with smaller example creating conversational-ai)

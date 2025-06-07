@@ -1,5 +1,5 @@
 - **Problem**: Find the \( $k^{th}$ \) largest element.
-- **Solution**: Use a Min-Heap of size `k`. Traverse the array, pushing elements into the heap. If size exceeds `k`, remove the smallest element. The root of the heap is the \( $k^{th}$ \) largest.
+- **Solution**: Use a Min-Heap of size `k`. Traverse the array, pushing elements into the heap. If size exceeds `k`, remove the smallest element. The top element of the heap is the \( $k^{th}$ \) largest.
 
 ```cpp
 int findKthLargest(vector<int>& nums, int k) {
