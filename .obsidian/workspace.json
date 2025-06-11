@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "bbd600193cfb633d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d06880f7f710653c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d217ffc6199118c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0cd7744ff62407a",
+    "type": "split",
+    "children": [
+      {
+        "id": "22c036fe1ebe57b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1910ef77e835298a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a7b97f6d8434f8e7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "png",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4c6514fea674e228",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "22a036e6a70e3ab8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fa32776c89cae7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44b58185946d3382",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dailyJournal/4.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 4"
+            }
+          },
+          {
+            "id": "b3f0cb0a4b7f3235",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/find-building-where-alice-and-bob-can-meet.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from find-building-where-alice-and-bob-can-meet.excalidraw"
+            }
+          },
+          {
+            "id": "10249b771c2d8fe3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "71631f6ec94dd3c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dailyJournal/4.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 4"
+            }
+          },
+          {
+            "id": "b0c640a5f6388e7a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "publish:Publish changes...": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0d217ffc6199118c",
+  "lastOpenFiles": [
+    "Vivek Tiwari Essentials.md",
+    "Untitled.canvas",
+    "Notes/Algorithms/String Integer Conversion.md",
+    "Notes/Algorithms/BinarySearch.md",
+    "Notes/ModellingSimulation/EigenValues and EigenVectors.md",
+    "Notes/Algorithms/Quick Sort.md",
+    "Notes/System Design/Clean Code Architecture.md",
+    "Notes/System Design/Software Development Lifecycle Models in Software Eng..md",
+    "Notes/Operating System Notes/Context Switch.md",
+    "Notes/Data Analytics/Types of Data.md",
+    "Notes/Algorithms/Trapping Rainwater.md",
+    "Notes/ModellingSimulation/modelling_07_October_2024.md",
+    "Notes/Algorithms/Maximum Number of K-Divisible Components.md",
+    "Notes/Artificial Intelligence/Long Short Term Memory.md",
+    "Excalidraw/Drawing 2024-11-29 08.05.55_0.excalidraw.md",
+    "Excalidraw/Drawing 2025-01-09 15.49.48.excalidraw.md",
+    "Notes/Algorithms/Course Schedule.md",
+    "Notes/Artificial Intelligence/CNN Architectures.md",
+    "Notes/System Design/CAP Theorem.md",
+    "Notes/Artificial Intelligence/AutoEncoder.md",
+    "Notes/System Design/Adapter Patterm.md",
+    "Notes/Algorithms/Maximize The Cut Segments.md",
+    "Notes/Algorithms/Importance of Bitwise XOR.md",
+    "Notes/Algorithms/Insertion Sort.md",
+    "Notes/Algorithms/Dijkstra’s shortest path.md",
+    "Notes/Algorithms/courseSchedule.png",
+    "Notes/Algorithms/Data Types in different languages.md",
+    "Photos/Pasted image 20241030203032.png",
+    "Photos/Screenshot from 2024-11-17 20-49-12.png",
+    "Photos/Pasted image 20241209221518.png",
+    "Photos/Pasted image 20241127122951.png",
+    "Photos/Pasted image 20241124213254.png",
+    "Photos/Pasted image 20241123214322.png",
+    "Photos/Pasted image 20241119182659.png",
+    "Photos/Pasted image 20241113103231.png",
+    "Photos/Pasted image 20241109163912.png",
+    "Photos",
+    "Recording 20250611212345.m4a",
+    "Recording 20250611210153.m4a",
+    "Recording 20250611210109.m4a",
+    "Recording 20250611210055.m4a",
+    "Recording 20250611205748.m4a",
+    "Notes/KEUS/output.docx",
+    "Notes/Mongodb",
+    "Notes/JS/Untitled",
+    "Notes/Java"
+  ]
+}

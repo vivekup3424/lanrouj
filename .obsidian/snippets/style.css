@@ -1,0 +1,137 @@
+/* Enhanced color navigation for long text */
+
+/* Headers with distinct colors */
+.markdown-preview-view h1 {
+    color: var(--text-accent);
+    border-bottom: 2px solid var(--text-accent);
+    padding-bottom: 0.3em;
+}
+
+.markdown-preview-view h2 {
+    color: #d35400;
+}
+
+.markdown-preview-view h3 {
+    color: #16a085;
+}
+
+.markdown-preview-view h4 {
+    color: #8e44ad;
+}
+
+/* Important paragraphs and emphasis */
+.markdown-preview-view strong {
+    color: #c0392b;
+    font-weight: 600;
+}
+
+.markdown-preview-view em {
+    color: #27ae60;
+    font-style: italic;
+}
+
+/* Lists with color hierarchy */
+.markdown-preview-view ul {
+    color: var(--text-normal);
+}
+
+.markdown-preview-view ul > li::marker {
+    color: #2980b9;
+}
+
+.markdown-preview-view ul > li > ul > li::marker {
+    color: #16a085;
+}
+
+.markdown-preview-view ul > li > ul > li > ul > li::marker {
+    color: #8e44ad;
+}
+
+/* Blockquotes with distinctive styling */
+.markdown-preview-view blockquote {
+    border-left: 3px solid #e74c3c;
+    background-color: rgba(231, 76, 60, 0.1);
+    margin: 1em 0;
+    padding: 0.5em 1.5em;
+}
+
+/* Links with hover effect */
+.markdown-preview-view a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.markdown-preview-view a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Code blocks with distinct background */
+.markdown-preview-view code {
+    color: #16a085;
+    background-color: var(--background-primary-alt);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+}
+
+/* Task lists with color indicators */
+.markdown-preview-view input[type=checkbox] {
+    border-color: #7f8c8d;
+}
+
+.markdown-preview-view input[type=checkbox]:checked {
+    background-color: #27ae60;
+    border-color: #27ae60;
+}
+
+/* Tags with distinctive styling */
+.tag {
+    background-color: #34495e;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.9em;
+}
+
+/* Horizontal rules for section breaks */
+.markdown-preview-view hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    margin: 2em 0;
+}
+
+/* Dark theme adjustments */
+.theme-dark {
+    /* Slightly muted colors for dark theme */
+    --text-accent: #5dade2;
+}
+
+/* Light theme adjustments */
+.theme-light {
+    /* Darker, more visible colors for light theme */
+    --text-accent: #2980b9;
+}
+
+/* Tables with alternating row colors */
+.markdown-preview-view table {
+    width: 100%;
+    margin: 1em 0;
+    border-collapse: collapse;
+}
+
+.markdown-preview-view th {
+    background-color: var(--text-accent);
+    color: var(--background-primary);
+    padding: 0.5em;
+}
+
+.markdown-preview-view tr:nth-child(even) {
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+.markdown-preview-view td {
+    padding: 0.5em;
+    border: 1px solid var(--background-modifier-border);
+}

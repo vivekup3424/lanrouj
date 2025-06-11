@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "8dd07a90a871a9a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f07e182a4792c50",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4783bd84fd9d2dd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Shell vs Kernel.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shell vs Kernel"
+            }
+          },
+          {
+            "id": "841867655d843e6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Context Switch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Context Switch"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b7a992680bdf431b",
+    "type": "split",
+    "children": [
+      {
+        "id": "221492373ddde0eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "661f6f0d34dfb031",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4eed1f8d3a661cd7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "016ed3864cbdd9b1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d26d21b574139ac0",
+    "type": "split",
+    "children": [
+      {
+        "id": "566565662195b97b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86513846a8278aca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Context Switch.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Context Switch"
+            }
+          },
+          {
+            "id": "617861c44714680c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Context Switch.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Context Switch"
+            }
+          },
+          {
+            "id": "b7c5e635c08433d2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "001880178d415dd4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Context Switch.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Context Switch"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false
+    }
+  },
+  "active": "841867655d843e6b",
+  "lastOpenFiles": [
+    "Shell vs Kernel.md",
+    "Context Switch.md",
+    "Semaphores.md",
+    "Condition Variables.md",
+    "Operating System.md",
+    "Program vs Process vs Thread.md",
+    "Process Scheduling & Synchronization.md",
+    "Peterson's Solution.md",
+    "Recording 20241013233405.webm",
+    "2024-10-13.md",
+    "Memory Management.md",
+    "File Systems.md"
+  ]
+}

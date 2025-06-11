@@ -1,0 +1,13 @@
+{
+  "enabledCssSnippets": [
+    "math-size"
+  ],
+  "accentColor": "#2d9301",
+  "monospaceFontFamily": "Hack Nerd Font Mono",
+  "textFontFamily": "Arial",
+  "baseFontSizeAction": true,
+  "cssTheme": "Catppuccin",
+  "baseFontSize": 16,
+  "theme": "system",
+  "nativeMenus": false
+}

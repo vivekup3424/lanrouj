@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "7acca3dc75c6389e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a998c32c420d366",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53d5f8810235b90c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7273ca84369a4051",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a11e94cde5edb72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b29d0347c60e222",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46c844a795a3456f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4dc27789dddd5d7b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b0d970a37fe6e1a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cf1808b6faefed7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "872bf25b0b53e088",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "24c7a19085613cd6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20dc4ee7f3588008",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "24ceffc61a25dde4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "53d5f8810235b90c",
+  "lastOpenFiles": [
+    "How are RNN made from ANN.md",
+    "Why Do We Use RNNs?.md",
+    "Recurrent Neural Nets.md~",
+    "Pasted image 20241014055221.png",
+    "Pasted image 20241014055200.png",
+    "Recurrent Neural Nets.md"
+  ]
+}

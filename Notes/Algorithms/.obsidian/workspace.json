@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "2a0528db8093c93e",
+    "type": "split",
+    "children": [
+      {
+        "id": "86b156c29f620449",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af41d15b9c1d61e2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eaabed9ee1d4e835",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1b9ab3e033bb146",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9c1dee48de5a2ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "123579afa762a040",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "11d5d069129112a5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "98b30346acd202f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f404806d59e31ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66b76bcfc1001ae9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "518d642a4636a822",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Implement Stack using arrays.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Implement Stack using arrays"
+            }
+          },
+          {
+            "id": "49afaa4e11ed6f7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "932282856eb0ccfd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Implement Stack using arrays.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Implement Stack using arrays"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b9c1dee48de5a2ec",
+  "lastOpenFiles": [
+    "Group Anagrams.md",
+    "32 bit multiplication for 16 bit architecture.md",
+    "Hashing.md",
+    "Implement Stack using arrays.md",
+    "DSU.md",
+    "Two-Sum.md",
+    "Sort 0s 1s 2s.md",
+    "Kadane's Algorithm.md",
+    "Infix to Postfix conversion.md",
+    "Stack & Queue.md",
+    "Sliding Window Maximum.md",
+    "Untitled.md",
+    "Implement Stack using Linked List.md",
+    "Minimum Spanning Tree.md",
+    "Kruskal's.md",
+    "Selection Sort.md",
+    "Array questions.md",
+    "Remove duplicates from a sorted array.md",
+    "Single Number 2.md",
+    "Djikstra's.md",
+    "Similarity between Dijkstra and Prim.md",
+    "Prim's.md",
+    "Shortest Path Algorithms.md",
+    "Traversal Algorithms.md",
+    "Word Ladder.md",
+    "Word Ladder.md~",
+    "Word Break.md",
+    "Word Break.md~",
+    "Pasted image 20241014020108.png",
+    "courseSchedule.png"
+  ]
+}
