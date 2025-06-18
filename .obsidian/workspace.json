@@ -11,13 +11,44 @@
             "id": "0d217ffc6199118c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/practice.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "practice.excalidraw"
+            }
+          },
+          {
+            "id": "c539587f5e74b5e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Job Applications/Google.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Google"
+            }
+          },
+          {
+            "id": "00d7c0dd482a970b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Job Applications/Firebase.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Firebase"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -160,26 +192,30 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "publish:Publish changes...": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d217ffc6199118c",
+  "active": "00d7c0dd482a970b",
   "lastOpenFiles": [
+    "Excalidraw/practice.excalidraw.md",
+    "dailyJournal/5 - trying to be more consistent.md",
+    "Job Applications/Firebase.md",
+    "Excalidraw/Firebase.excalidraw.md",
+    "Pasted image 20250612120749.png",
+    "Job Applications/Google.md",
+    "Excalidraw/Drawing 2025-06-11 23.15.15.excalidraw.md",
+    "Pasted image 20250611234623.png",
     "Vivek Tiwari Essentials.md",
     "Untitled.canvas",
     "Notes/Algorithms/String Integer Conversion.md",
@@ -201,12 +237,7 @@
     "Notes/System Design/CAP Theorem.md",
     "Notes/Artificial Intelligence/AutoEncoder.md",
     "Notes/System Design/Adapter Patterm.md",
-    "Notes/Algorithms/Maximize The Cut Segments.md",
-    "Notes/Algorithms/Importance of Bitwise XOR.md",
-    "Notes/Algorithms/Insertion Sort.md",
-    "Notes/Algorithms/Dijkstra’s shortest path.md",
     "Notes/Algorithms/courseSchedule.png",
-    "Notes/Algorithms/Data Types in different languages.md",
     "Photos/Pasted image 20241030203032.png",
     "Photos/Screenshot from 2024-11-17 20-49-12.png",
     "Photos/Pasted image 20241209221518.png",
@@ -214,8 +245,6 @@
     "Photos/Pasted image 20241124213254.png",
     "Photos/Pasted image 20241123214322.png",
     "Photos/Pasted image 20241119182659.png",
-    "Photos/Pasted image 20241113103231.png",
-    "Photos/Pasted image 20241109163912.png",
     "Photos",
     "Recording 20250611212345.m4a",
     "Recording 20250611210153.m4a",

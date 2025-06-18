@@ -42,3 +42,6 @@ checkNodeConfig() {
 2. for lunch I am always gonna have the mess food, and then eat protein powder
 
 ## 2025-06-11
+
+![[Pasted image 20250611234623.png|900]]
+
