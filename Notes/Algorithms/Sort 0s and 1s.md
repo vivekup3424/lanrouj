@@ -67,3 +67,38 @@ def even_odd(arr):
 
 
 ## Similar Probelm
+A similar problem like this is given in leetcode, move-zeroes
+Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
+
+**Note** that you must do this in-place without making a copy of the array.
+
+**Example 1:**
+
+**Input:** nums = [0,1,0,3,12]
+**Output:** [1,3,12,0,0]
+
+**Example 2:**
+
+**Input:** nums = [0]
+**Output:** [0]
+
+My first naive approach is 
+```java
+    public void moveZeroes(int[] nums) {
+        ArrayList<Integer> temp = new ArrayList<Integer>();
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                temp.add(nums[i]);
+            }
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) {
+                temp.add(nums[i]);
+            }
+        }
+        for (int i = 0; i < temp.size(); i++) {
+            nums[i] = temp.get(i);
+        }
+        return;
+    }
+```
