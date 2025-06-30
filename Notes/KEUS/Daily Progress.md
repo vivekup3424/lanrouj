@@ -146,4 +146,10 @@ I think I can make use of something like this in manifest_refactoring branch
 ## 2025-06-11
 1. Working on common modules, thinking about way to reduce the bundle size of plugins by placing their common modules in a common dependency
 2. Need to test whether this approach is working on different plugins, and for different hubs.
-3. 
+
+## 2025-06-30
+1. Today I am working on creating a authorization service with
+   ![](Pasted%20image%2020250630173153.png)
+
+this is very similar to the way AWS is creating IAM.
+need to update my resume with these details.
