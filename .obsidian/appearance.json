@@ -7,7 +7,7 @@
   "textFontFamily": "Arial",
   "baseFontSizeAction": true,
   "cssTheme": "Catppuccin",
-  "baseFontSize": 16,
+  "baseFontSize": 17,
   "theme": "system",
   "nativeMenus": false
 }

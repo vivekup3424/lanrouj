@@ -111,5 +111,3 @@ std::vector<std::vector<std::string>> groupSentenceAnagrams(std::vector<std::str
 - Sentences with punctuation (if required to handle).
 
 ---
-
-This format should help you quickly reference solutions, complexities, and edge cases for **Group Anagrams** and **Group Sentence Anagrams**. Let me know if you'd like further breakdowns!

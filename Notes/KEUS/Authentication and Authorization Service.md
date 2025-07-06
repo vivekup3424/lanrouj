@@ -17,3 +17,5 @@ required locally inside a home network
 moleculerjs actions
 
 1. Permissions can be of the form of 
+
+We can have room, device or other information inside the context from there it can be used to populate the placeholders inside the permission
