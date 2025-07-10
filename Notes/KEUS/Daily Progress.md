@@ -158,4 +158,4 @@ need to update my resume with these details.
 - [ ] read about "reading logs from fluentbit"
 - [ ] read about filtering logs from fluentd
 - [ ] send http messages for these filtered logs
-- [ ] 
+- [ ] get the demo for tomorrow working
