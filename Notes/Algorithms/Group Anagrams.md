@@ -14,7 +14,7 @@ Given an array of strings, group the strings that are anagrams of each other.
   - Append words with the same sorted version to the list corresponding to that key.
 - **Hashing by Frequency Array**:
   - For each word, calculate a frequency array (size 26 for lowercase alphabets).
-  - Convert this array into a tuple (or a unique string) and use it as the key in a hash map.
+  - Convert this array into a hash value (try to make it unique) and use it as the key in a hash map.
 
 ### Code (C++)
 

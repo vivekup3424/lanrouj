@@ -153,3 +153,9 @@ I think I can make use of something like this in manifest_refactoring branch
 
 this is very similar to the way AWS is creating IAM.
 need to update my resume with these details.
+
+## 2025-07-10
+- [ ] read about "reading logs from fluentbit"
+- [ ] read about filtering logs from fluentd
+- [ ] send http messages for these filtered logs
+- [ ] 

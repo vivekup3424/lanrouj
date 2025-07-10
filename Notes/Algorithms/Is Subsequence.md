@@ -25,9 +25,9 @@ def isSubsequence(self, s: str, t: str) -> bool:
 	while i < len(s) and j < len(t):
 		if s[i] == t[j]:
 			i+=1
-			j+=1
-		else:
-			j+=1
+		j+=1
 	return i == len(s)
 ```
 
+### Follow up:-
+Suppose there are lots of incoming `s`, say `s1, s2, ..., sk` where `k >= 10^9`, and you want to check one by one to see if `t` has its subsequence. In this scenario, how would you change your code?

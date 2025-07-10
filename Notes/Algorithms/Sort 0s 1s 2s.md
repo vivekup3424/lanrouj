@@ -1,8 +1,10 @@
 ---
 id: Sort 0s 1s 2s
-aliases: []
+aliases: 
 tags:
   - pointers
+  - two-pointer
+  - 2-pointer
 ---
 
 # Sort Colors

@@ -1,8 +1,10 @@
 ---
 id: Sort 0s and 1s
-aliases: []
+aliases: 
 tags:
   - pointers
+  - 2-pointer
+  - two-pointer
 ---
 
 ## Problem Statement
