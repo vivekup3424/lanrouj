@@ -1,4 +1,4 @@
-G## 2025-01-29
+## 2025-01-29
 Today I am learning about Docker Networking and alongside I am also going to prepare notes on Docker in my Obsidian system.
 After reading some parts about Docker Network, I installed Neo4j on my ubuntu wsl and I am planning on learning more about them later on.
 
@@ -155,7 +155,42 @@ this is very similar to the way AWS is creating IAM.
 need to update my resume with these details.
 
 ## 2025-07-10
-- [ ] read about "reading logs from fluentbit"
-- [ ] read about filtering logs from fluentd
-- [ ] send http messages for these filtered logs
-- [ ] get the demo for tomorrow working
+- [x] read about "reading logs from fluentbit"
+- [x] read about filtering logs from fluentd
+- [x] send http messages for these filtered logs
+- [x] get the demo for tomorrow working
+
+
+## 2025-07-11
+- [ ] load test the data consumption pipeline from fluentbits instances to fluentd
+- [ ] read more about integrating google assistant and rasa bot
+There is a log collection pipeline from fluentbit instances to fluentd instance
+I want to load test what happens inside the fluentd instance
+For this I am going to use docker compose
+
+***I am taking a detour and exploring the google assistant integration with rasa*** 
+https://rasa.com/blog/going-beyond-hey-google-building-a-rasa-powered-google-assistant/
+for this  ==*Actions On Google*== (*console.actions.google.com*) is a useful resource
+
+They are telling me to use ngrok for some reason, I don't know what this is
+
+- [ ] *this ngrok utility sounds very useful, need to learn more about this*
+
+## Learning of today's research
+1. Google was exposing conversational actions on "Actions on Google" console. there was a tutorial in rasa 
+	showcasing this, but this has been deprecated so we can not use those steps
+	![[Pasted image 20250711162146.png|600]]
+	
+	https://developers.google.com/assistant/ca-sunset
+	https://developers.google.com/assistant/ca-sunset/faq
+	
+	![[Pasted image 20250711162501.png|600]] 
+
+2. We can create custom connectors for assistant like google assistant 
+	1. these connectors will act like webhook
+	2. but if assistant themselves can't call these webhooks the they are of no use.
+3. The next alternative was Google Developer Console
+	1. But these are coupled with Google Home Devices
+	2. They are trying to build on device layer
+	![[Pasted image 20250711164026.png|600]]
+

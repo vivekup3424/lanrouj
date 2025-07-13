@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "45cc59f0d3e3c41a",
+        "id": "8eeba6d82e1ee4f7",
         "type": "tabs",
         "children": [
           {
-            "id": "3f549ac727acd36c",
+            "id": "34e9865dae8fb8b8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/practice.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "practice.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -76,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346
+    "width": 346,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -92,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/practice.excalidraw.md",
+                "file": "Notes/Big Data Analytics/Fluentd.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for practice.excalidraw"
+              "title": "Backlinks for Fluentd"
             }
           },
           {
@@ -175,8 +174,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f549ac727acd36c",
+  "active": "34e9865dae8fb8b8",
   "lastOpenFiles": [
+    "Notes/Big Data Analytics/Fluentbit.md",
+    "Notes/KEUS/Daily Progress.md",
+    "Notes/KEUS/Over the Wire Notes.md",
+    "Notes/KEUS/Untitled.md",
+    "Notes/KEUS/Practice.md",
+    "Photos/Pasted image 20250711164026.png",
+    "Photos/Pasted image 20250711162501.png",
+    "Photos/Pasted image 20250711162146.png",
+    "Notes/Docker/Docker.md",
+    "Notes/Big Data Analytics/Fluentd.md",
+    "Job Applications/Firebase.md",
+    "Excalidraw/practice.excalidraw.md",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Lexicographically Minimum String After Removing Stars.excalidraw.md",
@@ -191,18 +202,9 @@
     "Excalidraw/Drawing 2024-12-02 13.51.13.excalidraw.md",
     "Excalidraw/Drawing 2025-06-08 15.18.31.excalidraw.md",
     "Excalidraw/Drawing 2025-01-09 15.49.48.excalidraw.md",
-    "Notes/KEUS/Daily Progress.md",
     "Notes/Difference between unkown and any.md",
     "Notes/typescript.md",
     "Notes/Untitled.md",
-    "Notes/Data Analytics/Assumptions of Linear Regression.md",
-    "Notes/Operating System Notes/Types of Computer Architectures.md",
-    "Notes/Algorithms/Is Subsequence.md",
-    "Notes/Algorithms/Maximum Average Subarray I.md",
-    "Notes/Algorithms/Sort 0s and 1s.md",
-    "Notes/Algorithms/Sort 0s 1s 2s.md",
-    "Notes/ModellingSimulation/modelling_07_October_2024.md",
-    "Notes/Algorithms/Group Anagrams.md",
     "Photos/Pasted image 20250708002050.png",
     "Photos/Pasted image 20250708001944.png",
     "Photos/Pasted image 20250707231307.png",
@@ -210,9 +212,6 @@
     "Photos/Pasted image 20250702164101.png",
     "Photos/Pasted image 20250702163539.png",
     "Photos/Pasted image 20250701164055.png",
-    "Photos/Pasted image 20250701163817.png",
-    "Photos/Pasted image 20250701162918.png",
-    "Photos/Pasted image 20250630173153.png",
     "Untitled.canvas",
     "Photos",
     "Recording 20250611212345.m4a",
