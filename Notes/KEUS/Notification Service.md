@@ -108,5 +108,27 @@ Example Payload
 
 there is no mention of metadata, or expiresAt in the Upload Events API of clevertap
 
+since upload events api is expecting user identity in the payload, so I think we need to search for a more better solution
 
-now creatin
+### External Trigger API
+External Trigger campaign is a feature that allows you to trigger the campaign delivery based on API calls or external events.
+#### [Base URL](https://developer.clevertap.com/docs/external-trigger-api#base-url)
+
+The base URL varies depending on the type of External Trigger campaign. Here are the example base URLs from the account in the India region:
+
+|Campaign Type|Base URL|
+|---|---|
+|Single Campaign ID targeting one or more users|[https://in1.api.clevertap.com/1/send/externaltrigger.json](https://in1.api.clevertap.com/1/send/externaltrigger.json)|
+|Multiple Campaigns IDs targeting one or more users|[https://in1.api.clevertap.com/2/send/externaltrigger.json](https://in1.api.clevertap.com/2/send/externaltrigger.json)|
+
+
+### Assumption on the data stored for a user
+User interface can be something like this
+```typescript
+User{
+name string;
+email string
+phoneNumber number;
+siteId string; //hahs
+}
+```

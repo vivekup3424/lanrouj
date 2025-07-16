@@ -130,12 +130,14 @@ I think I can make use of something like this in manifest_refactoring branch
 	- this is a very bad habit I've developed
 
 ## 2025-06-02
+#### Taskflow Placeholder Resolver
 - the taskflow placeholder design has changed now
 - we are using {{stageName}}, {{stageName.taskName}}, {{stageName.taskName.property}}, {{stageName.taskName.property.subproperty.subsubproper...}} for using placeholders
 - stageName, taskName, propertyNames can only be containing a to z, A to Z, 0-9, _
 
 
 ## 2025-06-04
+### NVR Plugin
 - Wrote the clean code architecture for the motion-detection plugin, have not tested it, will do it soon
 - Now I am quite dissatisfied with code wriiten by vscode-agent (sonnect 4.0) for the rasa chatbot for smart home automation
 	- hence I will try to read the documentation of rasa myself, and code it out myself
@@ -144,6 +146,7 @@ I think I can make use of something like this in manifest_refactoring branch
 	- so I will try to start writing the code again step-by-step (with smaller example creating conversational-ai)
 
 ## 2025-06-11
+### Common modules removal for inter and intra plugin builds
 1. Working on common modules, thinking about way to reduce the bundle size of plugins by placing their common modules in a common dependency
 2. Need to test whether this approach is working on different plugins, and for different hubs.
 
@@ -194,3 +197,31 @@ They are telling me to use ngrok for some reason, I don't know what this is
 	2. They are trying to build on device layer
 	![[Pasted image 20250711164026.png|600]]
 
+
+
+Systemctl is used to start platform-agent
+
+## 2025-07-15
+Tasks for today are
+1. systemctl 
+2. pm2 
+3. podman 
+4Pheonix runs the new platform on Pi5 and custom Yokto based OS 
+- Also called media hub by few people Raspbian runs monolith on Pi3 with raspbian OS 
+- also called gateway in general Platform Agent Usecases: Phoenix Usecases: - 
+	- os update Raspbian Usecases: - migrate database from monolith to plugin architecture
+	- switch between old and new deployments Common Usecases: - health check and restart baseline services 
+	- deploy & start baseline services 
+	- deploy and manage logs agent 
+	- deploy and manage nats 
+	- self Update 
+	- node metrics 
+	- backups 
+
+1] Deploy and manage logs agent - Vivek 
+- understand the flow 
+- create flow diagram 
+- first time bootup 
+- installation 
+- update 
+- health check and ressuruction

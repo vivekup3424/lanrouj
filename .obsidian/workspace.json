@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e2ca6b83e7579678",
+        "id": "83d08b15d0ccc4f8",
         "type": "tabs",
         "children": [
           {
-            "id": "26ea69c867ed9385",
+            "id": "30d99022d7c93321",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,11 +178,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "26ea69c867ed9385",
+  "active": "30d99022d7c93321",
   "lastOpenFiles": [
+    "Notes/KEUS/Daily Progress.md",
+    "Notes/KEUS/1.md",
+    "Notes/KEUS/Notification Service.md",
     "Notes/Computer Networking/OpenSSL S_Client.md",
     "Notes/Big Data Analytics/Fluentbit.md",
-    "Notes/KEUS/Daily Progress.md",
     "Notes/KEUS/Over the Wire Notes.md",
     "Notes/KEUS/Untitled.md",
     "Notes/KEUS/Practice.md",
@@ -207,8 +209,6 @@
     "Excalidraw/Drawing 2024-12-02 13.51.13.excalidraw.md",
     "Excalidraw/Drawing 2025-06-08 15.18.31.excalidraw.md",
     "Excalidraw/Drawing 2025-01-09 15.49.48.excalidraw.md",
-    "Notes/Difference between unkown and any.md",
-    "Notes/typescript.md",
     "Photos/Pasted image 20250708002050.png",
     "Photos/Pasted image 20250708001944.png",
     "Photos/Pasted image 20250707231307.png",
