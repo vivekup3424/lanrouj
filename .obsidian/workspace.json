@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "83d08b15d0ccc4f8",
+        "id": "afb3271f523009c2",
         "type": "tabs",
         "children": [
           {
-            "id": "30d99022d7c93321",
+            "id": "6eebf28d215b91a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/KEUS/Notification Service.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Notification Service"
+              "title": "New tab"
             }
           }
         ]
@@ -179,11 +175,22 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "30d99022d7c93321",
+  "active": "6eebf28d215b91a5",
   "lastOpenFiles": [
+    "Thread A occurs K times, then thread B occurs.md",
+    "Untitled.base",
+    "Websockets.md",
+    "Basic Stopwatch.md",
+    "Recording 20241106161728.m4a",
+    "Recording 20241106162017.m4a",
+    "Recording 20250611205748.m4a",
+    "Pasted image 20250611234623.png",
+    "Pasted image 20250612120749.png",
+    "Pasted image 20241222215614.png",
+    "Notes/Data Analytics/Bagging and Boosting.md",
+    "Notes/KEUS/Notification Service.md",
     "Notes/KEUS/Daily Progress.md",
     "Notes/KEUS/1.md",
-    "Notes/KEUS/Notification Service.md",
     "Notes/Computer Networking/OpenSSL S_Client.md",
     "Notes/Big Data Analytics/Fluentbit.md",
     "Notes/KEUS/Over the Wire Notes.md",
@@ -206,27 +213,16 @@
     "Excalidraw/Drawing 2024-11-29 08.05.55.excalidraw.md",
     "Excalidraw/deep_learning.md",
     "Excalidraw/Drawing 2024-11-29 08.05.55_0.excalidraw.md",
-    "Excalidraw/Drawing 2024-11-26 01.27.15.excalidraw.md",
-    "Excalidraw/Drawing 2024-12-02 13.51.13.excalidraw.md",
-    "Excalidraw/Drawing 2025-06-08 15.18.31.excalidraw.md",
-    "Excalidraw/Drawing 2025-01-09 15.49.48.excalidraw.md",
     "Photos/Pasted image 20250708002050.png",
     "Photos/Pasted image 20250708001944.png",
     "Photos/Pasted image 20250707231307.png",
     "Photos/Pasted image 20250702235648.png",
-    "Photos/Pasted image 20250702164101.png",
-    "Photos/Pasted image 20250702163539.png",
-    "Photos/Pasted image 20250701164055.png",
     "Untitled.canvas",
     "Photos",
     "Recording 20250611212345.m4a",
     "Recording 20250611210153.m4a",
     "Recording 20250611210109.m4a",
     "Recording 20250611210055.m4a",
-    "Recording 20250611205748.m4a",
-    "Notes/KEUS/output.docx",
-    "Notes/Mongodb",
-    "Notes/JS/Untitled",
-    "Notes/Java"
+    "Notes/KEUS/output.docx"
   ]
 }
