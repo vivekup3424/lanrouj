@@ -1,3 +1,0 @@
-- **Task**: Create a console-based stopwatch that starts timing when you press Enter, pauses/resumes on each subsequent Enter press, and stops timing on a specific key (e.g., 'q' for quit).
-- **Skills Practiced**: Using `chrono` to measure elapsed time, handling user input, and managing pauses and resumes.
-- 

@@ -279,3 +279,12 @@ inside the start after-registration-flow.ts, and see what this one is doing
 10. Remove plugin_core_ui , plugin_ui_service.ts from container.
 11. libs/utilities, kiotp-realtime-js, moleculer-nats-gateway  packages/types => change the entry point with typescript files (read their package.json)
 	1. for reference read the package.json of hydra/core
+
+2025-08-21
+1. Add environment filed in node registration body
+2. three nats serverhost ips based on the environment, create a new nats.ts file for moleculer_nats_gateway, and load up remote's url based on the environment (production, developement, or staging)
+3. remove the code fo making common modules from esbuild, since it only build node-manager
+4. add a node-path pointing to new common modules during start.mjs of node-manager
+5. replace `NODE_PATH=/keus-iot-platform/common_modules/node_modules node ./index.js`
+6. with NODE_PATH=/keus-iot-platform/common-modules/node_modules node ./index.js
+7. Vdbuilding common
