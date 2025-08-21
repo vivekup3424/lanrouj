@@ -45,3 +45,5 @@ checkNodeConfig() {
 
 ![[Pasted image 20250611234623.png|900]]
 
+## 2025-07-31
+It has been almost 2 months since I did any writing, I am just busy with this job at Keus, and also walking 8 kilometers everyday makes me very tired.

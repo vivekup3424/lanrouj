@@ -225,3 +225,57 @@ Tasks for today are
 - installation 
 - update 
 - health check and ressuruction
+
+## 2025-07-29
+1. Picking up a new project today
+2. cleanup the workspace yml
+3. understand the difference between lib, package and tool
+4. assets, are we using them ??
+5. repo clean >> dev experience
+
+Read about timeseries database of mongodb
+themattman/mongodb-timeseries
+
+## 2025-07-31
+- [x] Need to see what NatsLeafConfigManager is doing  in node-manager/server/src what we need to change there
+
+
+## 2025-08-04
+I will need to read more about
+```typescript
+    private static async startMolecularNatsGateway(broker: Moleculer.ServiceBroker, nodeConfig: INode) {
+        await broker.call('molecular_nats_gateway.ConfigureGateway', {
+            host: CoreConstants.nats.serverHost,
+            port: CoreConstants.nats.serverPort,
+            token: CoreConstants.nats.token
+        });
+        await broker.call('molecular_nats_gateway.StartProvider', {
+            rpcEndpoint: `${nodeConfig.siteId}-${nodeConfig.nodeId}`
+        });
+        await broker.call('molecular_nats_gateway.StartProvider', {
+            rpcEndpoint: `${nodeConfig.siteId}-KIOTP`
+        });
+    }
+```
+inside the start after-registration-flow.ts, and see what this one is doing
+
+1. revert the nats config file to use the nats.manager.conf file, and in the case of 
+2. site-manager is not able to sync nodes that are disconnected, it is not able to remove it, also remove services from worker node is not getting synced with the site-manager database
+
+
+## 2025-08-20
+1. Work on making node-manager stable in the node_manager_stable branch
+2. Need to focus on install plugin using taskflow async jobs, with states()
+3. States = downloading_source,downloading_image, installing, installed
+4. For plugin uninstall remove image, delete downloads, uninstalll with states
+5. plugin update - (current uninstall plugin then install plugin)
+	1. alternative way 
+	2. after plugin install, remove artifacts (tar files)
+6. Node_Configuration.Add_Service with states, and these states would be visible in node collection using event listener then update node collection
+7. Actions like install uninstall plugins should emit events for respective states of exection(emit events on NatsRealTime)
+	1. Add 4 tasks like download artifact, install plugin, update nodedb, sync node with site manager (add more tasks if required)
+8. after registration flow cleanup
+9. Discuss with Akhil about better pm2 setup for interservices and interplugins, basically better flow for pi3
+10. Remove plugin_core_ui , plugin_ui_service.ts from container.
+11. libs/utilities, kiotp-realtime-js, moleculer-nats-gateway  packages/types => change the entry point with typescript files (read their package.json)
+	1. for reference read the package.json of hydra/core
