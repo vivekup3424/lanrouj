@@ -4,14 +4,15 @@
   "switcher": true,
   "graph": true,
   "backlink": true,
-  "canvas": false,
+  "canvas": true,
   "outgoing-link": true,
   "tag-pane": true,
+  "footnotes": false,
   "properties": false,
   "page-preview": true,
-  "daily-notes": false,
-  "templates": false,
-  "note-composer": false,
+  "daily-notes": true,
+  "templates": true,
+  "note-composer": true,
   "command-palette": true,
   "slash-command": false,
   "editor-status": true,
@@ -20,18 +21,13 @@
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
-  "word-count": false,
-  "slides": true,
-  "audio-recorder": true,
+  "word-count": true,
+  "slides": false,
+  "audio-recorder": false,
   "workspaces": false,
   "file-recovery": true,
   "publish": false,
-  "sync": false,
-  "webviewer": false,
-  "footnotes": false,
-<<<<<<< HEAD
-  "bases": true
-=======
-  "bases": false
->>>>>>> origin/master
+  "sync": true,
+  "bases": true,
+  "webviewer": false
 }

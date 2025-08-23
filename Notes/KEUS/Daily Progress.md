@@ -288,3 +288,12 @@ inside the start after-registration-flow.ts, and see what this one is doing
 5. replace `NODE_PATH=/keus-iot-platform/common_modules/node_modules node ./index.js`
 6. with NODE_PATH=/keus-iot-platform/common-modules/node_modules node ./index.js
 7. Vdbuilding common
+
+
+## 2025-08-22
+1. Create template will be done by shield (so assume that templates for hubs are already created)
+2. Get template
+3. Install template all in hub-setup.js
+
+Some more KT for the next week
+1. 
