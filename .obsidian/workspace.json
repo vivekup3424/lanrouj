@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "36c9ab7acd0262b3",
+        "id": "9c13b5a16bae0853",
         "type": "tabs",
         "children": [
           {
-            "id": "f689aba9d4e590d7",
+            "id": "5028e61711277fe5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rotate image",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,11 +70,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 292,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -176,12 +177,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f689aba9d4e590d7",
+  "active": "5028e61711277fe5",
   "lastOpenFiles": [
-    "Excalidraw/deep_learning.md",
-    "Excalidraw/next-permutation.excalidraw.md",
-    "Excalidraw/practice.excalidraw.md",
+    "Notes/Algorithms/Prim’s algorithm.md",
+    "Notes/Algorithms/Untitled 2.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
+    "Excalidraw/next-permutation.excalidraw.md",
+    "Notes/Algorithms/Next Permutation.md",
+    "Notes/Algorithms/Set Matrix Zero.md",
+    "Notes/Algorithms/Remove duplicates from a sorted array.md",
+    "Excalidraw/deep_learning.md",
+    "Excalidraw/practice.excalidraw.md",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
@@ -189,7 +195,6 @@
     "Excalidraw/Drawing 2025-08-19 23.06.42.excalidraw.md",
     "Excalidraw/Drawing 2025-08-24 00.09.58.excalidraw.md",
     "Photos/Pasted Image 20250823174040_697.png",
-    "Notes/Algorithms/Next Permutation.md",
     "Photos/Pasted Image 20250823165012_712.png",
     "Notes/KEUS/Daily Progress.md",
     "dailyJournal/places to go to ( or just think about).md",
@@ -204,10 +209,6 @@
     "Notes/KEUS/Authentication and Authorization Service.md",
     "Notes/KEUS/Camera Motion Detection Requirement.md",
     "Notes/KEUS/Clean Architecture Prompt for the AI.md",
-    "Notes/KEUS/Over the Wire Notes.md",
-    "Notes/Algorithms/Sort 0s 1s 2s.md",
-    "Notes/KEUS/Steps to restart the node-manager on a hub.md",
-    "conflict-files-obsidian-git.md",
     "Photos/Pasted image 20250711164026.png",
     "Photos/Pasted image 20250711162501.png",
     "Photos/Pasted image 20250711162146.png",
