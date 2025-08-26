@@ -17,6 +17,24 @@ This principle allows programmers to represent real-world entities as objects in
 
 Encapsulation is the mechanism of bundling data (attributes) and operations (methods) together within a single unit, called a class. This principle helps to achieve separation of concerns, allowing each object to manage its own state and behavior, and restrict access to its internal data.
 
+Encapsulation means keeping data safe inside the class and controlling access using getters and setters.
+
+```java
+class BankAccount {
+    private double balance;  // hidden (private)
+
+    // public methods to control access
+    public void deposit(double amount) {
+        balance += amount;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+```
+
 ### Inheritance
 Inheritance enables the creation of new classes that inherit attributes and methods from existing classes. The new classes, called subclasses, can extend or override the behavior of the parent class (also known as the base or superclass). This promotes code reusability and modularity, as common functionalities can be shared among related classes.
 

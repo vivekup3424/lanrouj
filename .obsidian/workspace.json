@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f05f3ab80b205a2f",
+        "id": "13895626612d0721",
         "type": "tabs",
         "children": [
           {
-            "id": "a679975fe34cce8b",
+            "id": "63eeb5ace21e16c1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Notes/JS/Tree-shaking opportunities.md",
+                "bFile": "Notes/JS/Tree-shaking opportunities.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Tree-shaking opportunities"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "binary search",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,8 +179,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a679975fe34cce8b",
+  "active": "63eeb5ace21e16c1",
   "lastOpenFiles": [
+    "Excalidraw/next-permutation.excalidraw.md",
+    "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
+    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
+    "Excalidraw/Firebase.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-26 16.33.29.excalidraw.md",
+    "Notes/System Design/OOP.md",
+    "Notes/JS/Tree-shaking opportunities.md",
+    "Notes/Algorithms/Traversal Algorithms.md",
+    "Photos/waterfall.jpg",
     "Notes/Algorithms/BFS.md",
     "Untitled.md",
     "Untitled 1.canvas",
@@ -193,21 +205,13 @@
     "Notes/Algorithms/AVL Tree.md",
     "Notes/Algorithms/avadhKishar.md",
     "Untitled.canvas",
-    "Excalidraw/Firebase.excalidraw.md",
     "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/Algorithms/Untitled 2.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
-    "Excalidraw/next-permutation.excalidraw.md",
     "Notes/Algorithms/Next Permutation.md",
     "Notes/Algorithms/Set Matrix Zero.md",
     "Notes/Algorithms/Remove duplicates from a sorted array.md",
     "Excalidraw/deep_learning.md",
-    "Excalidraw/practice.excalidraw.md",
-    "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
-    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
-    "Excalidraw/find-building-where-alice-and-bob-can-meet.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-19 23.06.42.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-24 00.09.58.excalidraw.md",
     "Photos/Pasted Image 20250823174040_697.png",
     "Photos/Pasted Image 20250823165012_712.png",
     "Photos/Pasted image 20250822003128.png",
@@ -216,7 +220,6 @@
     "Photos/Pasted image 20250711162501.png",
     "Photos/Pasted image 20250711162146.png",
     "Photos/Pasted image 20250708002050.png",
-    "Photos/Pasted image 20250708001944.png",
     "Photos",
     "Recording 20250611212345.m4a",
     "Recording 20250611210153.m4a",
