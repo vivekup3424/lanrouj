@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "13895626612d0721",
+        "id": "fe4edf7e6bb7b41f",
         "type": "tabs",
         "children": [
           {
-            "id": "63eeb5ace21e16c1",
+            "id": "fbaa3e18adeb0804",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Notes/JS/Tree-shaking opportunities.md",
-                "bFile": "Notes/JS/Tree-shaking opportunities.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Tree-shaking opportunities"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "merge intervals",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,8 +176,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63eeb5ace21e16c1",
+  "active": "fbaa3e18adeb0804",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Notes/Algorithms/Array questions.md",
+    "Notes/Algorithms/Find the Duplicate Number.md",
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Excalidraw/next-permutation.excalidraw.md",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
@@ -191,7 +192,6 @@
     "Notes/Algorithms/Traversal Algorithms.md",
     "Photos/waterfall.jpg",
     "Notes/Algorithms/BFS.md",
-    "Untitled.md",
     "Untitled 1.canvas",
     "Canvas",
     "Notes/Algorithms/min-stack.md",
@@ -209,9 +209,6 @@
     "Notes/Algorithms/Untitled 2.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
     "Notes/Algorithms/Next Permutation.md",
-    "Notes/Algorithms/Set Matrix Zero.md",
-    "Notes/Algorithms/Remove duplicates from a sorted array.md",
-    "Excalidraw/deep_learning.md",
     "Photos/Pasted Image 20250823174040_697.png",
     "Photos/Pasted Image 20250823165012_712.png",
     "Photos/Pasted image 20250822003128.png",

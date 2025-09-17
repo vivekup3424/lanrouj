@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "rotate image",
+  "search": "",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1673854901307134,
-  "close": false
+  "scale": 0.3835950296281697,
+  "close": true
 }
