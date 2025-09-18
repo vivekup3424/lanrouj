@@ -296,4 +296,5 @@ inside the start after-registration-flow.ts, and see what this one is doing
 3. Install template all in hub-setup.js
 
 Some more KT for the next week
-1. 
+
+## 2025-09-18

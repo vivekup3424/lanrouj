@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fe4edf7e6bb7b41f",
+        "id": "c2b399dde3ca8c44",
         "type": "tabs",
         "children": [
           {
-            "id": "fbaa3e18adeb0804",
+            "id": "75f572387ca222a0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Daily Progress"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "merge intervals",
+                "query": "next permu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,13 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbaa3e18adeb0804",
+  "active": "75f572387ca222a0",
   "lastOpenFiles": [
+    "Notes/Algorithms/Next Permutation.md",
+    "Excalidraw/next-permutation.excalidraw.md",
     "Untitled.md",
     "Notes/Algorithms/Array questions.md",
     "Notes/Algorithms/Find the Duplicate Number.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
-    "Excalidraw/next-permutation.excalidraw.md",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
@@ -208,7 +213,6 @@
     "Notes/Algorithms/Prim’s algorithm.md",
     "Notes/Algorithms/Untitled 2.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
-    "Notes/Algorithms/Next Permutation.md",
     "Photos/Pasted Image 20250823174040_697.png",
     "Photos/Pasted Image 20250823165012_712.png",
     "Photos/Pasted image 20250822003128.png",
