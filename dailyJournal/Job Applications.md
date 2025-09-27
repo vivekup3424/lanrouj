@@ -12,10 +12,14 @@
 11. Confluent
 12. AirBnB
 13. Goldman Sachs
+14. Zoho
+15. Microsoft
+16. Snapdeals
+17. Quickr
+18. Brocade
+19. Adobe
+20. Juniper Networkds
+21. Cisco
 
 ### Platforms where I need to create my job search profiles
 1. Linkedin
-2. Indeed
-3. Naukri
-4. ZipRecruiter
-5. Instahyre

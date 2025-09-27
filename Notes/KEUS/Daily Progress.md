@@ -297,4 +297,17 @@ inside the start after-registration-flow.ts, and see what this one is doing
 
 Some more KT for the next week
 
-## 2025-09-18
+## 2025-09-19
+19th September 2025
+KT for elasticsearch
+1. Elasticsearch uses lucene
+
+
+## 2025-09-22
+1. how to attach a microphone on a raspberry pi 5?
+2. I am testing my voice agent on raspberry pi 5, I am learning about everything how to install drivers on linux without package installer
+3. `lsusb` is used to get the list of devices attached to the motherboard
+
+
+## 2025-09-23
+runMigrationFlow(older mongodb uri)
