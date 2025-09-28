@@ -8,15 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8930bfdbffcbd4ca",
+            "id": "890be4135daeb671",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md"
+                "file": "Excalidraw/taskflow.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-16 23.00.37.excalidraw"
+              "title": "taskflow.excalidraw"
             }
           }
         ]
@@ -177,21 +177,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8930bfdbffcbd4ca",
+  "active": "890be4135daeb671",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
-    "Notes/KEUS/Daily Progress.md",
+    "Photos/Pasted Image 20250928201007_692.png",
+    "Photos/Pasted Image 20250928201007_664.png",
+    "Photos/Pasted Image 20250928201007_661.png",
+    "Photos/Pasted Image 20250928201007_642.png",
+    "Excalidraw/Firebase.excalidraw.md",
+    "Excalidraw/taskflow.excalidraw.md",
+    "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
+    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Drawing 2025-09-24 09.56.14.excalidraw.md",
     "Excalidraw/Drawing 2025-09-19 00.16.09.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
+    "Notes/KEUS/Daily Progress.md",
     "dailyJournal/Job Applications.md",
     "Notes/Algorithms/Next Permutation.md",
     "Excalidraw/next-permutation.excalidraw.md",
     "Untitled.md",
     "Notes/Algorithms/Array questions.md",
     "Notes/Algorithms/Find the Duplicate Number.md",
-    "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
-    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
-    "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/Drawing 2025-08-26 16.33.29.excalidraw.md",
     "Notes/System Design/OOP.md",
     "Notes/JS/Tree-shaking opportunities.md",
@@ -206,18 +211,13 @@
     "Notes/Algorithms/Val.md",
     "Notes/Algorithms/3Sum.md",
     "Notes/Algorithms/fun-symbols.md",
-    "Notes/Algorithms/construct-quad-tree.md",
     "Notes/Algorithms/courseSchedule.png",
-    "Notes/Algorithms/AVL Tree.md",
     "Untitled.canvas",
     "Photos/Pasted Image 20250823174040_697.png",
     "Photos/Pasted Image 20250823165012_712.png",
     "Photos/Pasted image 20250822003128.png",
     "Photos/Pasted image 20241030203032.png",
     "Photos/Pasted image 20250711164026.png",
-    "Photos/Pasted image 20250711162501.png",
-    "Photos/Pasted image 20250711162146.png",
-    "Photos/Pasted image 20250708002050.png",
     "Photos",
     "Recording 20250611212345.m4a",
     "Recording 20250611210153.m4a",
