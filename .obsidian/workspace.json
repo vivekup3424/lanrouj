@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a695d53c7250da62",
+        "id": "d167b67ffdd72c1a",
         "type": "tabs",
         "children": [
           {
-            "id": "890be4135daeb671",
+            "id": "a81d522b4a2b3b97",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/taskflow.excalidraw.md"
+                "file": "Excalidraw/hub_info.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "taskflow.excalidraw"
+              "title": "hub_info.excalidraw"
             }
           }
         ]
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,20 +178,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "890be4135daeb671",
+  "active": "a81d522b4a2b3b97",
   "lastOpenFiles": [
+    "Excalidraw/hub_info.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
+    "Notes/KEUS/Daily Progress.md",
+    "Photos/Pasted Image 20250928201616_822.png",
+    "Photos/Pasted Image 20250928201616_820.png",
+    "Photos/Pasted Image 20250928201616_817.png",
+    "Photos/Pasted Image 20250928201616_808.png",
+    "Photos/Pasted Image 20250928201616_804.png",
+    "Photos/Pasted Image 20250928201616_796.png",
+    "Photos/Pasted Image 20250928201616_732.png",
+    "Excalidraw/taskflow.excalidraw.md",
+    "Excalidraw/Untitled.md",
     "Photos/Pasted Image 20250928201007_692.png",
     "Photos/Pasted Image 20250928201007_664.png",
     "Photos/Pasted Image 20250928201007_661.png",
-    "Photos/Pasted Image 20250928201007_642.png",
     "Excalidraw/Firebase.excalidraw.md",
-    "Excalidraw/taskflow.excalidraw.md",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Drawing 2025-09-24 09.56.14.excalidraw.md",
     "Excalidraw/Drawing 2025-09-19 00.16.09.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
-    "Notes/KEUS/Daily Progress.md",
     "dailyJournal/Job Applications.md",
     "Notes/Algorithms/Next Permutation.md",
     "Excalidraw/next-permutation.excalidraw.md",
@@ -201,7 +210,6 @@
     "Notes/System Design/OOP.md",
     "Notes/JS/Tree-shaking opportunities.md",
     "Notes/Algorithms/Traversal Algorithms.md",
-    "Photos/waterfall.jpg",
     "Notes/Algorithms/BFS.md",
     "Untitled 1.canvas",
     "Canvas",
@@ -209,15 +217,7 @@
     "Notes/Algorithms/Rat in a Maze.md",
     "Notes/Algorithms/Importance of Bitwise XOR.md",
     "Notes/Algorithms/Val.md",
-    "Notes/Algorithms/3Sum.md",
-    "Notes/Algorithms/fun-symbols.md",
-    "Notes/Algorithms/courseSchedule.png",
     "Untitled.canvas",
-    "Photos/Pasted Image 20250823174040_697.png",
-    "Photos/Pasted Image 20250823165012_712.png",
-    "Photos/Pasted image 20250822003128.png",
-    "Photos/Pasted image 20241030203032.png",
-    "Photos/Pasted image 20250711164026.png",
     "Photos",
     "Recording 20250611212345.m4a",
     "Recording 20250611210153.m4a",

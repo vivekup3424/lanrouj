@@ -311,3 +311,11 @@ KT for elasticsearch
 
 ## 2025-09-23
 runMigrationFlow(older mongodb uri)
+
+## 2025-09-29
+Tasks
+ - [ ] conditionally stop old services only zigbee ones, and start new ones
+	 - [ ] what those services
+ - [ ] what are the cases we need to handle during migration for main amd mini hub
+ - [ ] how much delay is acceptable during migration of main hub and mini hub
+	 - [ ] 
