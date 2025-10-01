@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d167b67ffdd72c1a",
+        "id": "f7ff830c802bb69f",
         "type": "tabs",
         "children": [
           {
-            "id": "a81d522b4a2b3b97",
+            "id": "2b9c2dbcf5a3f0d5",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/hub_info.excalidraw.md"
+                "file": "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "hub_info.excalidraw"
+              "title": "Lexicographically Smallest Equivalent String.excalidraw"
             }
           }
         ]
@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373,
-    "collapsed": true
+    "width": 373
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -178,10 +177,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a81d522b4a2b3b97",
+  "active": "2b9c2dbcf5a3f0d5",
   "lastOpenFiles": [
+    "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/hub_info.excalidraw.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
+    "lazydocker",
+    "lazydocker.tar.gz",
     "Notes/KEUS/Daily Progress.md",
     "Photos/Pasted Image 20250928201616_822.png",
     "Photos/Pasted Image 20250928201616_820.png",
@@ -195,7 +197,6 @@
     "Photos/Pasted Image 20250928201007_692.png",
     "Photos/Pasted Image 20250928201007_664.png",
     "Photos/Pasted Image 20250928201007_661.png",
-    "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Drawing 2025-09-24 09.56.14.excalidraw.md",
@@ -224,8 +225,6 @@
     "Recording 20250611210109.m4a",
     "Recording 20250611210055.m4a",
     "Recording 20250611205748.m4a",
-    "Notes/KEUS/output.docx",
-    "Notes/Mongodb",
-    "Notes/JS/Untitled"
+    "Notes/KEUS/output.docx"
   ]
 }
