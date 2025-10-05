@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b28cb6eed927088",
+        "id": "f4efc228a34ec3df",
         "type": "tabs",
         "children": [
           {
-            "id": "09517663fea3e47b",
+            "id": "521c8b65f7713504",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-16 23.00.37.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -177,8 +175,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09517663fea3e47b",
+  "active": "521c8b65f7713504",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Excalidraw/deep_learning.md",
     "Excalidraw/Pacific Atlantic Water Flow.excalidraw.md",
     "Untitled 1.md",
@@ -187,7 +186,6 @@
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/hub_info.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "lazydocker",
     "lazydocker.tar.gz",
     "Photos/Pasted Image 20250928201616_822.png",
