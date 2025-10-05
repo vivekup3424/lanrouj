@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f7ff830c802bb69f",
+        "id": "1b28cb6eed927088",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9c2dbcf5a3f0d5",
+            "id": "09517663fea3e47b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md"
+                "file": "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Lexicographically Smallest Equivalent String.excalidraw"
+              "title": "Drawing 2025-09-16 23.00.37.excalidraw"
             }
           }
         ]
@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 373,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -162,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,14 +177,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b9c2dbcf5a3f0d5",
+  "active": "09517663fea3e47b",
   "lastOpenFiles": [
+    "Excalidraw/deep_learning.md",
+    "Excalidraw/Pacific Atlantic Water Flow.excalidraw.md",
+    "Untitled 1.md",
+    "Notes/Algorithms/Trapping Rainwater.md",
+    "Notes/KEUS/Daily Progress.md",
+    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/hub_info.excalidraw.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "lazydocker",
     "lazydocker.tar.gz",
-    "Notes/KEUS/Daily Progress.md",
     "Photos/Pasted Image 20250928201616_822.png",
     "Photos/Pasted Image 20250928201616_820.png",
     "Photos/Pasted Image 20250928201616_817.png",
@@ -198,7 +203,6 @@
     "Photos/Pasted Image 20250928201007_664.png",
     "Photos/Pasted Image 20250928201007_661.png",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
-    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Drawing 2025-09-24 09.56.14.excalidraw.md",
     "Excalidraw/Drawing 2025-09-19 00.16.09.excalidraw.md",
     "dailyJournal/Job Applications.md",
@@ -215,9 +219,6 @@
     "Untitled 1.canvas",
     "Canvas",
     "Notes/Algorithms/min-stack.md",
-    "Notes/Algorithms/Rat in a Maze.md",
-    "Notes/Algorithms/Importance of Bitwise XOR.md",
-    "Notes/Algorithms/Val.md",
     "Untitled.canvas",
     "Photos",
     "Recording 20250611212345.m4a",

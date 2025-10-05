@@ -314,8 +314,13 @@ runMigrationFlow(older mongodb uri)
 
 ## 2025-09-29
 Tasks
- - [ ] conditionally stop old services only zigbee ones, and start new ones
-	 - [ ] what those services
- - [ ] what are the cases we need to handle during migration for main amd mini hub
- - [ ] how much delay is acceptable during migration of main hub and mini hub
-	 - [ ] 
+ - [x] conditionally stop old services only zigbee ones, and start new ones
+	 - [x] what those services
+ - [x] what are the cases we need to handle during migration for main amd mini hub
+ - [x] how much delay is acceptable during migration of main hub and mini hub
+
+## 2025-10-03
+1. For the gateway migration,
+2. Written the code to cleanup the zigbee chip in the step3 (infosync)
+3. Merged the PR of zigbee-migration changes into dev_gateway_restructure
+
