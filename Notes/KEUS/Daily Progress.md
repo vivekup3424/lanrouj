@@ -324,3 +324,25 @@ Tasks
 2. Written the code to cleanup the zigbee chip in the step3 (infosync)
 3. Merged the PR of zigbee-migration changes into dev_gateway_restructure
 
+## 2025-10-06
+Things we have done to make the gateway-migration work
+1. installing sshpass in developer's laptop
+2. Adding ip to known_hosts for sshpass to work
+3. When building node-manager, if podman-remote-api is not build beforehand its throwing error
+	1. In the node-manager's source code, wherever we are importing podman-remote-api from deploy subdirectory, I've replaced it with src subdirectory
+	2. so we don't need to compil e the typescript files in src to generate the deploy subdirectory
+4. Also in node-manager, in the taskflow service's taskflow-manager was throwing typescript error in emitEvent
+	1. it was expecting taskflowId in this params, but that was not garuanteed , no it replaced the emitEvent function signature
+	2. in the kiotp-realtime-js source code, I replaced the 
+		1. `let bucketLister: Lister<KvStatus> = kvManager?.list();`
+		2. with `let bucketLister: Lister<KvStatus> = kvManager!.list();`
+		3. since it was throwing typescript error
+
+>[!TODO]
+> multinode is working correctly in mini, the services are not getting installed
+> also plugin is also not getting installed
+
+When I checked the leafnode connection in manager's nats, it is alright, the mini is getting connected as a leaf-node
+
+WipeZNP
+1. Its taking 

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f4efc228a34ec3df",
+        "id": "d15db59da2f10515",
         "type": "tabs",
         "children": [
           {
-            "id": "521c8b65f7713504",
+            "id": "bf71e1f16c043bcf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Daily Progress"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "merge space",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,14 +180,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "521c8b65f7713504",
+  "active": "bf71e1f16c043bcf",
   "lastOpenFiles": [
+    "Notes/Algorithms/Dijkstra’s shortest path.md",
+    "Notes/KEUS/Daily Progress.md",
+    "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Excalidraw/deep_learning.md",
     "Excalidraw/Pacific Atlantic Water Flow.excalidraw.md",
     "Untitled 1.md",
     "Notes/Algorithms/Trapping Rainwater.md",
-    "Notes/KEUS/Daily Progress.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/hub_info.excalidraw.md",
@@ -213,10 +220,8 @@
     "Notes/System Design/OOP.md",
     "Notes/JS/Tree-shaking opportunities.md",
     "Notes/Algorithms/Traversal Algorithms.md",
-    "Notes/Algorithms/BFS.md",
     "Untitled 1.canvas",
     "Canvas",
-    "Notes/Algorithms/min-stack.md",
     "Untitled.canvas",
     "Photos",
     "Recording 20250611212345.m4a",
