@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3eedb543aa8adcdb",
+        "id": "6f8c2a5a96dc188a",
         "type": "tabs",
         "children": [
           {
-            "id": "ff7672a7c605bbb1",
+            "id": "48ad5731d7d90001",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Daily Progress"
             }
           }
         ]
@@ -172,16 +176,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ff7672a7c605bbb1",
+  "active": "48ad5731d7d90001",
   "lastOpenFiles": [
+    "Notes/Algorithms/Climbing-Stairs.md",
+    "Notes/Algorithms/AVL Tree.md",
     "Excalidraw/hub_info.excalidraw.md",
     "Notes/Algorithms/Is Subsequence.md",
     "Notes/KEUS/Daily Progress.md",
     "Notes/Algorithms/Clone Graph.md",
-    "Notes/Algorithms/Climbing-Stairs.md",
     "Notes/Algorithms/BinarySearch.md",
     "Notes/Algorithms/alien-dictionary.md",
     "Notes/Algorithms/Array questions.md",
@@ -214,7 +220,6 @@
     "Photos/Pasted Image 20250928201007_664.png",
     "Photos/Pasted Image 20250928201007_661.png",
     "Excalidraw/Drawing 2025-09-24 09.56.14.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-19 00.16.09.excalidraw.md",
     "Untitled 1.canvas",
     "Canvas",
     "Untitled.canvas",
