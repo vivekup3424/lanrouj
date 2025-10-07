@@ -174,14 +174,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "audio-recorder:Start/stop recording": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa0930678d55db0f",
+  "active": "04a880d3398e100e",
   "lastOpenFiles": [
-    "Notes/KEUS/Daily Progress.md",
     "Excalidraw/hub_info.excalidraw.md",
+    "Notes/KEUS/Daily Progress.md",
     "Notes/Algorithms/Climbing-Stairs.md",
     "Notes/Algorithms/AVL Tree.md",
     "Notes/Algorithms/Is Subsequence.md",
