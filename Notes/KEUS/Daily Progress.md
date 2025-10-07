@@ -350,5 +350,4 @@ WipeZNP
 ## 2025-10-07
 1. Add a trycatch in getNodeConfig of node-configuration, also added the isWorkerNode flag in responses of this handler
 2. Changing the ISiteNodeInfo interface to include  isWorkerNode and managerIp field
-3. My one suggestion is to move managerIp and autoDiscovery field above the NodeInfo object to make the INode interface cleaner
-4. In sitedb, the isWorkerNode flag is not true and managerIp is not getting added
+3. Merged the PR for above code in dev_gateway_restructure branch
