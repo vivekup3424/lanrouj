@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "85deec46ed4dda2c",
+        "id": "4c3669d2fa0eceb0",
         "type": "tabs",
         "children": [
           {
-            "id": "aa0930678d55db0f",
+            "id": "f5ff3ec6a935de43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/KEUS/Daily Progress.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Daily Progress"
+              "title": "New tab"
             }
           }
         ]
@@ -179,9 +175,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa0930678d55db0f",
+  "active": "f5ff3ec6a935de43",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
+    "Excalidraw/taskflow.excalidraw.md",
+    "Excalidraw/Untitled.md",
+    "Excalidraw/Rotate-Matrix.excalidraw.md",
+    "Excalidraw/Pacific Atlantic Water Flow.excalidraw.md",
+    "Excalidraw/next-permutation.excalidraw.md",
+    "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
+    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/hub_info.excalidraw.md",
+    "Excalidraw/Firebase.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
+    "Excalidraw/deep_learning.md",
+    "Untitled.md",
+    "Untitled 1.md",
     "Notes/KEUS/Daily Progress.md",
     "Notes/Algorithms/Climbing-Stairs.md",
     "Notes/Algorithms/AVL Tree.md",
@@ -193,17 +202,7 @@
     "Job Applications/Companies to avoid.md",
     "Job Applications/Firebase.md",
     "Job Applications/Google.md",
-    "Excalidraw/next-permutation.excalidraw.md",
-    "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
-    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
-    "Excalidraw/Firebase.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
-    "Excalidraw/deep_learning.md",
     "Notes/Algorithms/Dijkstra’s shortest path.md",
-    "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
-    "Excalidraw/Pacific Atlantic Water Flow.excalidraw.md",
-    "Untitled 1.md",
-    "Notes/Algorithms/Trapping Rainwater.md",
     "lazydocker",
     "lazydocker.tar.gz",
     "Photos/Pasted Image 20250928201616_822.png",
@@ -213,12 +212,9 @@
     "Photos/Pasted Image 20250928201616_804.png",
     "Photos/Pasted Image 20250928201616_796.png",
     "Photos/Pasted Image 20250928201616_732.png",
-    "Excalidraw/taskflow.excalidraw.md",
-    "Excalidraw/Untitled.md",
     "Photos/Pasted Image 20250928201007_692.png",
     "Photos/Pasted Image 20250928201007_664.png",
     "Photos/Pasted Image 20250928201007_661.png",
-    "Excalidraw/Drawing 2025-09-24 09.56.14.excalidraw.md",
     "Untitled 1.canvas",
     "Canvas",
     "Untitled.canvas",

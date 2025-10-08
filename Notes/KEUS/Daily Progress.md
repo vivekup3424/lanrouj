@@ -351,3 +351,6 @@ WipeZNP
 1. Add a trycatch in getNodeConfig of node-configuration, also added the isWorkerNode flag in responses of this handler
 2. Changing the ISiteNodeInfo interface to include  isWorkerNode and managerIp field
 3. Merged the PR for above code in dev_gateway_restructure branch
+
+## 2025-10-08
+1. Working on a poc to have inbox working in util from hydra-core directly
