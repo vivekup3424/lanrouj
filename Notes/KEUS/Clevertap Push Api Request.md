@@ -1,4 +1,5 @@
 This below request is coming alright
+1. With DeviceId
 ```json
 curl -X POST "https://api.clevertap.com/1/send/push.json" \
 -H "X-CleverTap-Account-Id: 449-R46-R57Z" \
@@ -76,7 +77,7 @@ curl --location 'http://100.96.62.107:3939/api/v1/notification/send_clevertap_no
 --header 'Content-Type: application/json' \
 --data '[
   {
-    "time": "2025-09-18T12:10:36.735Z",
+    "time": "2025-10-09T12:37:15Z",
     "msg": "Notification request for user-123",
     "data": {
       "notification": {
@@ -90,7 +91,52 @@ curl --location 'http://100.96.62.107:3939/api/v1/notification/send_clevertap_no
           ]
         },
         "payload": {
-          "title": "Appliance Alert!",
+          "title": "Appliance Alert! 5",
+          "body": "Your device in floor12 requires attention.",
+          "imageUrl": "https://utsav.gov.in/public/festival_top/1659608853.jpg",
+          "soundFile": "ring_sound.wav",
+          "channelId": "vdp_ring_channel_id",
+          "locale": "en",
+          "deepLink": "myapp://appliance/kdjkji2",
+          "params": {
+            "applianceId": "kdjkji2",
+            "room": "floor12",
+            "alertCode": "TEMP_HIGH"
+          }
+        },
+        "delivery": {
+          "priority": "HIGH",
+          "ttl": 86400
+        }
+      }
+    }
+  }
+]'
+
+```
+
+
+using shield domain
+```json
+curl --location 'https://shield.dev.keus.in/api/v1/notification/send_clevertap_notification' \
+--header 'Content-Type: application/json' \
+--data '[
+  {
+    "time": "2025-10-09T12:37:15Z",
+    "msg": "Notification request for user-123",
+    "data": {
+      "notification": {
+        "eventId": "a7e1c8b3-9f8e-4b1d-8c2a-5e7d6f0b1a2c",
+        "source": "appliance-monitor-service",
+        "channel": "PUSH",
+        "target": {
+          "clevertap_device_id": [
+            "__ac8bfb751f384373878f9004e3f6f10a",
+            "-vd4c1f82c048c49e6ba9ab611de4aa4c7"
+          ]
+        },
+        "payload": {
+          "title": "Appliance Alert! 5",
           "body": "Your device in floor12 requires attention.",
           "imageUrl": "https://utsav.gov.in/public/festival_top/1659608853.jpg",
           "soundFile": "ring_sound.wav",
