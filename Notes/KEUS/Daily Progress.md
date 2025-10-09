@@ -356,4 +356,5 @@ WipeZNP
 1. Working on a poc to have inbox working in util from hydra-core directly
 
 ## 2025-10-09
-1. 
+1. Tested the cleverrap push notification on iOS tablet keus app, we are able to send custom images and sounds for notifications
+2. Tested the shield api for sending notification with android and iOS app, we are able to send notifications to multiple devices at once using the shield api
