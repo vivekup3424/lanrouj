@@ -12,7 +12,7 @@ curl -X POST "https://api.clevertap.com/1/send/push.json" \
     ]
   },
   "content": {
-    "title": "Hey Homer",
+    "title": "Hey Device Homer",
     "body": "This is a test push notification with image and custom params.",
     "platform_specific": {
       "android": {
@@ -35,7 +35,40 @@ curl -X POST "https://api.clevertap.com/1/send/push.json" \
 
 ```
 
-
+2. with userId
+```json
+curl -X POST "https://api.clevertap.com/1/send/push.json" \
+-H "X-CleverTap-Account-Id: 449-R46-R57Z" \
+-H "X-CleverTap-Passcode: AAS-IAY-MPEL" \
+-H "Content-Type: application/json; charset=utf-8" \
+-d '{
+  "to": {
+    "Identity": [
+    "+918247781785",
+    ]
+  },
+  "content": {
+    "title": "Hey User Identity Homer",
+    "body": "This is a test push notification with image and custom params.",
+    "platform_specific": {
+      "android": {
+        "large_icon": "https://utsav.gov.in/public/festival_top/1659608853.jpg",
+        "wzrk_cid": "vdp_ring_channel_id",
+        "background_image": "https://utsav.gov.in/public/festival_top/1659608853.jpg"
+      },
+      "ios": {
+        "sound_file": "ring_sound.wav",
+        "mutable-content": "true",
+        "ct_mediaUrl": "https://i0.wp.com/www.dogwonder.co.uk/wp-content/uploads/2009/12/tumblr_ku2pvuJkJG1qz9qooo1_r1_400.gif?resize=320%2C320"
+      }
+    },
+    "params": {
+      "foo": "bar",
+      "baz": 123
+    }
+  }
+}'
+```
 ## Carousel example
 ```json
 curl -X POST "https://api.clevertap.com/1/send/push.json" \
@@ -117,12 +150,16 @@ curl --location 'http://100.96.62.107:3939/api/v1/notification/send_clevertap_no
 
 
 using shield domain
+
+> [!WARN]
+> Always update the zulu time with current time
+
 ```json
 curl --location 'https://shield.dev.keus.in/api/v1/notification/send_clevertap_notification' \
 --header 'Content-Type: application/json' \
 --data '[
   {
-    "time": "2025-10-09T12:37:15Z",
+    "time": "2025-10-15T09:33:09Z",
     "msg": "Notification request for user-123",
     "data": {
       "notification": {
@@ -151,11 +188,51 @@ curl --location 'https://shield.dev.keus.in/api/v1/notification/send_clevertap_n
         },
         "delivery": {
           "priority": "HIGH",
-          "ttl": 86400
+          "ttl": 8640000
         }
       }
     }
   }
 ]'
 
+```
+
+using userId
+```json
+curl --location 'https://shield.dev.keus.in/api/v1/notification/send_clevertap_notification' \
+--header 'Content-Type: application/json' \
+--data '[
+  {
+    "time": "2025-10-14T10:12:46Z",
+    "msg": "Notification request for user-123",
+    "data": {
+      "notification": {
+        "eventId": "a7e1c8b3-9f8e-4b1d-8c2a-5e7d6f0b1a2c",
+        "source": "appliance-monitor-service",
+        "channel": "PUSH",
+        "target": {
+          "userId": "+918247781785"
+        },
+        "payload": {
+          "title": "Appliance Alert! 5",
+          "body": "Your device in floor12 requires attention.",
+          "imageUrl": "https://utsav.gov.in/public/festival_top/1659608853.jpg",
+          "soundFile": "ring_sound.wav",
+          "channelId": "vdp_ring_channel_id",
+          "locale": "en",
+          "deepLink": "myapp://appliance/kdjkji2",
+          "params": {
+            "applianceId": "kdjkji2",
+            "room": "floor12",
+            "alertCode": "TEMP_HIGH"
+          }
+        },
+        "delivery": {
+          "priority": "HIGH",
+          "ttl": 86400
+        }
+      }
+    }
+  }
+]'
 ```

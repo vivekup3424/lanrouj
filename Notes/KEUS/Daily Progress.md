@@ -358,3 +358,19 @@ WipeZNP
 ## 2025-10-09
 1. Tested the cleverrap push notification on iOS tablet keus app, we are able to send custom images and sounds for notifications
 2. Tested the shield api for sending notification with android and iOS app, we are able to send notifications to multiple devices at once using the shield api
+
+#### Observations on push notification on iOS via Clevertap
+1. When tablet falls below 10% battery, the tablet gets into battery saver modes, then all the notifications get throttled hence we might on these notifications
+2. Sometimes when we send a push notification request to clevertap api, it might return a `dispatch failed` error (this is observered when sending notifications directly from clevertap dashboard)
+3. There are too many motion detection notifications coming to the tablet, like 2-3 notification per second
+	1. We can have a internal settings for notifications, so that users can select to which kind of notitications to receive
+
+## 2025-10-15
+1. Merged the PR for these below todos of event-buffer service
+	1. implement service schema using service ids from node manager constants
+	2. named "default.bufferService.dead.queue" as the dead letter queue for event buffer service
+	3. add expiry for events in event-buffer service
+2.  Working on load testing the Pi3-Raspian OS with new platform and older platform running together, will continue this tommorrow
+
+## 2025-10-16
+1. 
