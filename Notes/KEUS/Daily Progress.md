@@ -373,4 +373,82 @@ WipeZNP
 2.  Working on load testing the Pi3-Raspian OS with new platform and older platform running together, will continue this tommorrow
 
 ## 2025-10-16
-1. 
+1. Identify the bug in plugin installation where on installing plugin, it was getting installed in either worker node or manager node
+2. Fixed this bug, and I will raise a PR for this tomorrow
+3. Published all devices to shield, will start load testing tomorrow
+4. I am able to install device on hub either from template or by mentioning plugin-id in shield
+
+## 2025-10-17
+Curretly noting down information on Skhub-main for Pi3 Load test
+When nothing new is added, and the hub is functioning normally
+![[Pasted image 20251017122129.png]]
+
+1. On average when the older gateway is running, the idle cpu usage is 13% 
+2. memory usage is 680 MB our of 970MB, 
+3. and its also swap usage is 366 MB out of 1024 MB
+Two process that most intensive this time is hub_request_manager and device_manager
+Tailscaled also sometimes use 17% cpu usage
+
+### After starting the new platform along with the older platform
+Simple commands like `pm2 ls` take 5 seconds to respond on pi3
+1. The cpu usage has increased to 25% on average in all the four cores
+2. Memory is still averaging around 680 MB our of 970 MB total
+3. Swap has increased to 920 MB out of 1024 MB
+While idling
+![[Pasted image 20251017141708.png]]
+
+Hub-Request Manager = 9% CPU and 14% Memory
+Node Manager = 2.7% and 3.6 % memory
+Mongodb in crun is using 5.0% CPU
+
+![[Pasted image 20251017142345.png]]
+#### Some errors encountered while installing plugins
+
+1. ```json
+   23|kiotp_node_manager_server  | [2025-10-17T07:39:13.220Z] WARN  manager/BROKER: Request 'v1.plugin_core.savePluginToDatabase' is timed out. { requestID: '79c694cb-5588-400b-8a69-7a456cbd44f8', nodeID: 'manager_plugin_core_1', timeout: 30000 }    
+   ```
+This error is intermittent, since it is due to timeout, retrying to install the plugin fixes this issue.
+
+*While installing plugin, the cpu increases to avg of 50% on all four cores, then it reverts back to normal*
+
+2.
+```json
+23|kiotp_node_manager_server  | [2025-10-17T07:47:22.797Z] ERROR manager/BROKER: error in channel handler--- Error: Plugin download/pull failed: Error: Plugin not found
+```
+ this error is coming for plugins like 
+ 1. kiotp.plugins.default.device.lightscv6.plugin
+ 2. kiotp.plugins.default.device.lightscv3.plugin
+ 3. kiotp.plugins.default.device.ContactSensor.plugin
+ 4. kiotp.plugins.default.device.KZGC.plugin
+
+3.
+```json
+23|kiotp_node_manager_server  | [2025-10-17T08:00:06.473Z] WARN  manager/BROKER: Log the error: Error: StartPlugin failed: Package subpath './src/contracts/zigbee-coordinator-service' is not defined by "exports" in /data/keus-iot-platform/common-modules/node_modules/@keus-automation/hydra-core/package.json
+```
+1. Doorlock plugin (kiotp.plugins.default.device.plugin)
+
+### Now the next step is to test on a hub, after removing the older services or on a fresh hub
+Now while idling on the new platform
+![[Pasted image 20251017144445.png]]
+Cpu is averaging to 7% on all 4 cores
+Memory is 587MB
+And swap has decreased to 229 MB 
+
+stats for node-manager CPU = 2% and Memory = 9% (the memory comsumption has increased because we have more free memory)
+
+| Process         | CPU | Memory |
+| --------------- | --- | ------ |
+| Node-Manager    | 2   | 9      |
+| ZCS             | 0.7 | 7.8    |
+| Platform-Agent  | 1.9 | 3.4    |
+| Mongodb in Crun | 3.2 | 6.4    |
+
+call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68f8ab05051bdda2a4847297","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
+take deviceId from id, and ieeeAddr from zigbee.firmware for a device
+
+## 2025-10-22
+#### Steps to add and identify a device
+1.  inside `/keus-iot-platform/packages/plugins-default/core/home-automation/backend/src/appliance/tools` 
+2. run repl.ts 
+3. How to add a device - we can't add a device
+

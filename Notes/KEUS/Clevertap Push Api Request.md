@@ -203,7 +203,7 @@ curl --location 'https://shield.dev.keus.in/api/v1/notification/send_clevertap_n
 --header 'Content-Type: application/json' \
 --data '[
   {
-    "time": "2025-10-14T10:12:46Z",
+    "time": "2025-10-17T12:04:22Z",
     "msg": "Notification request for user-123",
     "data": {
       "notification": {
@@ -227,6 +227,48 @@ curl --location 'https://shield.dev.keus.in/api/v1/notification/send_clevertap_n
             "alertCode": "TEMP_HIGH"
           }
         },
+        "delivery": {
+          "priority": "HIGH",
+          "ttl": 86400
+        }
+      }
+    }
+  }
+]'
+```
+
+
+Sample
+```json
+curl --location 'https://shield.dev.keus.in/api/v1/notification/send_clevertap_notification' \
+--header 'Content-Type: application/json' \
+--data '[
+  {
+    "time": "2025-10-17T12:04:22Z",
+    "msg": "Notification request for user-123",
+    "data": {
+      "notification": {
+      "eventId": "KIOTP-NOTIFICATION-camera",
+      "channel": "PUSH",
+      "target": {
+        "userId": "+918247781785"
+      },
+      "payload": {
+        "title": "Camera Detection",
+        "body": "Motion Detected in camera null",
+        "locale": "en",
+        "soundFile": "ring_sound.wav",
+        "imageUrl": "https://i0.wp.com/www.dogwonder.co.uk/wp-content/uploads/2009/12/tumblr_ku2pvuJkJG1qz9qooo1_r1_400.gif?resize=320%2C320",
+        "params": {
+          "applianceId": "68e7a7d5fc5d4fd32b055add",
+          "applianceName": "",
+          "eventId": "68f22f5b0086ca03e41a802e",
+          "eventStartTime": 1760702293755,
+          "eventEndTime": 1760702301755,
+          "eventThumbnailId": "https://heimdall.keus.in/708bc8980000000000000000-kiotp.plugins.cameras.core/snapshot/672dc2b60006a603e400121d",
+          "detectionType": 2
+        }
+      },
         "delivery": {
           "priority": "HIGH",
           "ttl": 86400
