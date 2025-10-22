@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "001fbd0b8362cbc2",
+        "id": "ca8800230b4c364d",
         "type": "tabs",
         "children": [
           {
-            "id": "295491c317d5be91",
+            "id": "d4171140b119c037",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "295491c317d5be91",
+  "active": "d4171140b119c037",
   "lastOpenFiles": [
+    "Photos/Binary_search_tree.svg.png",
+    "auto-git-push.log",
     "Untitled.md",
     "auto-git-push.sh",
     "Excalidraw/hub_info.excalidraw.md",
@@ -212,7 +214,6 @@
     "Recording 20250611212345.m4a",
     "Recording 20250611210153.m4a",
     "Recording 20250611210109.m4a",
-    "Recording 20250611210055.m4a",
-    "Recording 20250611205748.m4a"
+    "Recording 20250611210055.m4a"
   ]
 }
