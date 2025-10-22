@@ -2,3 +2,4 @@
 *.tar
 *.gz
 cache
+auto-git-push.log
