@@ -452,3 +452,8 @@ take deviceId from id, and ieeeAddr from zigbee.firmware for a device
 2. run repl.ts 
 3. How to add a device - we can't add a device
 
+![[Pasted image 20251023144526.png]]
+
+
+After starting new mongodb
+![[Pasted image 20251023144659.png]]
