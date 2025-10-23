@@ -443,7 +443,7 @@ stats for node-manager CPU = 2% and Memory = 9% (the memory comsumption has incr
 | Platform-Agent  | 1.9 | 3.4    |
 | Mongodb in Crun | 3.2 | 6.4    |
 
-call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68f9f3ac0c25c72159267c17","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
+call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68fa0d8542538ec8f965a077","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
 take deviceId from id, and ieeeAddr from zigbee.firmware for a device
 
 ## 2025-10-22
@@ -452,8 +452,13 @@ take deviceId from id, and ieeeAddr from zigbee.firmware for a device
 2. run repl.ts 
 3. How to add a device - we can't add a device
 
-![[Pasted image 20251023144526.png]]
+![[Pasted image 20251023144526.png|600]]
 
 
 After starting new mongodb
-![[Pasted image 20251023144659.png]]
+![[Pasted image 20251023144659.png|600]]
+
+
+## 2025-10-23
+
+Identify call for ir-blaster
