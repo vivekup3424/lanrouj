@@ -33,8 +33,7 @@
               "title": "hub_info.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,14 +181,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "619874e94c6ccba1",
+  "active": "d0dd267fef7e75bd",
   "lastOpenFiles": [
+    "Excalidraw/hub_info.excalidraw.md",
     "Notes/KEUS/Daily Progress.md",
     "Photos/Binary_search_tree.svg.png",
     "auto-git-push.log",
     "Untitled.md",
     "auto-git-push.sh",
-    "Excalidraw/hub_info.excalidraw.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Notes/KEUS/Clevertap Push Api Request.md",
     "Notes/ModellingSimulation/modelling_07_October_2024.md",
