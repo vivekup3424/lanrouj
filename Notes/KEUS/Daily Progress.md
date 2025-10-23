@@ -462,3 +462,5 @@ After starting new mongodb
 ## 2025-10-23
 
 Identify call for ir-blaster
+
+call "1.0.0.kiotp.plugins.default.device.irblaster.plugin.service.IRBlasterDevicePlugin.identify" '{"deviceId":"68fa0d8542538ec8f965a071","ieeeAddr":"0x00124b002490bc7f","isActive":true}'
