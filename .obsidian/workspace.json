@@ -4,20 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8800230b4c364d",
+        "id": "65329950dc1f5f53",
         "type": "tabs",
         "children": [
           {
-            "id": "d4171140b119c037",
+            "id": "d0dd267fef7e75bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Daily Progress"
+            }
+          },
+          {
+            "id": "619874e94c6ccba1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/hub_info.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "hub_info.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 373,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -161,18 +179,17 @@
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d4171140b119c037",
+  "active": "619874e94c6ccba1",
   "lastOpenFiles": [
+    "Notes/KEUS/Daily Progress.md",
     "Photos/Binary_search_tree.svg.png",
     "auto-git-push.log",
     "Untitled.md",
     "auto-git-push.sh",
     "Excalidraw/hub_info.excalidraw.md",
-    "Notes/KEUS/Daily Progress.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Notes/KEUS/Clevertap Push Api Request.md",
     "Notes/ModellingSimulation/modelling_07_October_2024.md",
@@ -206,7 +223,6 @@
     "Photos/Pasted Image 20250928201616_820.png",
     "Photos/Pasted Image 20250928201616_817.png",
     "Photos/Pasted Image 20250928201616_808.png",
-    "Photos/Pasted Image 20250928201616_804.png",
     "Untitled 1.canvas",
     "Canvas",
     "Untitled.canvas",
