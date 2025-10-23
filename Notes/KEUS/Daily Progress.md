@@ -443,7 +443,7 @@ stats for node-manager CPU = 2% and Memory = 9% (the memory comsumption has incr
 | Platform-Agent  | 1.9 | 3.4    |
 | Mongodb in Crun | 3.2 | 6.4    |
 
-call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68f8ab05051bdda2a4847297","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
+call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68f9da5140ba1a37956a2ec4","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
 take deviceId from id, and ieeeAddr from zigbee.firmware for a device
 
 ## 2025-10-22
