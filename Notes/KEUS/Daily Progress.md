@@ -468,7 +468,7 @@ call "1.0.0.kiotp.plugins.default.device.irblaster.plugin.service.IRBlasterDevic
 call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68fb4562266d89a071bb1b7a","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
 
 kiotp.plugins.default.device.acfan.plugin.service.ACFanDevicePlugin
-call "1.0.0.kiotp.plugins.default.device.acfan.plugin.service.ACFanDevicePlugin.identify" '{"deviceId":"68fb4562266d89a071bb1b7b","ieeeAddr":"0x00124b0030d4526f","isActive":true}'
+call "1.0.0.kiotp.plugins.default.device.acfan.plugin.service.ACFanDevicePlugin.identify" '{"deviceId":"68fb4562266d89a071bb1b7b","ieeeAddr":"0x00124b0030d4526f","isActive":false}'
 
 1.0.0.kiotp.plugins.default.device.plugin.embeddedSwitch.service.EmbeddedSwitchDevicePlugin
 call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedSwitchDevicePlugin.identify" '{"deviceId":"68fb4562266d89a071bb1b7c", "ieeeAddr": "0x00124b0026c46093", "isActive":true}'
@@ -497,6 +497,7 @@ call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedS
 | Step7    | Register Node                      | Dependent   | Step6                                       |
 | Step8    | Zigbee Coordinator Service startup | Dependent   | Step7                                       |
 | Step9    | Install plugins                    | Dependent   | Step7                                       |
+|          |                                    |             |                                             |
 
 More observations:
 1. On adding 15 available plugins in the 
