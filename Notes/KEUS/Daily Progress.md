@@ -497,3 +497,6 @@ call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedS
 | Step7    | Register Node                      | Dependent   | Step6                                       |
 | Step8    | Zigbee Coordinator Service startup | Dependent   | Step7                                       |
 | Step9    | Install plugins                    | Dependent   | Step7                                       |
+
+More observations:
+1. On adding 15 available plugins in the 
