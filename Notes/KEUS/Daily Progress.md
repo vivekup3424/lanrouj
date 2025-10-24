@@ -508,3 +508,5 @@ call "1.0.0.kiotp.plugins.default.core.service.ApplianceService.appliance.update
 Update:-
 1. Updated the migration script 
 2. Added 4 devices in the stage hub with new platform service
+
+![[Pasted image 20251024182936.png]]
