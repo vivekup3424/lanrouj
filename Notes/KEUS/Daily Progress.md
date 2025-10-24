@@ -510,3 +510,8 @@ Update:-
 2. Added 4 devices in the stage hub with new platform service
 
 ![[Pasted image 20251024182936.png]]
+
+
+
+Create schedule
+call "1.0.0.kiotp.plugins.default.core.service.ScheduleService.schedule.create" {"name":"bright6", "type": "REPEATING", "startDate": "2025-09-23", "startTime": "18:50", "endDate": "2035-09-23", "endTime": "13:35", "repeat": {"MON": true, "TUE": true, "WED": true, "THU": true, "FRI": false, "SAT": true, "SUN": true},"actionInfo": {"mainType": "APPLIANCE", "subType": "DIMMER", "identifier": {"id": "68fb70a12ed8318798f801dd"}, "state": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 10}}}, "roomId": "Home", "sectionId":"Default", "isEnabled": true, "isForceExecute": true, "isForceExecute": true,"requestId":"1234","isInternal": false, "sourceType" :2}'
