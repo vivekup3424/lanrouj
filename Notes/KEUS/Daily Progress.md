@@ -475,4 +475,22 @@ call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedS
 ### Relationship between steps
 1. Step1 (Downloading artifacts) - independent
 2. Step2 (Preparing Backup) - independent
-3. Step3 (Stopping old platform services) - no dependency,
+3. Step3 (Stopping old platform services) - dependent (Step2 needs to finished before this)
+4. Step4 (Mongodb Start) - dependent (Step1 need to download mongodb, crun and create directories)
+5. Step5 (Mongodb Data Migration) - dependent (dependents on Step4 and Step2 to get data for migration)
+6. Step6 (Platform Services Initialization) - dependent (dependent on Step1 to get the code of all services)
+7. Step7 (Register Node) - dependent (depends on Step6 to start node-manager)
+8. Step8 (Zigbee Coordinator Service startup) - dependent (depends on Step7 to get nodeId)
+9. Step9 (Install plugins) - dependent (depends on Step7 to start a node)
+
+| Step No. | Step Name                          | Type        | Dependencies                                |
+| -------- | ---------------------------------- | ----------- | ------------------------------------------- |
+| Step1    | Downloading artifacts              | Independent | —                                           |
+| Step2    | Preparing Backup                   | Independent | —                                           |
+| Step3    | Stopping old platform services     | Dependent   | Step2                                       |
+| Step4    | Mongodb Start                      | Dependent   | Step1 (download mongodb, crun, create dirs) |
+| Step5    | Mongodb Data Migration             | Dependent   | Step4, Step2                                |
+| Step6    | Platform Services Initialization   | Dependent   | Step1                                       |
+| Step7    | Register Node                      | Dependent   | Step6                                       |
+| Step8    | Zigbee Coordinator Service startup | Dependent   | Step7                                       |
+| Step9    | Install plugins                    | Dependent   | Step7                                       |
