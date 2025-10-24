@@ -464,3 +464,5 @@ After starting new mongodb
 Identify call for ir-blaster
 
 call "1.0.0.kiotp.plugins.default.device.irblaster.plugin.service.IRBlasterDevicePlugin.identify" '{"deviceId":"68fb198e0aeb0a6cb10f80ff","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
+
+call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68fb310f9ad1fe47ea85600b","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
