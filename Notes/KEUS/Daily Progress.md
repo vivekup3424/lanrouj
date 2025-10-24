@@ -471,3 +471,8 @@ kiotp.plugins.default.device.acfan.plugin.service.ACFanDevicePlugin
 call "1.0.0.kiotp.plugins.default.device.acfan.plugin.service.ACFanDevicePlugin.identify" '{"deviceId":"68fb310f9ad1fe47ea85600c","ieeeAddr":"0x00124b0030d4526f","isActive":true}'
 
 call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedSwitchDevicePlugin.identify" '{"ieeeAddr":"0x00124b0026c46093","deviceId":"68e51e1380938c2c6082cdea","isActive":1}'
+
+### Relationship between steps
+1. Step1 (Downloading artifacts) - independent
+2. Step2 (Preparing Backup) - independent
+3. Step3 (Stopping old platform services) - no dependency,
