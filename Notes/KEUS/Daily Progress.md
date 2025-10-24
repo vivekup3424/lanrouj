@@ -501,3 +501,6 @@ call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedS
 
 More observations:
 1. On adding 15 available plugins in the 
+
+update state:  
+call "1.0.0.kiotp.plugins.default.core.service.ApplianceService.appliance.updateState" '{"applianceId": "68fb4562266d89a071bb1b85", "applianceState": {"onOffState": {"onState":false}, "brightnessState": {"brightnessPercent": 100}}, "sourceType" :2}'
