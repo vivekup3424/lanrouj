@@ -504,3 +504,7 @@ More observations:
 
 update state:  
 call "1.0.0.kiotp.plugins.default.core.service.ApplianceService.appliance.updateState" '{"applianceId": "68fb70a12ed8318798f801dd", "applianceState": {"onOffState": {"onState":false}, "brightnessState": {"brightnessPercent": 100}}, "sourceType" :2}'
+
+Update:-
+1. Updated the migration script 
+2. Added 4 devices in the stage hub with new platform service
