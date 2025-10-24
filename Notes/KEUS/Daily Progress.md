@@ -503,4 +503,4 @@ More observations:
 1. On adding 15 available plugins in the 
 
 update state:  
-call "1.0.0.kiotp.plugins.default.core.service.ApplianceService.appliance.updateState" '{"applianceId": "68fb69ecc8824abe5a6fd029", "applianceState": {"onOffState": {"onState":false}, "brightnessState": {"brightnessPercent": 100}}, "sourceType" :2}'
+call "1.0.0.kiotp.plugins.default.core.service.ApplianceService.appliance.updateState" '{"applianceId": "68fb70a12ed8318798f801dd", "applianceState": {"onOffState": {"onState":false}, "brightnessState": {"brightnessPercent": 100}}, "sourceType" :2}'
