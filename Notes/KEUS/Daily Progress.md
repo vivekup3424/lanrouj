@@ -473,6 +473,8 @@ call "1.0.0.kiotp.plugins.default.device.acfan.plugin.service.ACFanDevicePlugin.
 1.0.0.kiotp.plugins.default.device.plugin.embeddedSwitch.service.EmbeddedSwitchDevicePlugin
 call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedSwitchDevicePlugin.identify" '{"deviceId":"68fb4562266d89a071bb1b7c", "ieeeAddr": "0x00124b0026c46093", "isActive":true}'
 
+call "1.0.0.kiotp.plugins.default.device.embeddedSwitch.plugin.service.EmbeddedSwitchDevicePlugin.identify" '{"deviceId":"68fb4562266d89a071bb1b7d", "ieeeAddr": "0x00124b0031f6add5", "isActive":true}'
+
 ### Relationship between steps
 1. Step1 (Downloading artifacts) - independent
 2. Step2 (Preparing Backup) - independent
