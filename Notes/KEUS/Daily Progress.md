@@ -515,3 +515,8 @@ Update:-
 
 Create schedule
 call "1.0.0.kiotp.plugins.default.core.service.ScheduleService.schedule.create" '{"name":"bright00", "type": "REPEATING", "startDate": "2025-10-24", "startTime": "19:04", "endDate": "2025-10-24", "endTime": "19:06", "repeat": {"MON": true, "TUE": true, "WED": true, "THU": true, "FRI": false, "SAT": true, "SUN": true},"actionInfo": {"mainType": "APPLIANCE", "subType": "DIMMER", "identifier": {"id": "68fb70a12ed8318798f801dd"}, "state": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 0}}}, "roomId": "YS3d0HzvQB", "sectionId":"Default", "isEnabled": true, "isForceExecute": true, "isForceExecute": true,"requestId":"1234","isInternal": false, "sourceType" :2}'
+
+
+## 2025-10-27
+1. Test if the voice-agent is working on a node or not.
+2. 
