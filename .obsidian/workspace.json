@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Job Applications/Cover Letter.md",
+                "file": "dailyJournal/5 - trying to be more consistent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cover Letter"
+              "title": "5 - trying to be more consistent"
             }
           },
           {
@@ -31,6 +31,16 @@
               },
               "icon": "excalidraw-icon",
               "title": "hub_info.excalidraw"
+            }
+          },
+          {
+            "id": "622dc9e0d6a33db7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -183,8 +193,9 @@
   },
   "active": "d0dd267fef7e75bd",
   "lastOpenFiles": [
-    "Notes/KEUS/Daily Progress.md",
+    "dailyJournal/5 - trying to be more consistent.md",
     "Job Applications/Cover Letter.md",
+    "Notes/KEUS/Daily Progress.md",
     "Photos/Pasted image 20251024182936.png",
     "Photos/Pasted image 20251023144659.png",
     "Photos/Pasted image 20251023144526.png",
@@ -219,7 +230,6 @@
     "Notes/Algorithms/Clone Graph.md",
     "Notes/Algorithms/BinarySearch.md",
     "Notes/Algorithms/alien-dictionary.md",
-    "Notes/Algorithms/Array questions.md",
     "lazydocker",
     "lazydocker.tar.gz",
     "Photos/Pasted Image 20250928201616_822.png",

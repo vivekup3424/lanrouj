@@ -47,3 +47,9 @@ checkNodeConfig() {
 
 ## 2025-07-31
 It has been almost 2 months since I did any writing, I am just busy with this job at Keus, and also walking 8 kilometers everyday makes me very tired.
+
+## 2025-10-27
+Today after such a long time I am able to apply to a job opening
+1. https://stripe.com/jobs/listing/software-engineering-new-grad/7176975/apply?gh_src=73vnei granted it was for freshers and I am working professional, but I just want to get out of my current company.
+Some observations
+I think the companies that are having 500-1000 people are the best and then a normal 
