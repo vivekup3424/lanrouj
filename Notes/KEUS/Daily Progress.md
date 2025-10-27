@@ -520,6 +520,8 @@ call "1.0.0.kiotp.plugins.default.core.service.ScheduleService.schedule.create" 
 ## 2025-10-27
 1. Test if the voice-agent is working on a node or not, consequently I setup the voice-agent on a Pi5 RaspbianOS
 2. Reading about livekit python server sdk and how to use it in our voice-agent
-3. 
+3. when running `python agent.py console` command its throwing error that PortAudio library is not installed on your system.\
+	1. PortAudio is a cross-platform audio I/O library that provides a simple API for recording and playing sound on your computer.
+	2. It is required by livekit agent
 
 We now know your webcam **works perfectly at the OS and driver level**, but **not at the browser/web layer**.  
