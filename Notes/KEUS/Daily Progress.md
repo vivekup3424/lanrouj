@@ -527,7 +527,9 @@ call "1.0.0.kiotp.plugins.default.core.service.ScheduleService.schedule.create" 
 We now know your webcam **works perfectly at the OS and driver level**, but **not at the browser/web layer**.  
 
 ## 2025-10-28
-1. call "1.0.0.kiotp.plugins.default.core.service.ScheduleService.schedule.create" '{"name":"alpha", "type": "REPEATING", "startDate": "2025-10-28", "startTime": "17:00", "endDate": "2025-10-28", "endTime": "17:10", "repeat": {"MON": true, "TUE": true, "WED": true, "THU": true, "FRI": false, "SAT": true, "SUN": true},"actionInfo": {"mainType": "APPLIANCE", "subType": "DIMMER", "identifier": {"id": "68fb70a12ed8318798f801dd"}, "state": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 0}}}, "roomId": "YS3d0HzvQB", "sectionId":"Default", "isEnabled": true, "isForceExecute": true, "isForceExecute": true,"requestId":"1234","isInternal": false, "sourceType" :2}'
+1. call "1.0.0.kiotp.plugins.default.core.service.ScheduleService.schedule.create" '{"name":"beta", "type": "REPEATING", "startDate": "2025-10-28", "startTime": "12:35", "endDate": "2025-10-28", "endTime": "12:37", "repeat": {"MON": true, "TUE": true, "WED": true, "THU": true, "FRI": false, "SAT": true, "SUN": true},"actionInfo": {"mainType": "APPLIANCE", "subType": "DIMMER", "identifier": {"id": "68fb70a12ed8318798f801dd"}, "state": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}}}, "roomId": "YS3d0HzvQB", "sectionId":"Default", "isEnabled": true, "isForceExecute": true, "isForceExecute": true,"requestId":"1234","isInternal": false, "sourceType" :2}'
 
 Identify call for zigbeedimmable
 call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68fb70a12ed8318798f801d2","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
+
+for schedules, endDate and endTime are not mandatory
