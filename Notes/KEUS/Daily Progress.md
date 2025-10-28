@@ -537,8 +537,14 @@ for schedules, endDate and endTime are not mandatory
 1. Creating groups
 2. Executing groups
 3. **UpdateGroupState**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateState" '{"groupId": "69008d7bd7433c2611c033fd", "groupState": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}}, "requestId":"1234", "sourceType":2}'
-4. **UpdateGroupProperties**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateProperties" '{"groupId": "69008d7bd7433c2611c033fd", "groupProperties": {"onOffProperties": {}, "brightnessProperties": {"minValue": 5, "maxValue":10,"fadeUpTime": 0,"fadeDownTime": 0,"fadeOffTime":0,"fadeRate": 0}}, "requestId":"1234", "sourceType" :2}'
+4. **UpdateGroupProperties**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateProperties" '{"groupId": "690095f16b9574081cc081ed", "groupProperties": {"onOffProperties": {}, "brightnessProperties": {"minValue": 5, "maxValue":10,"fadeUpTime": 0,"fadeDownTime": 0,"fadeOffTime":0,"fadeRate": 0}}, "requestId":"1234", "sourceType" :2}'
 
 Rasa bot prompts
 1. I am using open-source rasa bot with a openai compatible format.
-2. 
+2. This are the data in domain.yml for rasa bot 
+	```  utter_goodbye:
+      - text: "Goodbye! Have a wonderful day!"
+    - text: "See you later! Let me know if you need anything!"
+    - text: "Bye! Your home is in good hands!"
+	```
+3.  I want search for these sentences in on_conversation_item_added, and when these are detected, we will stop the agent
