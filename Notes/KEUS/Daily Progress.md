@@ -540,7 +540,7 @@ for schedules, endDate and endTime are not mandatory
 4. **UpdateGroupProperties**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateProperties" '{"groupId": "69009b253f76fa36e1d02e45", "groupProperties": {"onOffProperties": {}, "brightnessProperties": {"minValue": 5, "maxValue":10,"fadeUpTime": 0,"fadeDownTime": 0,"fadeOffTime":0,"fadeRate": 0}}, "requestId":"1234", "sourceType" :2}'
 5. **RemoveStepFromScene**: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.removeStep" '{"sceneId":"69009d3bbaca0a2ba5930127", "stepId": "69009d3bbaca0a2ba593012a", "requestId":"1234", "isForceDelete" : false, "sourceType":2}'
 6. **AddStepToScene**: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.addStep" '{"sceneId": "69009d3bbaca0a2ba5930127", "stepType":"GROUP", "stepInfo": {"id": "69009d3bbaca0a2ba5930120", "state": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}},"delay": 0}, "requestId":"1234", "sourceType": 2}'
-7. **ExecuteLocalScene**: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.executeLocal" '{"sceneId": "69009d3bbaca0a2ba5930127", "activitySourceInfo": {"userName": "Vishnu", "userPhone": "+919008673313", "timestamp": "-", "sourceType": 2}}'
+7. **ExecuteLocalScene**: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.executeLocal" '{"sceneId": "69009d3bbaca0a2ba5930127", "activitySourceInfo": {"userName": "System", "userPhone": "+919999999999", "timestamp": "-", "sourceType": 2}, "roomId": "nuwQiIf0td"}'
 Rasa bot prompts
 8. I am using open-source rasa bot with a openai compatible format.
 9. This are the data in domain.yml for rasa bot 
@@ -550,3 +550,5 @@ Rasa bot prompts
     - text: "Bye! Your home is in good hands!"
 	```
 10.  I want search for these sentences in on_conversation_item_added, and when these are detected, we will stop the agent
+
+call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.executeLocal" '{"sceneId": "69009d3bbaca0a2ba5930127", "activitySourceInfo": {"userName": "System", "userPhone": "+919999999999", "timestamp": "-", "sourceType": 2}, "roomId": "nuwQiIf0td"}' '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkZW1vX3VzZXIiLCJ1c2VyTmFtZSI6IkRlbW8gVXNlciIsInNpdGVJZCI6IjcwOGJjODk4MDAwMDAwMDAwMDAwMDAwMCIsIm5vZGVJZCI6ImFjb1ltZjQiLCJpYXQiOjE3NjA1MTQyNDUsImV4cCI6MTc5MjA1MDI0NSwiaXNzIjoiNzA4YmM4OTgwMDAwMDAwMDAwMDAwMDAwIn0.2OJHwUsobNcVwaHfl1ntRGDnNEI6pxzRzQIZRTN16hE"}'
