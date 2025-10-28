@@ -536,6 +536,5 @@ for schedules, endDate and endTime are not mandatory
 
 1. Creating groups
 2. Executing groups
-3. UpdateGroupState: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateState" '{"groupId": "68fb70a12ed8318798f801e8", "groupState": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}}, "requestId":"1234", "sourceType":2}'
-
-
+3. **UpdateGroupState**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateState" '{"groupId": "69008d7bd7433c2611c033fd", "groupState": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}}, "requestId":"1234", "sourceType":2}'
+4. **UpdateGroupProperties**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateProperties" '{"groupId": "69008d7bd7433c2611c033fd", "groupProperties": {"onOffProperties": {}, "brightnessProperties": {"minValue": 5, "maxValue":10,"fadeUpTime": 0,"fadeDownTime": 0,"fadeOffTime":0,"fadeRate": 0}}, "requestId":"1234", "sourceType" :2}'
