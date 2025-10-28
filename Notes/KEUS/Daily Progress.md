@@ -533,3 +533,7 @@ Identify call for zigbeedimmable
 call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"68fb70a12ed8318798f801d2","ieeeAddr":"0x00124b0030cfe5c0","isActive":true}'
 
 for schedules, endDate and endTime are not mandatory
+
+1. Creating groups
+2. Executing groups
+3. UpdateGroupState: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateState" '{"groupId": "68fb70a12ed8318798f801e8", "groupState": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}}, "requestId":"1234", "sourceType":2}'
