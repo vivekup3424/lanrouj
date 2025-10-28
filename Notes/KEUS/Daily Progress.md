@@ -539,12 +539,14 @@ for schedules, endDate and endTime are not mandatory
 3. **UpdateGroupState**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateState" '{"groupId": "69008d7bd7433c2611c033fd", "groupState": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}}, "requestId":"1234", "sourceType":2}'
 4. **UpdateGroupProperties**: call "1.0.0.kiotp.plugins.default.core.service.GroupService.group.updateProperties" '{"groupId": "69009b253f76fa36e1d02e45", "groupProperties": {"onOffProperties": {}, "brightnessProperties": {"minValue": 5, "maxValue":10,"fadeUpTime": 0,"fadeDownTime": 0,"fadeOffTime":0,"fadeRate": 0}}, "requestId":"1234", "sourceType" :2}'
 5. **RemoveStepFromScene**: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.removeStep" '{"sceneId":"69009d3bbaca0a2ba5930127", "stepId": "69009d3bbaca0a2ba593012a", "requestId":"1234", "isForceDelete" : false, "sourceType":2}'
+6. **AddStepToScene**: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.addStep" '{"sceneId": "69009d3bbaca0a2ba5930127", "stepType":"GROUP", "stepInfo": {"id": "69009d3bbaca0a2ba5930120", "state": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 100}},"delay": 0}, "requestId":"1234", "sourceType": 2}'
+7. **ExecuteLocalScene**: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.executeLocal" '{"sceneId": "69009d3bbaca0a2ba5930127", "activitySourceInfo": {"userName": "Vishnu", "userPhone": "[+919008673313](tel:+919008673313)", "timestamp": "-", "sourceType": 2}}'
 Rasa bot prompts
-6. I am using open-source rasa bot with a openai compatible format.
-7. This are the data in domain.yml for rasa bot 
+8. I am using open-source rasa bot with a openai compatible format.
+9. This are the data in domain.yml for rasa bot 
 	```  utter_goodbye:
       - text: "Goodbye! Have a wonderful day!"
     - text: "See you later! Let me know if you need anything!"
     - text: "Bye! Your home is in good hands!"
 	```
-8.  I want search for these sentences in on_conversation_item_added, and when these are detected, we will stop the agent
+10.  I want search for these sentences in on_conversation_item_added, and when these are detected, we will stop the agent
