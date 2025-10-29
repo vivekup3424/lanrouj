@@ -25,12 +25,14 @@
             "id": "619874e94c6ccba1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/hub_info.excalidraw.md"
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "hub_info.excalidraw"
+              "icon": "lucide-file",
+              "title": "Daily Progress"
             }
           }
         ],
@@ -184,9 +186,9 @@
   },
   "active": "619874e94c6ccba1",
   "lastOpenFiles": [
+    "Excalidraw/hub_info.excalidraw.md",
     "Notes/Algorithms/BFS.md",
     "Notes/KEUS/Daily Progress.md",
-    "Excalidraw/hub_info.excalidraw.md",
     "dailyJournal/5 - trying to be more consistent.md",
     "Job Applications/Cover Letter.md",
     "Photos/Pasted image 20251024182936.png",
