@@ -554,3 +554,5 @@ Rasa bot prompts
 
 
 ExecuteLocalScene: call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.executeLocal" '{"sceneId": "6901da926b6f2653781349d9", "activitySourceInfo": {"userName": "Vishnu", "userPhone": "[+919008673313](tel:+919008673313)", "timestamp": "-", "sourceType": 2}}'
+
+call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.createLocal" '{"name":"forty two percent", "type": "CUSTOM", "roomId": "nuwQiIf0td", "sectionId":"Default", "icon":1, "requestId":"1234", "sourceType":2}'
