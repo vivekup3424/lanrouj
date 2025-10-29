@@ -2,11 +2,11 @@
 
 Last Updated : 26 Sep, 2024
 
-****Breadth First Search (BFS)**** is a fundamental ****graph traversal algorithm.**** It begins with a node, then first traverses all its adjacent. Once all adjacent are visited, then their adjacent are traversed. This is different from [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/) in a way that closest vertices are visited before others. We mainly traverse vertices level by level. 
+****Breadth First Search (BFS)**** is a fundamental ****graph traversal algorithm.**** It begins with a node, then first traverses all its adjacent. Once all adjacent are visited, then their adjacent are traversed. We mainly traverse vertices level by level. 
 A lot of popular graph algorithms like [[Dijkstra’s shortest path]], [[Kahn’s Algorithm]], and [[Prim’s algorithm]] are based on BFS. BFS itself can be used to detect cycle in a directed and undirected graph, find shortest path in an unweighted graph and many more problems.
-## ****BFS from a Given Source:**** 
+## BFS from a Given Source:
 
-The algorithm starts from a given source and explores all reachable vertices from the given source. It is similar to the [[Breadth-First Traversal of a tree]]. Like tree, we begin with the given source (in tree, we begin with root) and traverse vertices level by level using a queue data structure. The only catch here is that, unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a ****boolean**** ****visited**** array.
+The algorithm starts from a given source and explores all reachable vertices from the given source. It is similar to the [[Breadth-First Traversal of a tree]]. Like tree, we begin with the given source (in tree, we begin with root) and traverse vertices level by level using a queue data structure. The only catch here is that, unlike trees, graphs may contain cycles, so we may come to the same node again. To avoid processing a node more than once, we use a *boolean visited array.*
 
 > [!NOTE]
 > PSUEDO CODE
