@@ -564,3 +564,9 @@ call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.addStep" '{"sc
 call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.addStep" '{"sceneId": "6901fcaa7304385a3db4d55c", "stepType":"GROUP", "stepInfo": {"id": "6901f8c8294e64bf834f3225", "state": {"onOffState": {"onState":true}, "brightnessState": {"brightnessPercent": 50}},"delay": 0}, "requestId":"1234", "roomId" : "nuwQiIf0td", "sourceType": 2}' '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkZW1vX3VzZXIiLCJ1c2VyTmFtZSI6IkRlbW8gVXNlciIsInNpdGVJZCI6IjgxMGVmNDY4MDAwMDAwMDAwMDAwMDAwMCIsIm5vZGVJZCI6Im1hbmFnZXIiLCJpYXQiOjE3NjE2NTg0ODIsImV4cCI6MTc5MzE5NDQ4MiwiaXNzIjoiODEwZWY0NjgwMDAwMDAwMDAwMDAwMDAwIn0.LPKPoP9H4RldmR41GFHkPZ5vp3Tm820XT7iFJFmAO6o"}'
 
 ## 2025-10-30
+
+
+## 2025-10-31
+1. Do a backup, push it to cloud
+2. Reset the os of hub (reflash)
+3. restore the backup
