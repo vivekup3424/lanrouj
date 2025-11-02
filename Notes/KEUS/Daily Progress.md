@@ -569,4 +569,4 @@ call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.addStep" '{"sc
 ## 2025-10-31
 1. Do a backup, push it to cloud
 2. Reset the os of hub (reflash)
-3. restore the backup
+3. restore the backup df
