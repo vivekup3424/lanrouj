@@ -595,3 +595,5 @@ see user's room can be anything, I can add all the room names in the NLU, so I a
 
 reading the rooms name from the rooms.json file for now
 
+bugs I am having for now
+1. When saying goodbye, its utter "Hello I am your smart home assistant" - 
