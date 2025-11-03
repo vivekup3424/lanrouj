@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "af583d0124d802b0",
+        "id": "c9532909ad5df9fa",
         "type": "tabs",
         "children": [
           {
-            "id": "68d9e5af268e89c2",
+            "id": "98945978ec649218",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/KEUS/Daily Progress.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Daily Progress"
+              "title": "New tab"
             }
           }
         ]
@@ -169,15 +165,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "68d9e5af268e89c2",
+  "active": "98945978ec649218",
   "lastOpenFiles": [
+    "Notes/KEUS/Daily Progress.md",
     "dailyJournal/Workout Science.md",
     "dailyJournal/5 - trying to be more consistent.md",
     "dailyJournal/3.md",
     "dailyJournal/4.md",
     "dailyJournal/2.md",
     "dailyJournal/1.md",
-    "Notes/KEUS/Daily Progress.md",
     "Excalidraw/hub_info.excalidraw.md",
     "Notes/Algorithms/BFS.md",
     "Job Applications/Cover Letter.md",
