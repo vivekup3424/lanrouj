@@ -11,10 +11,14 @@
             "id": "98945978ec649218",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "random question.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "random question"
             }
           }
         ]
@@ -167,6 +171,7 @@
   },
   "active": "98945978ec649218",
   "lastOpenFiles": [
+    "random question.md",
     "Notes/KEUS/Daily Progress.md",
     "dailyJournal/Workout Science.md",
     "dailyJournal/5 - trying to be more consistent.md",
@@ -182,7 +187,6 @@
     "Photos/Pasted image 20251023144526.png",
     "Photos/Binary_search_tree.svg.png",
     "auto-git-push.log",
-    "Untitled.md",
     "auto-git-push.sh",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Notes/KEUS/Clevertap Push Api Request.md",
