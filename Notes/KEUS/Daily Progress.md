@@ -578,3 +578,16 @@ see the scenes like "all off", "ac on", "Ac off", "bright", "Relax",  "day", "ni
 
 as such I want you to read the training_data_format documentation and then suggest if I can improve my nlu data in anyway to make it more accurate for general conversation where grammatical mistakes can occur since I am using text from a SST service
 
+1. Normalizing scenes: Instead of a separate intent per preconfigured scene, use one intent execute_preconfigured_scene with an entity scene_name (values: all_off, ac_on, ac_off, bright, relax, day, night, party, reading, movie, coffee, rain, romantic, cool). Then keep execute_scene for user-created scenes (entity scene_id or scene_name). This reduces overlap and confusion (e.g. “I want bright” vs “execute bright scene”). If you keep current per‑scene intents, add more noisy variants to each.
+2. Add synonyms for scene names and common ASR mis-hearings (bright/right, night/knight, relax/relaxed, party/parti, coffee/cafi, romantic/romantics, cool/kewl).
+3. Add lookup tables for rooms and scene names to help RegexFeaturizer.
+4. Add a regex for scene ids (e.g. scene123) to help execute_scene.
+5. Add filler / disfluency forms (“uh”, “um”, “like”, “please”, “could you”, “can you maybe”) and casual grammar errors (“i m”, “im”, “gud night”, “nite”, “turn off evrything”).
+6. Include casing / spacing / number variants (“work station 2”, “workstation two”, “Work Station to”).
+7. Add examples with missing punctuation and extra words (“hey can you maybe turn on the ac please”).
+8. Consider adding a general fallback intent (out_of_scope) plus more greet / thank / goodbye noise to reduce false positives.
+9. If you keep multiple scene intents, ensure at least 15‑20 varied examples each (currently ok but add ASR noise).
+10. Add synonyms instead of stuffing mis-hearings directly; keeps example list cleaner and improves normalization.
+
+I need to do this "Include casing / spacing / number variants (“work station 2”, “workstation two”, “Work Station to”)."
+see user's room can be anything, I can add all the room names in the NLU, so I am thinking that in the NLU example I keep generic room names, and when we people 
