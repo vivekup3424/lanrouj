@@ -591,3 +591,7 @@ as such I want you to read the training_data_format documentation and then sugge
 
 I need to do this "Include casing / spacing / number variants (“work station 2”, “workstation two”, “Work Station to”)."
 see user's room can be anything, I can add all the room names in the NLU, so I am thinking that in the NLU example I keep generic room names, and when we people 
+
+
+reading the rooms name from the rooms.json file for now
+
