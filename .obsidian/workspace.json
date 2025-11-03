@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3cc4c52c0a1a2716",
+        "id": "af583d0124d802b0",
         "type": "tabs",
         "children": [
           {
-            "id": "f2e6e3c010ee9876",
+            "id": "68d9e5af268e89c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dailyJournal/Workout Science.md",
+                "file": "Notes/KEUS/Daily Progress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Workout Science"
+              "title": "Daily Progress"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 373,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -168,10 +169,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f2e6e3c010ee9876",
+  "active": "68d9e5af268e89c2",
   "lastOpenFiles": [
-    "dailyJournal/5 - trying to be more consistent.md",
     "dailyJournal/Workout Science.md",
+    "dailyJournal/5 - trying to be more consistent.md",
     "dailyJournal/3.md",
     "dailyJournal/4.md",
     "dailyJournal/2.md",
