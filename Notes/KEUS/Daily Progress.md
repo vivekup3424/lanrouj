@@ -573,3 +573,8 @@ call "1.0.0.kiotp.plugins.default.core.service.SceneService.scene.addStep" '{"sc
 3. restore the backup df
 
 ## 2025-11-03
+1. Add a custom tokenizer to replace all non-alphanumeric characters with whitespace (I don't I should do this for now)
+see the scenes like "all off", "ac on", "Ac off", "bright", "Relax",  "day", "night", "party",  "reading", "movie", "coffee", "rain", "romantic", "cool" are the preconfigured scenes hence I want to add some diverse examples for them, but there can be some custome scenes create by user, for that I need to have a execute_scene intent
+
+as such I want you to read the training_data_format documentation and then suggest if I can improve my nlu data in anyway to make it more accurate for general conversation where grammatical mistakes can occur since I am using text from a SST service
+
