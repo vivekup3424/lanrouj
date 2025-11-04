@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c9532909ad5df9fa",
+        "id": "c933f34bb180f848",
         "type": "tabs",
         "children": [
           {
-            "id": "98945978ec649218",
+            "id": "49b9ad8a51b0a9da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "random question.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/hub_info.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "random question"
+              "icon": "excalidraw-icon",
+              "title": "hub_info.excalidraw"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 373,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -168,7 +167,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "98945978ec649218",
+  "active": "49b9ad8a51b0a9da",
   "lastOpenFiles": [
     "random question.md",
     "Notes/KEUS/Daily Progress.md",
