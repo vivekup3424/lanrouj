@@ -11,12 +11,14 @@
             "id": "49b9ad8a51b0a9da",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/hub_info.excalidraw.md"
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "hub_info.excalidraw"
+              "icon": "lucide-file",
+              "title": "Daily Progress"
             }
           }
         ]
@@ -169,6 +171,7 @@
   },
   "active": "49b9ad8a51b0a9da",
   "lastOpenFiles": [
+    "Excalidraw/hub_info.excalidraw.md",
     "random question.md",
     "Notes/KEUS/Daily Progress.md",
     "dailyJournal/Workout Science.md",
@@ -177,7 +180,6 @@
     "dailyJournal/4.md",
     "dailyJournal/2.md",
     "dailyJournal/1.md",
-    "Excalidraw/hub_info.excalidraw.md",
     "Notes/Algorithms/BFS.md",
     "Job Applications/Cover Letter.md",
     "Photos/Pasted image 20251024182936.png",

@@ -597,3 +597,7 @@ reading the rooms name from the rooms.json file for now
 
 bugs I am having for now
 1. When saying goodbye, its utter "Hello I am your smart home assistant" - 
+
+## 2025-11-04
+1. updated the migration logic to start platform-agent as a systemctl service, in the new platform
+2. for now I am using taking the binary from /keus-iot-platform/app/platform-agent/binary after building it
