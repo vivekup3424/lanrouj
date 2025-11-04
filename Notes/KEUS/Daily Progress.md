@@ -601,3 +601,4 @@ bugs I am having for now
 ## 2025-11-04
 1. updated the migration logic to start platform-agent as a systemctl service, in the new platform
 2. for now I am using taking the binary from /keus-iot-platform/app/platform-agent/binary after building it
++918247781785

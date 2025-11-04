@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "__b38d79d5d1c045e499493c01160a070d",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 373,
-    "collapsed": true
+    "width": 373
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -169,7 +169,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "49b9ad8a51b0a9da",
+  "active": "a7b97f6d8434f8e7",
   "lastOpenFiles": [
     "Excalidraw/hub_info.excalidraw.md",
     "random question.md",
