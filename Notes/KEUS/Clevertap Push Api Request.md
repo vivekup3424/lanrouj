@@ -1,7 +1,7 @@
 This below request is coming alright
 1. With DeviceId
 ```json
-curl -X POST "https://api.clevertap.com/1/send/push.json" \
+**c5url** -X POST "https://api.clevertap.com/1/send/push.json" \
 -H "X-CleverTap-Account-Id: 449-R46-R57Z" \
 -H "X-CleverTap-Passcode: AAS-IAY-MPEL" \
 -H "Content-Type: application/json; charset=utf-8" \

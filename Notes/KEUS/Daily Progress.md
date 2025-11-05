@@ -609,3 +609,11 @@ bugs I am having for now
 
 call "1.0.0.kiotp.plugins.default.device.zigbeedimmable.plugin.service.ZigbeeDimmableDevicePlugin.identify" '{"deviceId":"690b0e62ab93be03b81e168d","ieeeAddr":"0x00124b0031f8f251","isActive":255}'
 take deviceId from id, and ieeeAddr from zigbee.firmware for a device
+
+curl -X POST "http://100.82.115.91:3939/v1/migration_service/migration.get_site_details" \
+  -H "Authorization: Bearer QEXdDJ59xGaJ68Jy2EB_pSSz5N2tvqtjFz-7JvrlksHcK2QKLmZECuGY2X9bnaZ8FTWTPpM" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "siteId": "Keus-b535bad3-94a1-4a95-926b-2d619d246651",
+    "includeFullDetails": true
+  }'
