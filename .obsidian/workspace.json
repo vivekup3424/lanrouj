@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "982223cabb952c4a",
+        "id": "dca0663bcf242ef0",
         "type": "tabs",
         "children": [
           {
-            "id": "1474004cd838ec3e",
+            "id": "4f1301de920bc45f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/hub_info.excalidraw.md"
+                "file": "Notes/KEUS/Clevertap Push Api Request.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "hub_info.excalidraw"
+              "icon": "lucide-file",
+              "title": "Clevertap Push Api Request"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "__b38d79d5d1c045e499493c01160a070d",
+                "query": "curl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,10 +169,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1474004cd838ec3e",
+  "active": "4f1301de920bc45f",
   "lastOpenFiles": [
-    "Notes/KEUS/Daily Progress.md",
     "Excalidraw/hub_info.excalidraw.md",
+    "Notes/KEUS/Daily Progress.md",
     "random question.md",
     "dailyJournal/Workout Science.md",
     "dailyJournal/5 - trying to be more consistent.md",
