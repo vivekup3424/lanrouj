@@ -605,4 +605,4 @@ bugs I am having for now
 
 ## 2025-11-05
 1. reduce the number of actions "execute_contextual_scene" and "execute_scene" into one single scene
-2. 
+2. since I am running "action_execute_scene" for all intents like ac_on, ac_off, rain_mood, romantic_mood, the "action_execute_scene" first get the room entity from the tracker if its available, I will suggest to add some more example in preconfigured scenes intent to have some example where room is mentioned in the end like "I want to relax" can be one example where we are fetching the room from the slot, and "I want to relax in workstation", can override the slot with the room = "WorkStation", so we can include both examples
