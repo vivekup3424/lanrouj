@@ -602,3 +602,7 @@ bugs I am having for now
 1. updated the migration logic to start platform-agent as a systemctl service, in the new platform
 2. for now I am using taking the binary from /keus-iot-platform/app/platform-agent/binary after building it
 +918247781785
+
+## 2025-11-05
+1. reduce the number of actions "execute_contextual_scene" and "execute_scene" into one single scene
+2. 
