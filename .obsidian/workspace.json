@@ -11,10 +11,14 @@
             "id": "61101ffbc971118e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "dailyJournal/resources.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "resources"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373,
-    "collapsed": true
+    "width": 373
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -167,6 +170,7 @@
   },
   "active": "61101ffbc971118e",
   "lastOpenFiles": [
+    "Photos/Pasted image 20251106154718.png",
     "Excalidraw/hub_info.excalidraw.md",
     "dailyJournal/Workout Science.md",
     "Notes/KEUS/Daily Progress.md",
@@ -203,7 +207,6 @@
     "Excalidraw/next-permutation.excalidraw.md",
     "Excalidraw/maximum-number-of-k-divisible-component.excalidraw.md",
     "Excalidraw/deep_learning.md",
-    "Untitled 1.md",
     "lazydocker",
     "lazydocker.tar.gz",
     "Photos/Pasted Image 20250928201616_822.png",
