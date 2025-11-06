@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "013b154a9a318af9",
+        "id": "9130bc6d04d8fb75",
         "type": "tabs",
         "children": [
           {
-            "id": "4cca8543be4a20bd",
+            "id": "8a68b144fbf0367e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "dailyJournal/Workout Science.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/hub_info.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Workout Science"
+              "icon": "excalidraw-icon",
+              "title": "hub_info.excalidraw"
             }
           }
         ]
@@ -169,13 +167,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4cca8543be4a20bd",
+  "active": "8a68b144fbf0367e",
   "lastOpenFiles": [
+    "dailyJournal/Workout Science.md",
     "Notes/KEUS/Daily Progress.md",
     "Notes/KEUS/Clevertap Push Api Request.md",
     "Excalidraw/hub_info.excalidraw.md",
     "random question.md",
-    "dailyJournal/Workout Science.md",
     "dailyJournal/5 - trying to be more consistent.md",
     "dailyJournal/3.md",
     "dailyJournal/4.md",
