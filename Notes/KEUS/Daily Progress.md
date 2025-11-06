@@ -617,3 +617,13 @@ curl -X POST "http://100.82.115.91:3939/v1/migration_service/migration.get_site_
     "siteId": "Keus-b535bad3-94a1-4a95-926b-2d619d246651",
     "includeFullDetails": true
   }'
+
+
+## Things to tell rasa to do
+1. hey keus
+2. execute relax scene in workstation
+3. I am home
+4. I am going away (context from previous room is stored)
+5. I am in workstation two
+6. Good morning
+7. 
