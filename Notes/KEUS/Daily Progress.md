@@ -626,4 +626,12 @@ curl -X POST "http://100.82.115.91:3939/v1/migration_service/migration.get_site_
 4. I am going away (context from previous room is stored)
 5. I am in workstation two
 6. Good morning
-7. 
+
+## Improving the things in the rasa bot
+I have an home assistant setup, where when a wake-word is detected, I start an livekit agent which will function as a intelligent home assistant for automation, now there is a problem with current setup
+
+when we say the wake word, then only the agent is started as a new process and after a while we can say commands to it  
+is does not function like Amazon Alexz, like when we say "Alexa, turn on the lights" it turns on the light  
+I want this setup to be alexa, tell me what should I do, lets discuss the approache first
+
+is there a way to store audio recording of the first converation after the wake word got detected for somtime and pass it to the agent.py console, when it starts , so that it can give the illusion that the agent (home assistant) is already listening
