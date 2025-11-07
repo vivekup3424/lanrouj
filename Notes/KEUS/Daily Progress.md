@@ -635,3 +635,36 @@ is does not function like Amazon Alexz, like when we say "Alexa, turn on the lig
 I want this setup to be alexa, tell me what should I do, lets discuss the approache first
 
 is there a way to store audio recording of the first converation after the wake word got detected for somtime and pass it to the agent.py console, when it starts , so that it can give the illusion that the agent (home assistant) is already listening
+### **Approach 1: Audio Buffering (Recommended - Most Alexa-like)**
+
+**How it works:**
+
+- Continue recording audio AFTER wake word detection
+- Buffer this audio while the agent starts
+- Once agent is ready, inject the buffered audio as if it was live input
+- This gives the illusion the agent was already listening
+
+**Pros:**
+
+- Most natural Alexa-like experience
+- Handles "Hey Keus, turn on the lights" in one smooth command
+- No perceptible delay for the user
+
+**Cons:**
+
+- Need to buffer audio for 2-5 seconds
+- Slightly more complex implementation
+- Need to inject audio into LiveKit agent when it starts
+
+**Implementation:**
+
+- Modify [wake_word.py](vscode-file://vscode-app/snap/code/211/usr/share/code/resources/app/out/vs/code/electron-browser/workbench/workbench.html) to continue recording for 3-5 seconds after detection
+- Save audio to a temporary WAV file or buffer
+- Pass this audio file path to [agent.py](vscode-file://vscode-app/snap/code/211/usr/share/code/resources/app/out/vs/code/electron-browser/workbench/workbench.html)
+- In [agent.py](vscode-file://vscode-app/snap/code/211/usr/share/code/resources/app/out/vs/code/electron-browser/workbench/workbench.html), play this buffered audio into the LiveKit room immediately after connection
+
+**My doubts in this implementation**
+1. in my current implementation, I am just running `agent.py console` in a new process, and when that ends, I start the wake_word detection program again
+2. is there a way to pass audio directly as a first input in livekit agent in console mode
+3. things are simpler in my current implementation since I am running a livekit server to manager anything
+4. is there is no way of adding audio into livekit console, tell me if I can do this using some other feature or way in livekit (perhaps by having a local livekit server and a room)
