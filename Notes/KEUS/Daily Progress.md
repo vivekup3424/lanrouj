@@ -668,3 +668,8 @@ is there a way to store audio recording of the first converation after the wake 
 2. is there a way to pass audio directly as a first input in livekit agent in console mode
 3. things are simpler in my current implementation since I am running a livekit server to manager anything
 4. is there is no way of adding audio into livekit console, tell me if I can do this using some other feature or way in livekit (perhaps by having a local livekit server and a room)
+
+
+## Second Attempt
+**Things that I have done, and am sure that they work** 
+1. in the agent.py, there is a instruction field I can use so when I transcribe the audio buffer and pass as a cli flag to generate the first response, perhaps this can give the illusion that agent was listening
