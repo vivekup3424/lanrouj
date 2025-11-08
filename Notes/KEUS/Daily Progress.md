@@ -672,4 +672,6 @@ is there a way to store audio recording of the first converation after the wake 
 
 ## Second Attempt
 **Things that I have done, and am sure that they work** 
-1. in the agent.py, there is a instruction field I can use so when I transcribe the audio buffer and pass as a cli flag to generate the first response, perhaps this can give the illusion that agent was listening
+1. in the agent.py, there is a instruction field I can use so when I transcribe the audio buffer and pass as a cli flag to generate the first response, perhaps this can give the illusion that agent was listening => this approach is working is working fine, but there is an added latency because of sending the audio to deepgram, and taking transciption from it
+2. need to think of a better approach
+3. 
