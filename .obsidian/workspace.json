@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/KEUS/Daily Progress.md",
+                "file": "dailyJournal/resources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Progress"
+              "title": "resources"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373,
-    "collapsed": true
+    "width": 373
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -171,11 +170,11 @@
   },
   "active": "12395e91eff9dc6a",
   "lastOpenFiles": [
+    "Notes/KEUS/Daily Progress.md",
     "dailyJournal/resources.md",
     "Photos/Pasted image 20251106154718.png",
     "Excalidraw/hub_info.excalidraw.md",
     "dailyJournal/Workout Science.md",
-    "Notes/KEUS/Daily Progress.md",
     "Notes/KEUS/Clevertap Push Api Request.md",
     "random question.md",
     "dailyJournal/5 - trying to be more consistent.md",
