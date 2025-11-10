@@ -675,3 +675,30 @@ is there a way to store audio recording of the first converation after the wake 
 1. in the agent.py, there is a instruction field I can use so when I transcribe the audio buffer and pass as a cli flag to generate the first response, perhaps this can give the illusion that agent was listening => this approach is working is working fine, but there is an added latency because of sending the audio to deepgram, and taking transciption from it
 2. need to think of a better approach
 3. 
+
+## 2025-11-10
+
+1. Looking into if using environment variable during node registration, is changing the platform config import in hydra
+	1. the platform config utility in hydra is using NODE_ENV environment variable to decide the config to use
+ ```
+	   	const config = (() => {
+        switch (process.env.NODE_ENV) {
+            case "development":
+                return developmentConfig;
+            case "production":
+                return productionConfig;
+            case "qa":
+                return qaConfig;
+            case "staging":
+                return stagingConfig;
+            case "alpha":
+                return alphaConfig;
+            case "local":
+                return localConfig;
+            default:
+                return defaultConfig;
+        }
+    })();
+```
+
+

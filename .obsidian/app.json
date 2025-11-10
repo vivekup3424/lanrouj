@@ -1,6 +1,6 @@
 {
-  "spellcheck": false,
-  "vimMode": false,
+  "spellcheck": true,
+  "vimMode": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
@@ -16,5 +16,6 @@
   "promptDelete": false,
   "newLinkFormat": "shortest",
   "attachmentFolderPath": "Photos",
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "trashOption": "none"
 }
