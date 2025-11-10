@@ -702,3 +702,4 @@ is there a way to store audio recording of the first converation after the wake 
 ```
 
 
+1. add utility to get local ip and tailscale ip in hydra-core utils
