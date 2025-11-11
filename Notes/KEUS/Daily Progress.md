@@ -708,4 +708,3 @@ is there a way to store audio recording of the first converation after the wake 
 ## 2025-11-11
 1. Removed the redir dependency and made the mongodb crun run on port 27018 and ip of 0.0.0.0 (listening to all interfaces), that way outside services can directly connected to port 27018, since the crun container is already running in host network
 2. moved all the artifacts for raspbian os with the help of Sai Teja to S3, now the step1 is downloading a single tar file from s3, and extracting them on the hub
-3. 
