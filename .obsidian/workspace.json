@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "05a8b6ce56f5bd54",
+        "id": "333a20f7ed073e4d",
         "type": "tabs",
         "children": [
           {
-            "id": "edcab0d1e13e37a9",
+            "id": "5eb4c4755c5af70d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/KEUS/Daily Progress.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Daily Progress"
+              "title": "New tab"
             }
           }
         ]
@@ -79,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 373,
+    "collapsed": true
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -169,10 +166,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "edcab0d1e13e37a9",
+  "active": "5eb4c4755c5af70d",
   "lastOpenFiles": [
-    "Excalidraw/hub_info.excalidraw.md",
     "Notes/KEUS/Daily Progress.md",
+    "Excalidraw/hub_info.excalidraw.md",
     "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
     "dailyJournal/Workout Science.md",
     "dailyJournal/resources.md",
