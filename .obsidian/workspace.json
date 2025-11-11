@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1458b80024e370d7",
+        "id": "0b3b06b370cbef62",
         "type": "tabs",
         "children": [
           {
-            "id": "a179c8b53e259820",
+            "id": "a23f94c74767b305",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Daily Progress"
             }
           }
         ]
@@ -165,7 +169,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a179c8b53e259820",
+  "active": "a23f94c74767b305",
   "lastOpenFiles": [
     "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
     "Notes/KEUS/Daily Progress.md",
