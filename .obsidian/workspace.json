@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b3b06b370cbef62",
+        "id": "05a8b6ce56f5bd54",
         "type": "tabs",
         "children": [
           {
-            "id": "a23f94c74767b305",
+            "id": "edcab0d1e13e37a9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/hub_info.excalidraw.md"
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "hub_info.excalidraw"
+              "icon": "lucide-file",
+              "title": "Daily Progress"
             }
           }
         ]
@@ -167,14 +169,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a23f94c74767b305",
+  "active": "edcab0d1e13e37a9",
   "lastOpenFiles": [
+    "Excalidraw/hub_info.excalidraw.md",
     "Notes/KEUS/Daily Progress.md",
     "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
     "dailyJournal/Workout Science.md",
     "dailyJournal/resources.md",
     "Photos/Pasted image 20251106154718.png",
-    "Excalidraw/hub_info.excalidraw.md",
     "Notes/KEUS/Clevertap Push Api Request.md",
     "random question.md",
     "dailyJournal/5 - trying to be more consistent.md",
