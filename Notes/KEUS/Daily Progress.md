@@ -703,3 +703,8 @@ is there a way to store audio recording of the first converation after the wake 
 
 
 1. add utility to get local ip and tailscale ip in hydra-core utils
+
+
+## 2025-11-11
+1. Removed the redir dependency and made the mongodb crun run on port 27018 and ip of 0.0.0.0 (listening to all interfaces), that way outside services can directly connected to port 27018, since the crun container is already running in host network
+2. 
