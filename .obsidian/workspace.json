@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "333a20f7ed073e4d",
+        "id": "c2a4332887dd32ee",
         "type": "tabs",
         "children": [
           {
-            "id": "5eb4c4755c5af70d",
+            "id": "76673de2e9247351",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notes/KEUS/Daily Progress.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/taskflow.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Daily Progress"
+              "icon": "excalidraw-icon",
+              "title": "taskflow.excalidraw"
             }
           }
         ]
@@ -74,8 +72,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,8 +167,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5eb4c4755c5af70d",
+  "active": "76673de2e9247351",
   "lastOpenFiles": [
+    "Excalidraw/Firebase.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Notes/KEUS/Daily Progress.md",
     "Excalidraw/hub_info.excalidraw.md",
     "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
@@ -193,7 +192,6 @@
     "Photos/Binary_search_tree.svg.png",
     "auto-git-push.log",
     "auto-git-push.sh",
-    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Notes/ModellingSimulation/modelling_07_October_2024.md",
     "Photos/Pasted image 20251017144445.png",
     "Photos/Pasted image 20251017142345.png",
@@ -202,7 +200,6 @@
     "Notes/KEUS/Pi3 Load-test.md",
     "Photos/Pasted image 20251015155345.png",
     "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
-    "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
     "Excalidraw/taskflow.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
