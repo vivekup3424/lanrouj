@@ -711,7 +711,8 @@ is there a way to store audio recording of the first converation after the wake 
 
 ## 2025-11-12
 1. When starting the platform in the phoenixOS, this is the directory structure
-2. ```root@KIOTP-GATEWAY:/data/keus-iot-platform# ls
-common-modules  logs  nats-conf  node-manager  plugins  starter-scripts  storage  zigbee-coordinator
+```
+root@KIOTP-GATEWAY:/data# ls
+central.raucs  containers  ecosystem.config.js  fluent-bit  keus-iot-platform  lost+found  platform-agent
+```
 
-   ```
