@@ -964,3 +964,6 @@ That gives you:
 ---
 
 Would you like me to show you **how to auto-create those 5000 user accounts and `.htpasswd` entries** for the rest-server programmatically (so you don’t do it manually)? That’s the next logical step for this setup.
+
+
+### Bugs in  the multi-node setup for raspbianOS
