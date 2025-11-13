@@ -11,12 +11,14 @@
             "id": "76673de2e9247351",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/taskflow.excalidraw.md"
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "taskflow.excalidraw"
+              "icon": "lucide-file",
+              "title": "Daily Progress"
             }
           }
         ]
@@ -169,6 +171,7 @@
   },
   "active": "76673de2e9247351",
   "lastOpenFiles": [
+    "Excalidraw/taskflow.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Notes/KEUS/Daily Progress.md",
@@ -201,7 +204,6 @@
     "Photos/Pasted image 20251015155345.png",
     "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
-    "Excalidraw/taskflow.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Untitled.md",
     "Excalidraw/Pacific Atlantic Water Flow.excalidraw.md",

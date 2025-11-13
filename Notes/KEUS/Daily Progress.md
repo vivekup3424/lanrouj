@@ -716,3 +716,251 @@ root@KIOTP-GATEWAY:/data# ls
 central.raucs  containers  ecosystem.config.js  fluent-bit  keus-iot-platform  lost+found  platform-agent
 ```
 
+
+
+## 2025-11-13
+
+Restic tips
+Yes — absolutely.  
+That’s **actually one of the cleanest and most scalable designs** for a large fleet (like your 5000+ Raspberry Pis).
+
+Let’s unpack this **from first principles**, so you understand _what that means_, _why it’s beneficial_, and _exactly how to do it_.
+
+---
+
+## 🧩 1️⃣ What a “repository” means in Restic
+
+A **repository** is just a self-contained directory that holds:
+
+- Encrypted backup data (blobs/chunks)
+    
+- Indexes and metadata
+    
+- Snapshots and keys
+    
+
+So if you run:
+
+```bash
+restic init -r /mnt/backup/pi-0001
+```
+
+You’ve created one complete, independent repository for that device.
+
+Restic doesn’t mix data between repositories — each is an isolated backup universe.
+
+---
+
+## 🧠 2️⃣ Why per-device repositories make sense
+
+When you have **many devices (e.g., 5000+ Pis)**:
+
+|Problem with shared repo|Advantage with per-device repos|
+|---|---|
+|Snapshot list grows huge|Each repo stays small and fast|
+|Accidental deletes risk multiple clients|Isolation per device|
+|Harder to prune|Independent lifecycle per node|
+|Risk of key overlap|Each device can have its own encryption key|
+|Slower concurrent writes|Parallel writes to separate repos scale linearly|
+
+So yes — multiple repositories is not only possible, it’s often **the recommended approach at scale**.
+
+---
+
+## 🏗️ 3️⃣ Ways to organize per-node repositories
+
+You have two main architectural patterns:
+
+---
+
+### **Option A — Separate directories in one rest-server**
+
+Run one `rest-server` instance, but let each device write to its own subdirectory inside `/data`.
+
+For example:
+
+```
+/data/pi-0001
+/data/pi-0002
+/data/pi-0003
+...
+```
+
+Each Pi points to its own repository:
+
+```bash
+restic -r rest:http://backup-server:8000/pi-0001 init
+restic -r rest:http://backup-server:8000/pi-0001 backup /data
+```
+
+✅ Benefits:
+
+- One central backend process.
+    
+- Easy scaling (no new container per node).
+    
+- Natural logical separation.
+    
+
+On your `rest-server`, just enable **private repos**:
+
+```bash
+docker run -p 8000:8000 \
+  -v /backup-data:/data \
+  restic/rest-server \
+  --private-repos
+```
+
+Then, authentication controls which device can see which repo:
+
+- User `pi-0001` → `/data/pi-0001`
+    
+- User `pi-0002` → `/data/pi-0002`
+    
+
+Each Pi’s credentials map to exactly one directory (repo).
+
+---
+
+### **Option B — Separate `rest-server` instances (less common)**
+
+You could theoretically run multiple rest-servers on different ports, each with a single repo mount:
+
+```
+:8001 → /data/pi-0001
+:8002 → /data/pi-0002
+```
+
+But that’s inefficient and not needed — Docker and the rest-server can handle thousands of repos within one process.
+
+---
+
+## 🔐 4️⃣ Authentication + private repo mapping
+
+If you enable `--private-repos` and use an `htpasswd` file like this:
+
+```
+pi-0001:{hashedpassword1}
+pi-0002:{hashedpassword2}
+pi-0003:{hashedpassword3}
+```
+
+then:
+
+- Each Pi logs in as its username
+    
+- The rest-server automatically maps that username to `/data/<username>`
+    
+- That becomes its own repository
+    
+
+No config files per repo required.
+
+So each Pi’s Restic client can simply do:
+
+```bash
+export RESTIC_REPOSITORY=rest:http://backup-server:8000/
+export RESTIC_PASSWORD=<repo_password>
+export RESTIC_REST_USERNAME=pi-0001
+export RESTIC_REST_PASSWORD=<auth_password>
+restic backup /data
+```
+
+Behind the scenes, that goes to `/data/pi-0001` only.
+
+---
+
+## 🧮 5️⃣ Storage and maintenance scaling
+
+For 5000 repos:
+
+- Use a **fast filesystem** (e.g., ext4 or XFS, not FAT/NFSv3)
+    
+- Use **SSD or NVMe metadata** volume for `/data`
+    
+- Periodically prune each repo:
+    
+    ```bash
+    restic -r /data/pi-0001 forget --keep-last 5 --prune
+    ```
+    
+- Automate maintenance via cron job or parallel scripts.
+    
+
+You can even mount `/data` on a distributed backend (NFS, CephFS, or S3) and still serve multiple repos.
+
+---
+
+## ⚙️ 6️⃣ Real example setup
+
+### Server side (Docker)
+
+```bash
+docker run -d \
+  -p 8000:8000 \
+  -v /backup-data:/data \
+  --name restic_rest_server \
+  restic/rest-server \
+  --private-repos --append-only
+```
+
+### Inside `/backup-data` (automatically created)
+
+```
+/backup-data/pi-0001
+/backup-data/pi-0002
+...
+```
+
+### Each Pi client (scripted)
+
+```bash
+#!/bin/bash
+DEVICE_ID=$(cat /etc/device_id)
+export RESTIC_REPOSITORY=rest:http://backup-server:8000/
+export RESTIC_PASSWORD='pi_repo_password'
+export RESTIC_REST_USERNAME=$DEVICE_ID
+export RESTIC_REST_PASSWORD='shared_auth_or_unique_password'
+
+restic backup /data --host "$DEVICE_ID"
+```
+
+✅ Each Pi:
+
+- Has its own repo
+    
+- Is isolated from others
+    
+- Appears separately on the server
+    
+- Can prune independently
+    
+
+---
+
+## 🧭 7️⃣ Summary
+
+|Approach|Works for 5000+ nodes?|Key benefit|
+|---|---|---|
+|Shared repository|✅ But complex|Simple to start, messy to scale|
+|Per-node repository under `/data/<node>`|✅✅ Best|Easy isolation, scalable, secure|
+|Separate rest-servers|❌ Not scalable|Too resource-heavy|
+
+---
+
+## 🧠 TL;DR (your best architecture)
+
+> **Use one rest-server with `--private-repos`, and give each Pi its own repository subdirectory named after its ID.**
+
+That gives you:
+
+- Isolation per client
+    
+- Simplicity of a single server
+    
+- Horizontal scalability
+    
+
+---
+
+Would you like me to show you **how to auto-create those 5000 user accounts and `.htpasswd` entries** for the rest-server programmatically (so you don’t do it manually)? That’s the next logical step for this setup.
