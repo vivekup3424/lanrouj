@@ -973,3 +973,8 @@ Would you like me to show you **how to auto-create those 5000 user accounts and 
 
 ### Connect to pi using the avahi-daemon
 `ssh keus-voice.local`
+
+
+1. include automations in the voice-agent
+2. work on collecting data when we are using the voice-agent from rasa's side, perhaps we can collect logs
+3. 
