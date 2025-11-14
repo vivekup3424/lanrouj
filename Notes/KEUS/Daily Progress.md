@@ -969,3 +969,7 @@ Would you like me to show you **how to auto-create those 5000 user accounts and 
 ### Bugs in  the multi-node setup for raspbianOS
 
 1. Do a POC to see the difference between local services, and other services in a moleculer network
+
+
+### Connect to pi using the avahi-daemon
+`ssh keus-voice.local`
