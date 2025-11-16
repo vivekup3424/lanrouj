@@ -980,3 +980,6 @@ Would you like me to show you **how to auto-create those 5000 user accounts and 
 3. 
 
 https://drive.google.com/drive/u/0/folders/1iGzSBPRtgX8DNvPNbhfJVeuNKYxL-Af9
+
+osho world = https://drive.google.com/drive/folders/13-2z9EdOU-t_4HZEmoF8CUfmFhjUlWdp
+
