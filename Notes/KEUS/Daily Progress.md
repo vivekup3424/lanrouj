@@ -978,3 +978,5 @@ Would you like me to show you **how to auto-create those 5000 user accounts and 
 1. include automations in the voice-agent
 2. work on collecting data when we are using the voice-agent from rasa's side, perhaps we can collect logs
 3. 
+
+https://drive.google.com/drive/u/0/folders/1iGzSBPRtgX8DNvPNbhfJVeuNKYxL-Af9
