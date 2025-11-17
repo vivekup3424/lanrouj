@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b304b6e4070743f3",
+        "id": "50f355d9368babfc",
         "type": "tabs",
         "children": [
           {
-            "id": "8b7b3e8bcadc8089",
+            "id": "5f7eeb19ce47cf16",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/taskflow.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "taskflow.excalidraw"
             }
           }
         ]
@@ -74,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373,
-    "collapsed": true
+    "width": 373
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -165,16 +166,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8b7b3e8bcadc8089",
+  "active": "5f7eeb19ce47cf16",
   "lastOpenFiles": [
+    "Excalidraw/hub_info.excalidraw.md",
+    "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
+    "Excalidraw/deep_learning.md",
     "Notes/KEUS/Daily Progress.md",
     "Notes/Projects/JobAnalyzer/AI-Driven Job-Skills Analyzer & Project Suggestion Tool.md",
     "Notes/Projects/JobAnalyzer",
     "Notes/Projects",
     "Excalidraw/taskflow.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
-    "Excalidraw/hub_info.excalidraw.md",
     "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
     "dailyJournal/Workout Science.md",
     "dailyJournal/resources.md",
@@ -201,12 +204,10 @@
     "Photos/Pasted image 20251017122129.png",
     "Notes/KEUS/Pi3 Load-test.md",
     "Photos/Pasted image 20251015155345.png",
-    "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
     "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
     "Excalidraw/Untitled.md",
     "Excalidraw/Pacific Atlantic Water Flow.excalidraw.md",
-    "Excalidraw/next-permutation.excalidraw.md",
     "lazydocker",
     "lazydocker.tar.gz",
     "Untitled 1.canvas",
