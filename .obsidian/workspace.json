@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "50f355d9368babfc",
+        "id": "ce42d7f2722218e6",
         "type": "tabs",
         "children": [
           {
-            "id": "5f7eeb19ce47cf16",
+            "id": "60067dd5fd69eed4",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/taskflow.excalidraw.md"
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "taskflow.excalidraw"
+              "icon": "lucide-file",
+              "title": "Daily Progress"
             }
           }
         ]
@@ -167,8 +169,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5f7eeb19ce47cf16",
+  "active": "60067dd5fd69eed4",
   "lastOpenFiles": [
+    "Excalidraw/taskflow.excalidraw.md",
     "Excalidraw/hub_info.excalidraw.md",
     "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
     "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
@@ -177,7 +180,6 @@
     "Notes/Projects/JobAnalyzer/AI-Driven Job-Skills Analyzer & Project Suggestion Tool.md",
     "Notes/Projects/JobAnalyzer",
     "Notes/Projects",
-    "Excalidraw/taskflow.excalidraw.md",
     "Excalidraw/Firebase.excalidraw.md",
     "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
     "dailyJournal/Workout Science.md",

@@ -983,3 +983,15 @@ https://drive.google.com/drive/u/0/folders/1iGzSBPRtgX8DNvPNbhfJVeuNKYxL-Af9
 
 osho world = https://drive.google.com/drive/folders/13-2z9EdOU-t_4HZEmoF8CUfmFhjUlWdp
 
+
+## 2025-11-17
+1. Flow for migration agent
+2. Migration Agent will live in central server
+3. Call migration agent cli, and pass the main hub-ip for a given site
+4. It will fetch the required information for a site from the storage of the main-hub
+5. Now it will migrate the main-hub and will track the progress,
+	1. if at any stage the migration fails, it will call the migration-tool again to start migration from the failed state
+	2. the state-management for the main-hub will be stored in a progress.txt file in hub itself
+6. After the main-hub is successfully migrated, it will fetch the information of all the mini-hub from the database of main-hub
+7. Then it will migrate and manage the state of each mini's migration in parallel
+8. After all the mini's have migration, it will write the final state of successfuly migration in main-hub
