@@ -995,3 +995,7 @@ osho world = https://drive.google.com/drive/folders/13-2z9EdOU-t_4HZEmoF8CUfmFhj
 6. After the main-hub is successfully migrated, it will fetch the information of all the mini-hub from the database of main-hub
 7. Then it will migrate and manage the state of each mini's migration in parallel
 8. After all the mini's have migration, it will write the final state of successfuly migration in main-hub
+
+## 2025-11-18
+### Todo items for migration-agent
+1. 
