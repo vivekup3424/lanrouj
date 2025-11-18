@@ -998,4 +998,10 @@ osho world = https://drive.google.com/drive/folders/13-2z9EdOU-t_4HZEmoF8CUfmFhj
 
 ## 2025-11-18
 ### Todo items for migration-agent
-1. 
+1. Port the info-sync code to work natively in hub
+2. poc the migration-agent code on a raspbian hub to start migration and track its progress
+3. add an implementation to resume migration after a power-cut or system down while migration was happening
+4. add an implmentation to track the progress of mini-hub migration
+5. test the next implmentation with a multi-node system for collecting migration of a site
+6. implement the check on shield to detect migration flag variation, to decide when to start migration for a hub
+7. test the next implementation with a trigger from multi-flow
