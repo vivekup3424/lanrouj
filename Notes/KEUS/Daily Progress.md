@@ -1005,3 +1005,9 @@ osho world = https://drive.google.com/drive/folders/13-2z9EdOU-t_4HZEmoF8CUfmFhj
 5. test the next implmentation with a multi-node system for collecting migration of a site
 6. implement the check on shield to detect migration flag variation, to decide when to start migration for a hub
 7. test the next implementation with a trigger from multi-flow
+
+### Missing things in migration-agent implementation:
+1. when a step starts, its logged as "Step-i is running", when when it fails somewhere in the logic, I am not appending the log of "Step-i failed" 
+2. now when the hub-restarts, I need to think about what to do in that scenario, should I read from the progress_fiile which will contain the latest log of Step-i is running
+ Don't know what to do in that case
+``
