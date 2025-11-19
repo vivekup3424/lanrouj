@@ -1010,4 +1010,29 @@ osho world = https://drive.google.com/drive/folders/13-2z9EdOU-t_4HZEmoF8CUfmFhj
 1. when a step starts, its logged as "Step-i is running", when when it fails somewhere in the logic, I am not appending the log of "Step-i failed" 
 2. now when the hub-restarts, I need to think about what to do in that scenario, should I read from the progress_fiile which will contain the latest log of Step-i is running
  Don't know what to do in that case
+
+some errors, I encountered along the way = 
+```
+2025-11-19T16:42:04.735+0530    done dumping Keus.activities (5259 documents)
+cp: cannot stat '/opt/keus-iot-code/keus-iot-gateway/src/remote_files/*': No such file or directory
+Failed to prepare backup: cp: cannot stat '/opt/keus-iot-code/keus-iot-gateway/src/remote_files/*': No such file or directory
+
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    exit code: 1
+/data/index.js:214108
+              const output = new ProcessOutput2({
+                             ^
+
+_ProcessOutput2 [ProcessOutput] [Error]: cp: cannot stat '/opt/keus-iot-code/keus-iot-gateway/src/remote_files/*': No such file or directory
+
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    exit code: 1
+    at EventEmitter.end (/data/index.js:214108:30)
+    at EventEmitter.emit (node:events:531:35)
+    at ChildProcess.<anonymous> (/data/index.js:213182:21)
+    at Object.onceWrapper (node:events:634:26)
+
+```
+
+
 ``
