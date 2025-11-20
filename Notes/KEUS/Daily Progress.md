@@ -1036,3 +1036,4 @@ _ProcessOutput2 [ProcessOutput] [Error]: cp: cannot stat '/opt/keus-iot-code/keu
 
 
 now I have poc done for migrating the main hub, now for the mini hub migration there should be checking happening on mini every 30 seconds to identify if the main is already migrated or not. If its migrated then only we should start the migration of the mini
+
