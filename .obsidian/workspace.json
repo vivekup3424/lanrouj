@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "caffccd4fa12eafe",
+        "id": "f719e9907a6e53f5",
         "type": "tabs",
         "children": [
           {
-            "id": "0980761b9a754210",
+            "id": "4fdc14039b0fd10d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/taskflow.excalidraw.md"
+                "file": "Notes/Algorithms/Find the Duplicate Number.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "taskflow.excalidraw"
+              "icon": "lucide-file",
+              "title": "Find the Duplicate Number"
             }
           }
         ]
@@ -167,11 +169,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0980761b9a754210",
+  "active": "4fdc14039b0fd10d",
   "lastOpenFiles": [
+    "Excalidraw/taskflow.excalidraw.md",
     "Photos/Pasted Image 20251121154930_970.png",
     "Photos/Pasted Image 20251121151543_328.png",
-    "Excalidraw/taskflow.excalidraw.md",
     "Photos/Pasted Image 20251121151543_332.png",
     "Photos/Pasted Image 20251121151543_330.png",
     "Photos/Pasted Image 20251121151543_325.png",
@@ -201,7 +203,6 @@
     "Photos/Pasted image 20251024182936.png",
     "Photos/Pasted image 20251023144659.png",
     "Photos/Pasted image 20251023144526.png",
-    "Photos/Binary_search_tree.svg.png",
     "auto-git-push.log",
     "auto-git-push.sh",
     "Notes/ModellingSimulation/modelling_07_October_2024.md",
