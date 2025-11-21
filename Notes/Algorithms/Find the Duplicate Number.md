@@ -1,3 +1,4 @@
+Questio
 the first solution, that I've thought of was this number = 
 ```python
 from typing import List
@@ -9,3 +10,5 @@ class Solution:
         actual_sum = sum(nums)
         return actual_sum - expected_sum
 ```
+
+this above approach is not going to work, because in the question 
