@@ -22,4 +22,20 @@ class Solution:
 this above approach is not going to work, because in the question it is not mentioned that all the members are appearing atleast once,
 what that means is they can probably appear or not appear
 
-now I need it some other efficient way of knowing whether I have 
+now I need it some other efficient way of knowing whether I have seen a element before in my traversal or not, so the next conclusion comes that we should make use of set
+
+
+my second approach which was actually correct
+```python
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        s = set()
+        for n in nums:
+            if n in s:
+                return n
+            s.add(n)
+        return -1
+```
+
+now this approach is working correctly with
+Time complexity of 
