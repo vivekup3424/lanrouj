@@ -39,3 +39,5 @@ class Solution:
 
 now this approach is working correctly with
 Time complexity of 
+sdvndskv
+this was an easy question
