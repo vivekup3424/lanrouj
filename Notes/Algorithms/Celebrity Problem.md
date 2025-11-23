@@ -19,7 +19,7 @@ Given a square matrix ****mat[][]**** of size ****n x n,**** such that ****mat[i
 > ****Output:**** -1  
 > ****Explanation:**** The two people at the party both know each other. None of them is a celebrity.
 > 
-> ****Input:**** mat[][] = [[1]]  
+> ****Input:**** mat[][] = [[Notes/KEUS/1]]  
 > ****Output:**** 0
 
 [

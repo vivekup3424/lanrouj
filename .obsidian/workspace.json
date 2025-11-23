@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "162106a5bacb1fad",
+        "id": "cbf99b06b8e16fed",
         "type": "tabs",
         "children": [
           {
-            "id": "df4c5ab804d0e476",
+            "id": "b7201e9f9c093217",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md"
+                "file": "dailyJournal/Workout Science.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-09-16 23.00.37.excalidraw"
+              "icon": "lucide-file",
+              "title": "Workout Science"
             }
           }
         ]
@@ -76,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373,
-    "collapsed": true
+    "width": 373
   },
   "right": {
     "id": "22a036e6a70e3ab8",
@@ -167,8 +168,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "df4c5ab804d0e476",
+  "active": "b7201e9f9c093217",
   "lastOpenFiles": [
+    "dailyJournal/study-roadmap.md",
+    "dailyJournal/resources.md",
+    "dailyJournal/README.md",
+    "dailyJournal/Job Applications.md",
+    "dailyJournal/1.md",
+    "dailyJournal/5 - trying to be more consistent.md",
+    "dailyJournal/4.md",
+    "dailyJournal/2.md",
+    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
     "Notes/Algorithms/Find the Duplicate Number.md",
@@ -181,7 +191,6 @@
     "Photos/Pasted Image 20251121151543_290.png",
     "Notes/KEUS/Daily Progress.md",
     "Excalidraw/hub_info.excalidraw.md",
-    "Excalidraw/Drawing 2025-09-16 23.00.37.excalidraw.md",
     "Excalidraw/deep_learning.md",
     "Notes/Projects/JobAnalyzer/AI-Driven Job-Skills Analyzer & Project Suggestion Tool.md",
     "Notes/Projects/JobAnalyzer",
@@ -189,15 +198,9 @@
     "Excalidraw/Firebase.excalidraw.md",
     "Notes/KEUS/Some understanding that I've gained by deeper reading of the platform code.md",
     "dailyJournal/Workout Science.md",
-    "dailyJournal/resources.md",
     "Photos/Pasted image 20251106154718.png",
     "Notes/KEUS/Clevertap Push Api Request.md",
     "random question.md",
-    "dailyJournal/5 - trying to be more consistent.md",
-    "dailyJournal/3.md",
-    "dailyJournal/4.md",
-    "dailyJournal/2.md",
-    "dailyJournal/1.md",
     "Notes/Algorithms/BFS.md",
     "Job Applications/Cover Letter.md",
     "Photos/Pasted image 20251024182936.png",
@@ -207,8 +210,6 @@
     "auto-git-push.sh",
     "Notes/ModellingSimulation/modelling_07_October_2024.md",
     "Notes/KEUS/Pi3 Load-test.md",
-    "Excalidraw/Lexicographically Smallest Equivalent String.excalidraw.md",
-    "Excalidraw/Untitled.md",
     "lazydocker",
     "lazydocker.tar.gz",
     "Untitled 1.canvas",
