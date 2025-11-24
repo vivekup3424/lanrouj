@@ -1,4 +1,4 @@
-![[next-permutation.excalidraw|900]]
+![[next-permutation.excalidraw|1200]]
 
 ### Code Solution
 ```c++

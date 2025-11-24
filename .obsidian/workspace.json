@@ -11,12 +11,14 @@
             "id": "9ce79ed87d5262de",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/taskflow.excalidraw.md"
+                "file": "Notes/Algorithms/Next Permutation.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "taskflow.excalidraw"
+              "icon": "lucide-file",
+              "title": "Next Permutation"
             }
           }
         ]
@@ -169,6 +171,7 @@
   },
   "active": "9ce79ed87d5262de",
   "lastOpenFiles": [
+    "Excalidraw/taskflow.excalidraw.md",
     "Photos/Pasted image 20241119175424.png",
     "Photos/Pasted image 20241117204844.png",
     "Photos/Pasted image 20241115022943.png",
@@ -188,12 +191,10 @@
     "Excalidraw/Drawing 2025-10-08 14.46.36.excalidraw.md",
     "Excalidraw/Rotate-Matrix.excalidraw.md",
     "Notes/Algorithms/Find the Duplicate Number.md",
-    "Excalidraw/taskflow.excalidraw.md",
     "Photos/Pasted Image 20251121154930_970.png",
     "Photos/Pasted Image 20251121151543_328.png",
     "Photos/Pasted Image 20251121151543_332.png",
     "Photos/Pasted Image 20251121151543_330.png",
-    "Photos/Pasted Image 20251121151543_325.png",
     "Notes/KEUS/Daily Progress.md",
     "Excalidraw/hub_info.excalidraw.md",
     "Excalidraw/deep_learning.md",
