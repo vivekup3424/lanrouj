@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4e799677d9af5f36",
+        "id": "63d2b12a378478ea",
         "type": "tabs",
         "children": [
           {
-            "id": "9ce79ed87d5262de",
+            "id": "5850cd865fd3a130",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Notes/Algorithms/Next Permutation.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/hub_info.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Next Permutation"
+              "icon": "excalidraw-icon",
+              "title": "hub_info.excalidraw"
             }
           }
         ]
@@ -169,8 +167,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9ce79ed87d5262de",
+  "active": "5850cd865fd3a130",
   "lastOpenFiles": [
+    "Notes/Algorithms/Next Permutation.md",
     "Excalidraw/taskflow.excalidraw.md",
     "Photos/Pasted image 20241119175424.png",
     "Photos/Pasted image 20241117204844.png",
