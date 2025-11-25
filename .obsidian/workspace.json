@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "63d2b12a378478ea",
+        "id": "c3b1c94619faf497",
         "type": "tabs",
         "children": [
           {
-            "id": "5850cd865fd3a130",
+            "id": "8943609f7d16069d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/hub_info.excalidraw.md"
+                "file": "Notes/KEUS/Daily Progress.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "hub_info.excalidraw"
+              "icon": "lucide-file",
+              "title": "Daily Progress"
             }
           }
         ]
@@ -167,7 +169,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5850cd865fd3a130",
+  "active": "8943609f7d16069d",
   "lastOpenFiles": [
     "Excalidraw/hub_info.excalidraw.md",
     "Notes/Algorithms/Next Permutation.md",
