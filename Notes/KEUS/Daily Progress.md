@@ -1048,3 +1048,7 @@ now I have poc done for migrating the main hub, now for the mini hub migration t
 4. Include the functionality to store the logs in a file
 5. Enhance the rollback state to restore the older platform agent
 6. Deploy the new platform-agent along with new V2 platform
+
+#### new iteration
+1. Deploy migration-agent in the fresh state
+	1. Deploy migration-agent as a systemd service, with logs getting stored in "/data/keus-iot-platform/migration-agent"
