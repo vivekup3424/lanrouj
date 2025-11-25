@@ -1056,3 +1056,18 @@ now I have poc done for migrating the main hub, now for the mini hub migration t
 2. Run migration-agent in ready state
 	1. Download and extract artifacts for both manager and worker node
 	2. Prepare backup in manager node (mongodump, remote)
+3. Run migration-agent in migrate state
+	1. Remove old services for both kind of nodes
+	2. Initialize mongodb 7.0.14 on port 27018 for both kind of nodes
+	3. Do database migration in manager node
+	4. Start new platform services in both nodes
+	5. Register node using site details which we will get from Shield
+	6. Start zigbee coordinator service in both nodes
+		1. transfer relevant zigbee data from manager node to worker node
+	7. Install plugins in manager node
+4. Run migration-agent in rollback state
+	1. Remove all the changes and data storage done during migration
+	2. Restore older platform-agent service
+	3. Restore older V1 platform services
+5. Run migration-agent in cleanup
+	1. Need to get clarity on what to do during cleanup
