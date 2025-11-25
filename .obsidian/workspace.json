@@ -20,8 +20,33 @@
               "icon": "lucide-file",
               "title": "Daily Progress"
             }
+          },
+          {
+            "id": "04cd68d5c1d5f294",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Algorithms/Next Permutation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Next Permutation"
+            }
+          },
+          {
+            "id": "3bcadc54f43c3b0c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,10 +194,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8943609f7d16069d",
+  "active": "04cd68d5c1d5f294",
   "lastOpenFiles": [
-    "Excalidraw/hub_info.excalidraw.md",
     "Notes/Algorithms/Next Permutation.md",
+    "Notes/KEUS/Daily Progress.md",
+    "Excalidraw/hub_info.excalidraw.md",
     "Excalidraw/taskflow.excalidraw.md",
     "Photos/Pasted image 20241119175424.png",
     "Photos/Pasted image 20241117204844.png",
@@ -197,7 +223,6 @@
     "Photos/Pasted Image 20251121151543_328.png",
     "Photos/Pasted Image 20251121151543_332.png",
     "Photos/Pasted Image 20251121151543_330.png",
-    "Notes/KEUS/Daily Progress.md",
     "Excalidraw/deep_learning.md",
     "Notes/Projects/JobAnalyzer/AI-Driven Job-Skills Analyzer & Project Suggestion Tool.md",
     "Notes/Projects/JobAnalyzer",
