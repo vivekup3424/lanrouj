@@ -1080,7 +1080,7 @@ now I have poc done for migrating the main hub, now for the mini hub migration t
 2. Add a migration HTTP endpoint in Shield that notifies the agent when to start migration  
 
 **DONE:** Deployed to xyz hub/site, logs visible in ES
-**TIMELINE** : start date - 
+**TIMELINE** : start date - 04/12/2025 , end date = 05/12/2025
 
 ---
 
@@ -1090,6 +1090,7 @@ now I have poc done for migrating the main hub, now for the mini hub migration t
 
 **DONE:** Latest bundled artifacts uploaded to S3.  
 Update Shield (local) endpoint to output *ready* state for our test site, which should move main and mini gateways to ready state.
+**TIMELINE** : start date = 08/12/2025, end date - 08/06/12/2025
 
 ---
 
@@ -1103,4 +1104,5 @@ Update Shield (local) endpoint to output *ready* state for our test site, which 
    - Transfer relevant Zigbee data from manager node to worker node  
 7. Install plugins on manager node  
 
-**DONE:**
+**DONE:** Able to see all nodes in successful migration state
+**TIMELINE** : start date = 09/12/2025, end date = 11/12/2025
