@@ -1051,4 +1051,8 @@ now I have poc done for migrating the main hub, now for the mini hub migration t
 
 #### new iteration
 1. Deploy migration-agent in the fresh state
-	1. Deploy migration-agent as a systemd service, with logs getting stored in "/data/keus-iot-platform/logs/migration-agent.json" which will be read 
+	1. Deploy migration-agent as a systemd service, with logs getting stored in "/data/keus-iot-platform/logs/migration-agent.json"
+	2. Have an migration http endpoint in shield, informing the migration-agent when to start migration
+2. Run migration-agent in ready state
+	1. Download and extract artifacts for both manager and worker node
+	2. Prepare backup in manager node (mongodump, remote)
