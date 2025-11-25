@@ -1042,6 +1042,9 @@ now I have poc done for migrating the main hub, now for the mini hub migration t
 
 
 ### Tasks for migration-agent configuration
-1. Migrate the main hub and mini hub into V2 platform with different flow for manager migration and worker migration
-2. Track the progress of the complete migration of site (tracking migration status of all mini) in the main-hub itself.
-3. Include the functionality to store the 
+1. Listen to the shield to start the relevant state of migration
+2. Migrate the main hub and mini hub into V2 platform with different flow for manager migration and worker migration
+3. Track the progress of the complete migration of site (tracking migration status of all mini) in the main-hub itself.
+4. Include the functionality to store the logs in a file
+5. Enhance the rollback state to restore the older platform agent
+6. Deploy the new platform-agent along with new V2 platform
