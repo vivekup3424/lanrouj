@@ -1071,3 +1071,7 @@ now I have poc done for migrating the main hub, now for the mini hub migration t
 	3. Restore older V1 platform services
 5. Run migration-agent in cleanup
 	1. Need to get clarity on what to do during cleanup
+
+### estimations of timeline
+
+1. Deploy migration-agent in the fresh state 1. Deploy migration-agent as a systemd service, with logs getting stored in "/data/keus-iot-platform/logs/migration-agent.json" 2. Have an migration http endpoint in shield, informing the migration-agent when to start migration DONE: deployed to xyz hub/site, logs visible in ES 2. Run migration-agent in ready state 1. Download and extract artifacts for both manager and worker node 2. Prepare backup in manager node (mongodump, remote) DONE: Latest bundled artifacts uploaded to S3. Update shield (local) endpoint to output ready state for our test site should get main and mini gateways to ready state. 3. Run migration-agent in migrate state 1. Remove old services for both kind of nodes 2. Initialize mongodb 7.0.14 on port 27018 for both kind of nodes 3. Do database migration in manager node 4. Start new platform services in both nodes 5. Register node using site details which we will get from Shield 6. Start zigbee coordinator service in both nodes 1. transfer relevant zigbee data from manager node to worker node 7. Install plugins in manager node DONE:
